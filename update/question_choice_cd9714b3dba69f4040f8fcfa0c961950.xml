@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <misc>0</misc>
+        <order>100</order>
+        <question display_value="Request Type">c877d873dba69f4040f8fcfa0c9619c0</question>
+        <rec_misc>0</rec_misc>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>LGOMEZ</sys_created_by>
+        <sys_created_on>2018-06-13 22:22:31</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>cd9714b3dba69f4040f8fcfa0c961950</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Applicaiton workspace</sys_name>
+        <sys_package display_value="Testing Suite" source="x_sthc_testing_sui">780ce242db829f4096b17d8bbf961976</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Testing Suite">780ce242db829f4096b17d8bbf961976</sys_scope>
+        <sys_update_name>question_choice_cd9714b3dba69f4040f8fcfa0c961950</sys_update_name>
+        <sys_updated_by>LGOMEZ</sys_updated_by>
+        <sys_updated_on>2018-06-13 22:22:31</sys_updated_on>
+        <text>Applicaiton workspace</text>
+        <value>app_workspace</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=cd9714b3dba69f4040f8fcfa0c961950"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>misc</field>
+        <id>cd9714b3dba69f4040f8fcfa0c961950</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>LGOMEZ</sys_created_by>
+        <sys_created_on>2018-06-13 22:22:31</sys_created_on>
+        <sys_id>61a754b3dba69f4040f8fcfa0c961953</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>LGOMEZ</sys_updated_by>
+        <sys_updated_on>2018-06-13 22:22:31</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>rec_misc</field>
+        <id>cd9714b3dba69f4040f8fcfa0c961950</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>LGOMEZ</sys_created_by>
+        <sys_created_on>2018-06-13 22:22:31</sys_created_on>
+        <sys_id>29a754b3dba69f4040f8fcfa0c961952</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>LGOMEZ</sys_updated_by>
+        <sys_updated_on>2018-06-13 22:22:31</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+</record_update>

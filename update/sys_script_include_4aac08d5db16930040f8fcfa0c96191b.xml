@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_sthc_testing_sui.TestScriptUtil</api_name>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>TestScriptUtil</name>
+        <script><![CDATA[var TestScriptUtil = Class.create();
+TestScriptUtil.prototype = {
+    initialize: function() {
+    },
+	
+	getList: function (param){
+		
+		var currentUser = gs.getUser();
+		var steps = [];
+		var grSteps = new GlideRecord('x_sthc_testing_sui_test_step_instance');
+		//grSteps.addEncodedQuery('tm_test_case_instance=' + script);
+		grSteps.addQuery('test_script_instance',param);
+		grSteps.orderBy('order');
+		grSteps.query();
+
+		while (grSteps.next()) {
+			var step = {};
+			step.id = grSteps.getUniqueValue();
+			step.test = grSteps.getDisplayValue('test');
+			step.expected_result = grSteps.getDisplayValue('expected_result');
+			step.execution_status = grSteps.getDisplayValue('execution_status');
+			step.test_user = grSteps.getDisplayValue('test_user');
+			step.pid = grSteps.getValue('test_script_instance');
+			step.order = grSteps.getDisplayValue('order');
+			step.application = grSteps.getDisplayValue('application');
+			step.updated_by = grSteps.getDisplayValue('status_updated_by');
+			step.failed_reason = grSteps.getDisplayValue('failed_reason');
+			steps.push(step);
+		}
+		return (steps);
+	},
+	
+	getList2: function (param){
+		
+		var currentUser = gs.getUser();
+		//var steps = [];
+		var grSteps = new GlideRecord('x_sthc_testing_sui_test_step_instance');
+		//grSteps.addEncodedQuery('tm_test_case_instance=' + script);
+		grSteps.addQuery('test_script_instance',param);
+		grSteps.orderBy('order');
+		grSteps.query();
+
+		while (grSteps.next()) {
+			var step = {};
+			step.id = grSteps.getUniqueValue();
+			step.test = grSteps.getDisplayValue('test');
+			step.expected_result = grSteps.getDisplayValue('expected_result');
+			step.execution_status = grSteps.getDisplayValue('execution_status');
+			step.test_user = grSteps.getDisplayValue('test_user');
+			step.pid = grSteps.getValue('test_script_instance');
+			step.order = grSteps.getDisplayValue('order');
+			step.application = grSteps.getDisplayValue('application');
+			step.updated_by = grSteps.getDisplayValue('status_updated_by');
+			steps.push(step);
+		}
+		return (steps);
+	},
+	
+	getScriptDetails: function(param){
+		var scriptDets = [];
+		var script = new GlideRecord('x_sthc_testing_sui_test_script_instance');
+		script.addQuery('sys_id',param);
+		script.query();
+		while(script.next()){
+			var scriptDetails = {};
+			scriptDetails.id = script.getUniqueValue();
+			scriptDetails.patient_name = script.getDisplayValue('patient_name');
+			scriptDetails.patient_mrn = script.getDisplayValue('mrn');
+			scriptDetails.patient_har = script.getDisplayValue('har');
+			scriptDetails.name = script.getDisplayValue('short_description');
+			scriptDetails.location = script.getDisplayValue('location');
+			scriptDets.push(scriptDetails);
+		}
+		return scriptDets;
+	},
+	
+	
+		getDefects: function (param){
+		
+		var currentUser = gs.getUser();
+		var defects = [];
+		var grDefect = new GlideRecord('rm_defect');
+		grDefect.addQuery('u_test_script',param);
+		grDefect.orderBy('sys_created_on');
+		grDefect.query();
+
+		while (grDefect.next()) {
+			var defect = {};
+			//defect.id = grDefect.getUniqueValue();
+			defect.id = grDefect.getUniqueValue();
+			defect.dScript = grDefect.getDisplayValue('u_test_script');
+			//defect.scriptID = grDefect.getValue('expected_result');
+			defect.number = grDefect.getDisplayValue('number');
+			//var temp = grDefect.rm
+			defect.name = grDefect.getDisplayValue('short_description');
+			defect.state = grDefect.getDisplayValue('state');
+			defects.push(defect);
+		}
+		return (defects);
+	},
+	
+    type: 'TestScriptUtil'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>LGOMEZ</sys_created_by>
+        <sys_created_on>2018-05-24 16:53:59</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>4aac08d5db16930040f8fcfa0c96191b</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>TestScriptUtil</sys_name>
+        <sys_package display_value="Testing Suite" source="x_sthc_testing_sui">780ce242db829f4096b17d8bbf961976</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Testing Suite">780ce242db829f4096b17d8bbf961976</sys_scope>
+        <sys_update_name>sys_script_include_4aac08d5db16930040f8fcfa0c96191b</sys_update_name>
+        <sys_updated_by>LGOMEZ</sys_updated_by>
+        <sys_updated_on>2018-06-22 21:41:27</sys_updated_on>
+    </sys_script_include>
+</record_update>

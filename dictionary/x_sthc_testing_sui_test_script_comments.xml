@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Test script comments" max_length="40" name="x_sthc_testing_sui_test_script_comments" type="collection">
+        <element label="Message" max_length="3000" name="message" type="string"/>
+        <element label="Reporting User" max_length="32" name="reporting_user" reference="sys_user" type="reference"/>
+        <element choice="3" default="new" label="State" max_length="40" name="state" type="string">
+            <choice>
+                <element label="Completed" value="completed"/>
+                <element label="New" value="new"/>
+            </choice>
+        </element>
+        <element label="Test Script" max_length="32" name="test_script" reference="tm_test_case_instance" type="reference"/>
+        <index name="index">
+            <element name="reporting_user"/>
+        </index>
+        <index name="index2">
+            <element name="test_script"/>
+        </index>
+    </element>
+</database>

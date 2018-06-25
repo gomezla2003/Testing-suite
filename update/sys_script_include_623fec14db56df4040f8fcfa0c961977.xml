@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_sthc_testing_sui.TEST_TestCaseDecorator</api_name>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>TEST_TestCaseDecorator</name>
+        <script><![CDATA[var TEST_TestCaseDecorator = Class.create();
+
+TEST_TestCaseDecorator.prototype = Object.extendsObject(TEST_BaseDecorator, {
+    tests: function() {
+        var test = new GlideRecord(TEST_TestManagement.TEST);
+        test.addQuery(TEST_TestManagement.TEST_CASE_FK, this.gr.getValue(TEST_TestManagement.SYS_ID));
+        test.query();
+        return test;
+    },
+
+    hasReadyTests: function() {
+        var readyTests = 0;
+        var count = new GlideAggregate(TEST_TestManagement.TEST);
+        count.addQuery(TEST_TestManagement.TEST_CASE_FK, this.gr.getValue(TEST_TestManagement.SYS_ID));
+        count.addQuery(TEST_TestManagement.STATE, TEST_TestManagement.READY);
+        count.addAggregate('COUNT');
+        count.query();
+        if ( count.next() )
+            readyTests = count.getAggregate('COUNT');
+        return readyTests > 0;
+    },
+	
+	getTotalTestsCount: function() {
+        var testsCount = 0;
+        var count = new GlideAggregate(TEST_TestManagement.TEST);
+        count.addQuery(TEST_TestManagement.TEST_CASE_FK, this.gr.getValue(TEST_TestManagement.SYS_ID));
+        count.addAggregate('COUNT');
+        count.query();
+        if ( count.next() )
+            testsCount = count.getAggregate('COUNT');
+        return testsCount;
+    },
+
+    getTableName: function() {
+        return TEST_TestManagement.TEST_CASE;
+    },
+
+    canCopy: function() {
+        return this.getValue('active') == '1';
+    },
+    
+    getMaxTestOrder: function () {
+        var ga = new GlideAggregate(TEST_TestManagement.TEST);
+        ga.addQuery(TEST_TestManagement.TEST_CASE, this.getValue(TEST_TestManagement.SYS_ID));
+        ga.addAggregate('MAX', 'order');
+        ga.groupBy(TEST_TestManagement.TEST_CASE);
+        ga.query();
+        var maxOrder = 0;
+        if (ga.next()) {
+            maxOrder = ga.getAggregate('MAX', 'order');
+        }
+        return maxOrder;
+    },
+
+    type: 'TEST_TestCaseDecorator'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>LGOMEZ</sys_created_by>
+        <sys_created_on>2018-05-21 16:51:06</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>623fec14db56df4040f8fcfa0c961977</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>TEST_TestCaseDecorator</sys_name>
+        <sys_package display_value="Testing Suite" source="x_sthc_testing_sui">780ce242db829f4096b17d8bbf961976</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Testing Suite">780ce242db829f4096b17d8bbf961976</sys_scope>
+        <sys_update_name>sys_script_include_623fec14db56df4040f8fcfa0c961977</sys_update_name>
+        <sys_updated_by>LGOMEZ</sys_updated_by>
+        <sys_updated_on>2018-05-21 16:52:31</sys_updated_on>
+    </sys_script_include>
+</record_update>

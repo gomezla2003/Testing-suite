@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_view">
+    <sys_ui_view action="INSERT_OR_UPDATE">
+        <group/>
+        <hidden>false</hidden>
+        <name>sys_popup,RPT911af87c6f09df04277218d22e3ee42a</name>
+        <roles/>
+        <sys_class_name>sys_ui_view</sys_class_name>
+        <sys_created_by>LGOMEZ</sys_created_by>
+        <sys_created_on>2018-05-24 17:46:10</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>6a98d819db56930040f8fcfa0c9619d7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Sys_popup,rpt911af87c6f09df04277218d22e3ee42a</sys_name>
+        <sys_package display_value="Testing Suite" source="x_sthc_testing_sui">780ce242db829f4096b17d8bbf961976</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Testing Suite">780ce242db829f4096b17d8bbf961976</sys_scope>
+        <sys_update_name>sys_ui_view_6a98d819db56930040f8fcfa0c9619d7</sys_update_name>
+        <sys_updated_by>LGOMEZ</sys_updated_by>
+        <sys_updated_on>2018-05-24 17:46:10</sys_updated_on>
+        <title>Sys_popup,rpt911af87c6f09df04277218d22e3ee42a</title>
+        <user/>
+    </sys_ui_view>
+</record_update>

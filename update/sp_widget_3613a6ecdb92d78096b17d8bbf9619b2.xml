@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <client_script><![CDATA[function($scope,$window) {
+  /* widget controller */
+  var c = this;
+	
+
+	
+	c.pass = function(id){
+			c.data.sys_id = id;
+			c.data.status = 'passed';
+		c.server.update();
+		
+		};
+	
+	
+	c.fail = function(id){
+				
+				swal({
+  title: 'Fail Reason',
+  html:
+    'Reason<input id="swal-input1" class="swal2-input">',
+  preConfirm: function () {
+    return new Promise(function (resolve) {
+      resolve([
+        $('#swal-input1').val()
+      ]);
+   input1 = $('#swal-input1').val();
+		});
+  },
+  onOpen: function () {
+    $('#swal-input1').focus();
+  }
+}).then(function (result) {
+			c.data.fail_reason = input1;
+			c.data.sys_id = id;
+			c.data.status = 'failed';
+			c.server.update();
+				});
+			};
+	
+	
+		
+c.block = function(id){
+			c.data.sys_id = id;
+			c.data.status = 'blocked';
+			c.server.update();
+		};
+	
+				
+c.detail = function(id,pid){
+			  var h = screen.height - 200;
+        var w = screen.width - 900;
+		    var url = 'https://shcdev.service-now.com/csm?id=form&table=x_sthc_testing_sui_test_script_instance&sys_id=' + pid + '&view=datasheet';
+	      var myWindow = window.open(url, "", "width=" + w +",height=" + h);
+		
+};		
+				
+c.defect = function(pid){
+	
+		var h = screen.height - 200;
+        var w = screen.width - 900;
+		    var url = 'csm?id=sc_cat_item&sys_id=ac5029436f745b0461f06ea22e3ee4cf&script=' + pid ;
+	      var myWindow = window.open(url, "", "width=" + w +",height=" + h);
+	};
+	
+c.testMessage	= function(pid){
+		var h = screen.height - 200;
+        var w = screen.width - 900;
+		    var url = '/csm?id=sc_cat_item&sys_id=59a94626db7a9b8040f8fcfa0c96193e&script=' + pid ;
+	      var myWindow = window.open(url, "", "width=" + w +",height=" + h);
+	
+}
+
+c.defectForm = function(id){
+	
+		var h = screen.height - 200;
+        var w = screen.width - 900;
+		    var url = 'csm?id=form&table=rm_defect&sys_id=' + id ;
+	      var myWindow = window.open(url, "", "width=" + w +",height=" + h);
+	};
+			
+	c.unexe = function(id){
+		c.data.sys_id = id;
+			c.data.status = 'unexecuted';
+			c.server.update();
+	};
+				
+}
+]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.wrapper{
+  margin-top:80px;
+  //position: relative;
+
+}
+
+.defect-text{
+ text-align: left;
+  vertical-align: top;
+  color: #0000EE;
+  &amp;:hover {
+      color: #72246c;
+    }
+  
+}
+.new{
+vertical-align:bottom;
+ margin-bottom: auto;
+  color: #0000EE;
+}
+
+.defects{  
+width: 18%;
+}
+
+.gray{
+  color: #A9A9A9;
+  
+}
+
+.grayhover{
+color: #A9A9A9;
+   transition: color 250ms ease-in-out;
+    &amp;:hover {
+      color: #72246c;
+    }
+}
+
+.text{
+   font-size: 18px;
+}
+
+ 
+  .title {
+    
+    transition: color 250ms ease-in-out;
+    &amp;:hover {
+      color: #72246c;
+    }
+  }
+ 
+
+//DETAILS HEADER
+.float{ 
+  position: fixed;
+  top:80px;
+  z-index:100;
+  width: 97%;
+  margin-bottom:10px;
+  
+}
+#details {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#details td, #details th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#details tr:nth-child(even){background-color: #f2f2f2;}
+
+
+#details th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
+
+//NEW STEPS
+
+#step{
+  width:100%;
+  background-color:#fff;
+  color:#000;
+  height: 80px;
+   border-bottom: 5px solid gray;
+}
+.block{
+  display: inline-block;
+  margin: auto;
+  padding: 10px;
+  text-align: center;
+  vertical-align: middle;
+ 
+}
+
+
+.order{
+  padding:10px;
+  width: 5%;
+  
+}
+.test{
+  width: 25%;
+}
+.result{
+  width: 25%;
+}
+.applicaiton{
+  width: 7%;
+}
+.user{
+  width: 5%;
+}
+.status{
+  width: 10%;
+}
+
+.pass {
+  width: 5%;
+  background-color: #2ecc71;
+  box-shadow: 0px 5px 0px 0px #15B358; 
+  border-radius: 6px;
+}
+.pass:hover {
+  background-color: #48E68B;
+}
+
+.fail {
+  width: 5%;
+  background-color: #F8FF5A;
+  box-shadow: 0px 5px 0px 0px #BFC445;
+  color: #000;
+  border-radius: 6px;
+}
+.fail:hover {
+  background-color: #F8FF84;
+}
+
+.blocked {
+  width: 5%;
+  background-color: #FF4D35;
+  box-shadow: 0px 5px 0px 0px #C23B28;
+  color: #000;
+  border-radius: 6px;
+}
+.blocked:hover {
+  background-color: #FF5700;
+}
+
+.defect{
+  width: 5%;
+  color: #e74c3c;
+}
+//TOOLTIP
+.con-tooltip {
+
+  position: relative;
+
+  
+  border-radius: 9px;
+  padding: 0 0px;
+  margin: 0px;
+  
+  display: inline-block;
+  transition: all 0.3s ease-in-out;
+  cursor: default;
+
+}
+
+.tooltip {
+  visibility: hidden;
+  z-index: 1;
+  opacity: .40;
+  width: 120%;
+  //padding: 0px 20px;
+  background: #000;
+  color: #fff;
+  font-weight:
+  position: absolute;
+  top:-50%;
+  border-radius: 9px;
+  font-size: 20px;
+  transform: translateY(9px);
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 0 3px rgba(56, 54, 54, 0.86);
+}
+
+
+/* tooltip  after*/
+.tooltip::after {
+  content: " ";
+
+  
+  border-style: solid;
+  border-width: 12px 12.5px 0 12.5px;
+  border-color: #333 transparent transparent transparent;
+  position: absolute;
+  left: 40%;
+
+}
+
+.con-tooltip:hover .tooltip{
+  visibility: visible;
+  transform: translateY(-10px);
+  opacity: 1;
+    transition: .3s linear;
+  animation: odsoky 1s ease-in-out infinite  alternate;
+
+}
+
+
+/*hover ToolTip*/
+.top:hover {transform: translateY(-2px);  }
+  
+  </css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id>test_script_scope</id>
+        <internal>false</internal>
+        <link/>
+        <name>Test_Script Scope</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+	var param = gs.action.getGlideURI().get('script')
+	var step = new x_sthc_testing_sui.TestScriptUtil();
+data.defectLink = "/csm?id=lf&table=rm_defect&filter=u_test_script="+ param +"&view=datasheet";
+	
+	if(!input){
+	data.courses = [];
+	data.courses = step.getList(param);
+	data.script = [];
+	data.script = step.getScriptDetails(param);
+	}
+	//data.scriptDefects = [];
+	//data.scriptDefects = step.getDefects(param);
+	
+	if(input){
+		var tmTest = new GlideRecord('x_sthc_testing_sui_test_step_instance');
+		tmTest.addQuery('sys_id',input.sys_id);
+		tmTest.query();
+		while(tmTest.next()){
+			tmTest.execution_status = input.status;
+			if(input.fail_reason){
+			tmTest.failed_reason = input.fail_reason;
+			data.fail_reason = '';
+			}
+			tmTest.update();
+			data.courses = step.getList(param);
+			
+			
+		}
+		
+		
+		
+	}
+	
+	
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>LGOMEZ</sys_created_by>
+        <sys_created_on>2018-05-22 19:55:51</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>3613a6ecdb92d78096b17d8bbf9619b2</sys_id>
+        <sys_mod_count>261</sys_mod_count>
+        <sys_name>Test_Script Scope</sys_name>
+        <sys_package display_value="Testing Suite" source="x_sthc_testing_sui">780ce242db829f4096b17d8bbf961976</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Testing Suite">780ce242db829f4096b17d8bbf961976</sys_scope>
+        <sys_update_name>sp_widget_3613a6ecdb92d78096b17d8bbf9619b2</sys_update_name>
+        <sys_updated_by>LGOMEZ</sys_updated_by>
+        <sys_updated_on>2018-06-22 21:41:50</sys_updated_on>
+        <template><![CDATA[
+<!--
+<table class="defects" align="left">
+  <tr>
+  <th>Number</th>
+    <th></th>
+    <th>Name</th>
+    <th>State</th>
+  </tr>
+  
+  <tbody class="defect-text" ng-repeat="defect in data.scriptDefects" ng-click="c.defectForm(defect.id)">
+  <td>{{defect.number}}</td> 
+    <td></td>
+  <td>{{defect.name}}</td>  
+    <td>{{defect.state}}</td>
+  
+  </tbody>
+  
+</table>
+-->
+<div class="float" ng-repeat="scriptDetails in data.script">
+  
+ <table id="details">
+   <tr>
+   <th>Script</th>
+   <th>Patient Name</th>
+   <th>Patient MRN</th>
+   <th>Patient HAR</th>
+   <th>Location</th>
+   <th></th>
+   <th></th>
+   </tr>
+   <td>{{scriptDetails.name}}</td>
+   <td>{{scriptDetails.patient_name}}</td>
+   <td>{{scriptDetails.patient_mrn}}</td>
+   <td>{{scriptDetails.patient_har}}</td>
+   <td>{{scriptDetails.location}}</td>
+   <td><a href={{data.defectLink}} target="_blank">Link to Defects</a></td>
+   <td ng-click="c.testMessage(scriptDetails.id)"><a>Send message to testing team</a></td>
+  </table>
+  
+  
+
+</div>
+
+
+<div class="wrapper">
+  <div class="block order"><h3>Order</h3></div>
+  <div class="block test"><h3>Step</h3></div>
+  <div class="block result"><h3>Expected Result</h3></div>
+    <div class="block application"><h3>Applicaiton</h3></div>
+
+  
+
+<div id="step" ng-repeat="step in data.courses">
+
+  <div ng-if="step.execution_status != 'Unexecuted'" class="block order grayhover" ng-click="c.detail(step.id,step.pid)">{{step.order}}</div>
+  <div ng-if="step.execution_status == 'Unexecuted'" class="block order title" ng-click="c.detail(step.id,step.pid)">{{step.order}}</div>
+  
+  <div ng-if="step.execution_status != 'Unexecuted'" class="block test grayhover" ng-click="c.detail(step.id,step.pid)">{{step.test}}</div>
+  <div ng-if="step.execution_status == 'Unexecuted'" class="block test title" ng-click="c.detail(step.id,step.pid)">{{step.test}}</div>
+  
+  <div ng-if="step.execution_status != 'Unexecuted'" class="block result gray">{{step.expected_result}}</div>
+  <div ng-if="step.execution_status == 'Unexecuted'" class="block result title">{{step.expected_result}}</div>
+  
+  <div ng-if="step.execution_status != 'Unexecuted'" class="block applicaiton gray">{{step.application}}</div>
+  <div ng-if="step.execution_status == 'Unexecuted'" class="block applicaiton text">{{step.application}}</div>
+  
+  <div ng-if="step.execution_status != 'Unexecuted'" class="block user gray">{{step.test_user}}</div>
+  <div ng-if="step.execution_status == 'Unexecuted'" class="block user text">{{step.test_user}}</div>
+  
+  <div ng-if="step.execution_status != 'Unexecuted'" class="block status gray con-tooltip top">{{step.execution_status}}
+    <div ng-if="step.failed_reason" class="tooltip ">{{step.failed_reason}}</div>
+      <div class="gray">{{step.updated_by}}</div>  
+      <div ng-click="c.unexe(step.id)" class="new">set to Unexecuted</div></div>
+      <div ng-if="step.execution_status == 'Unexecuted'" class="block status text">{{step.execution_status}}</div>
+  
+  <div ng-click="c.pass(step.id)" class="block pass">Pass</div>
+  <div ng-click="c.fail(step.id)" class="block fail">Fail </div>
+  <div ng-click="c.block(step.id)"  class="block blocked">Blocked</div>
+  <div ng-click="c.defect(step.pid)" class="block defect">Report Defect</div>
+  
+</div>
+  </div>
+]]></template>
+    </sp_widget>
+</record_update>

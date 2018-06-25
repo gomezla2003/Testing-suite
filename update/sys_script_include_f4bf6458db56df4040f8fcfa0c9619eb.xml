@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_sthc_testing_sui.TEST_BaseDecorator</api_name>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>TEST_BaseDecorator</name>
+        <script><![CDATA[var TEST_BaseDecorator = Class.create();
+TEST_BaseDecorator.prototype = {
+    initialize: function(gr) {
+        if ( JSUtil.nil(gr) )
+            this.gr = new GlideRecord(this.getTableName());
+        else
+            this.gr = gr;
+    },
+
+    getGlideRecord: function() {
+        return this.gr;
+    },
+
+    getClassDisplayValue: function() {
+        return this.gr.getClassDisplayValue();
+    },
+
+    getValue: function(field) {
+        return this.gr.getValue(field);
+    },
+
+    setValue: function(field, value) {
+        this.gr.setValue(field, value);
+    },
+
+    insert: function() {
+        this.gr.insert();
+    },
+	
+	setWorkflow: function(value) {
+		this.gr.setWorkflow(value);
+	},
+
+    //This method will only update the record. If the record doesn't exist, unlike GlideRecord update(), it will not create a new one.
+    update: function() {
+        if (this.gr.isValidRecord())
+            this.gr.update();
+    },
+	
+	deleteRecord: function() {
+		this.gr.deleteRecord();
+	},
+	
+	isValid: function() {
+		return this.gr.isValid();
+	},
+
+    type: 'TEST_BaseDecorator'
+}]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>LGOMEZ</sys_created_by>
+        <sys_created_on>2018-05-21 16:53:10</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>f4bf6458db56df4040f8fcfa0c9619eb</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>TEST_BaseDecorator</sys_name>
+        <sys_package display_value="Testing Suite" source="x_sthc_testing_sui">780ce242db829f4096b17d8bbf961976</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Testing Suite">780ce242db829f4096b17d8bbf961976</sys_scope>
+        <sys_update_name>sys_script_include_f4bf6458db56df4040f8fcfa0c9619eb</sys_update_name>
+        <sys_updated_by>LGOMEZ</sys_updated_by>
+        <sys_updated_on>2018-05-21 16:53:27</sys_updated_on>
+    </sys_script_include>
+</record_update>

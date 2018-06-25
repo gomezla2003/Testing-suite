@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_page">
+    <sp_page action="INSERT_OR_UPDATE">
+        <css/>
+        <draft>false</draft>
+        <id>test_script</id>
+        <internal>false</internal>
+        <public>false</public>
+        <roles/>
+        <short_description/>
+        <sys_class_name>sp_page</sys_class_name>
+        <sys_created_by>LGOMEZ</sys_created_by>
+        <sys_created_on>2018-05-24 16:47:48</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>2f3bc415db16930040f8fcfa0c9619af</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>test_script</sys_name>
+        <sys_package display_value="Testing Suite" source="x_sthc_testing_sui">780ce242db829f4096b17d8bbf961976</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Testing Suite">780ce242db829f4096b17d8bbf961976</sys_scope>
+        <sys_update_name>sp_page_2f3bc415db16930040f8fcfa0c9619af</sys_update_name>
+        <sys_updated_by>LGOMEZ</sys_updated_by>
+        <sys_updated_on>2018-05-24 16:47:48</sys_updated_on>
+        <title>Test_Script</title>
+    </sp_page>
+</record_update>

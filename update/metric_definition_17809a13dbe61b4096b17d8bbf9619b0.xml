@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="metric_definition">
+    <metric_definition action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description/>
+        <field>assignment_group</field>
+        <name>Testing Team Duration</name>
+        <number>MTRC1000003</number>
+        <order>100</order>
+        <script/>
+        <sys_class_name>metric_definition</sys_class_name>
+        <sys_created_by>LGOMEZ</sys_created_by>
+        <sys_created_on>2018-06-12 17:54:13</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>17809a13dbe61b4096b17d8bbf9619b0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Testing Team Duration</sys_name>
+        <sys_package display_value="Testing Suite" source="x_sthc_testing_sui">780ce242db829f4096b17d8bbf961976</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Testing Suite">780ce242db829f4096b17d8bbf961976</sys_scope>
+        <sys_update_name>metric_definition_17809a13dbe61b4096b17d8bbf9619b0</sys_update_name>
+        <sys_updated_by>LGOMEZ</sys_updated_by>
+        <sys_updated_on>2018-06-12 17:54:13</sys_updated_on>
+        <table>x_sthc_testing_sui_test_script_instance</table>
+        <timeline>true</timeline>
+        <type>field_value_duration</type>
+    </metric_definition>
+</record_update>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_sthc_testing_sui.TestStepDetails</api_name>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>TestStepDetails</name>
+        <script><![CDATA[var TestStepDetails = Class.create();
+TestStepDetails.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+  
+	
+	getList: function (){
+		var result;
+		var countTotal = 0;
+		var countPassed = 0;
+		var countFailed = 0;
+		var countIncomplete = 0;
+		var theID = this.getParameter("sysparm_script");
+		var step = new GlideRecord('x_sthc_testing_sui_test_step_instance');
+		step.addQuery('test_script_instance', theID);
+		step.query();
+		while(step.next()){
+			countTotal++;
+			if(step.execution_status == 'passed')
+				countPassed++;
+			if(step.execution_status == 'failed')
+				countFailed++;
+			if(step.execution_status == 'unexecuted')
+				countIncomplete++;
+			
+		}
+		setResults(countPassed,countFailed,countTotal,countIncomplete,theID);
+	
+	return ;
+		
+	},
+	
+	type: 'TestStepDetails'
+});
+
+function setResults(passed,failed,total,incomplete,ID){
+	var script = new GlideRecord('x_sthc_testing_sui_test_script_instance');
+	script.addQuery('sys_id',ID);
+	script.query();
+	if(script.next()){
+		script.test_passed = passed;
+		script.test_failed = failed;
+		script.steps_completed = passed + failed;
+		script.number_of_test = total;
+		script.percent_complete = (total - incomplete)/total * 100;
+		script.update();
+	}
+	
+	
+}]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>LGOMEZ</sys_created_by>
+        <sys_created_on>2018-05-23 18:07:50</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>1ef39b78db5e130040f8fcfa0c9619d2</sys_id>
+        <sys_mod_count>17</sys_mod_count>
+        <sys_name>TestStepDetails</sys_name>
+        <sys_package display_value="Testing Suite" source="x_sthc_testing_sui">780ce242db829f4096b17d8bbf961976</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Testing Suite">780ce242db829f4096b17d8bbf961976</sys_scope>
+        <sys_update_name>sys_script_include_1ef39b78db5e130040f8fcfa0c9619d2</sys_update_name>
+        <sys_updated_by>LGOMEZ</sys_updated_by>
+        <sys_updated_on>2018-06-07 20:31:25</sys_updated_on>
+    </sys_script_include>
+</record_update>

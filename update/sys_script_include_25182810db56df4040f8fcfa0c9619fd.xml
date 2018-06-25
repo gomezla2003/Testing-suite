@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_sthc_testing_sui.TEST_Decorator</api_name>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>TEST_Decorator</name>
+        <script><![CDATA[var TEST_Decorator = Class.create();
+
+TEST_Decorator.decorate = function(record) {
+	var decorator = TEST_Decorator.decorator(record.getTableName());
+	if ( JSUtil.nil(decorator) ) {
+		return record;
+	}
+	else {
+		return new decorator(record);
+	}
+};
+
+TEST_Decorator.decorator = function(tableName) {
+	switch (tableName) {
+        case TEST_TestManagement.TEST:
+            return TEST_TestDecorator;
+		case TEST_TestManagement.TEST_CASE:
+            return TEST_TestCaseDecorator;
+		case TEST_TestManagement.TEST_SUITE:
+            return TEST_TestSuiteDecorator;
+		case TEST_TestManagement.TEST_INSTANCE:
+			return TEST_TestInstanceDecorator;
+		case TEST_TestManagement.TEST_PLAN:
+			return TEST_TestPlanDecorator;
+        case TEST_TestManagement.TEST_CASE_INSTANCE:
+            return TEST_TestCaseInstanceDecorator;
+		case TEST_TestManagement.TEST_TestCaseDefects:
+			return TEST_TestCaseDefectDecorator;
+		case TEST_TestManagement.ASMT_METRIC:
+			return TEST_AsmtMetricDecorator;		
+		case TEST_TestManagement.ASMT_METRIC_CATEGORY:
+			return TEST_AsmtMetricCategoryDecorator;
+		case TEST_TestManagement.ASMT_METRIC_TYPE:
+			return TEST_AsmtMetricTypeDecorator;
+		case TEST_TestManagement.ASMT_INSTANCE:
+			return TEST_AsmtInstanceDecorator;
+		case TEST_TestManagement.ASMT_INSTANCE_QUESTION:
+			return TEST_AsmtInstQuestDecorator;
+        default:
+            return null;
+    };
+
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>LGOMEZ</sys_created_by>
+        <sys_created_on>2018-05-21 16:19:53</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>25182810db56df4040f8fcfa0c9619fd</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>TEST_Decorator</sys_name>
+        <sys_package display_value="Testing Suite" source="x_sthc_testing_sui">780ce242db829f4096b17d8bbf961976</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Testing Suite">780ce242db829f4096b17d8bbf961976</sys_scope>
+        <sys_update_name>sys_script_include_25182810db56df4040f8fcfa0c9619fd</sys_update_name>
+        <sys_updated_by>LGOMEZ</sys_updated_by>
+        <sys_updated_on>2018-05-21 16:50:02</sys_updated_on>
+    </sys_script_include>
+</record_update>

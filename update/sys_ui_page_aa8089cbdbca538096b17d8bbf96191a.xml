@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_page">
+    <sys_ui_page action="INSERT_OR_UPDATE">
+        <category>general</category>
+        <client_script><![CDATA[function validateChanges(){
+
+	var test_plan = gel("test_plan").value;
+	var id = gel('sys_uniqueValue').value;
+	GlideDialogWindow.get().destroy();
+	var ga = new GlideAjax('Create_Test_Scripts');
+	ga.addParam('sysparm_name', 'createTest');
+	ga.addParam('sysparm_plan', test_plan);
+	ga.addParam('sysparm_suite', id);
+	ga.getXML();
+
+}
+	
+
+function processCancel(){
+	GlideDialogWindow.get().destroy();
+}
+
+	]]></client_script>
+        <description/>
+        <direct>true</direct>
+        <endpoint>x_sthc_testing_sui_Add_Test_Plan.do</endpoint>
+        <html><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+<h2 >Select a Test Plan</h2>
+ 
+<g:ui_form> 
+	
+	
+<table width ="100%">
+	
+
+
+<tr><td>Test Plan: </td><td><g:ui_reference name="test_plan" id="test_plan" table="x_sthc_testing_sui_test_plan" completer="AJAXTableCompleter" columns="short_description" /></td></tr>
+	<tr><td></td></tr>
+	
+ 
+</table>
+ <g:dialog_buttons_ok_cancel ok="validateChanges();" cancel="processCancel();" ok_type="button" cancel_type="button" />
+
+ 
+</g:ui_form> 
+
+</j:jelly>]]></html>
+        <name>Add_Test_Plan</name>
+        <processing_script/>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>LGOMEZ</sys_created_by>
+        <sys_created_on>2018-05-17 20:54:19</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>aa8089cbdbca538096b17d8bbf96191a</sys_id>
+        <sys_mod_count>32</sys_mod_count>
+        <sys_name>Add_Test_Plan</sys_name>
+        <sys_package display_value="Testing Suite" source="x_sthc_testing_sui">780ce242db829f4096b17d8bbf961976</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Testing Suite">780ce242db829f4096b17d8bbf961976</sys_scope>
+        <sys_update_name>sys_ui_page_aa8089cbdbca538096b17d8bbf96191a</sys_update_name>
+        <sys_updated_by>LGOMEZ</sys_updated_by>
+        <sys_updated_on>2018-05-22 18:14:51</sys_updated_on>
+    </sys_ui_page>
+</record_update>

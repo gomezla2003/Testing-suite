@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="planned_task" label="Test Script" max_length="40" name="x_sthc_testing_sui_test_script_instance" sizeclass="7" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Arrival Information &amp; Providers" max_length="40" name="arrival_info" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Billing Provider" max_length="40" name="billing_provider" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Copay" max_length="40" name="copay" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Coverage Primary" max_length="40" name="coverage" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="DOB" max_length="40" name="dob" type="string"/>
+        <element label="Duration (Time in team queue)" max_length="40" name="duration_group" read_only="true" type="string"/>
+        <element choice="1" label="Execution Status" max_length="40" name="execution_status" type="string">
+            <choice>
+                <element label="Completed" value="completed"/>
+                <element label="In-Progress" value="in_progress"/>
+                <element label="Pending" value="pending"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Guarantor/Coverage Information" max_length="40" name="guarantor" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Guarantor Relationship:" max_length="40" name="guarantor_relationship" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Guarantor Acct Type:" max_length="40" name="guarantor_type" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="HAR" max_length="40" name="har" type="string"/>
+        <element attributes="no_truncate=false" label="Link to portal view" max_length="1024" name="link_to_portal_view" type="url"/>
+        <element attributes="edge_encryption_enabled=true" label="MRN" max_length="40" name="mrn" type="string"/>
+        <element label="Total Steps" max_length="40" name="number_of_test" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Orders" max_length="40" name="orders" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="LOS/Radiology/LAB/Haemonetics/Meds/Other DX Exams/Supplies" max_length="40" name="orders2" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Patient Name" max_length="40" name="patient_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Date of Service" max_length="40" name="service_date" type="string"/>
+        <element label="Steps Completed" max_length="40" name="steps_completed" type="integer"/>
+        <element label="Test failed" max_length="40" name="test_failed" type="integer"/>
+        <element label="Test passed" max_length="40" name="test_passed" type="integer"/>
+        <element label="Test Plan" max_length="32" name="test_plan" reference="x_sthc_testing_sui_test_plan" type="reference"/>
+        <element label="Updated Group" max_length="40" name="updated_group" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="Visit Type" max_length="40" name="visit_type" type="string"/>
+    </element>
+</database>

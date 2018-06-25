@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_sthc_testing_sui.TEST_TestManagement</api_name>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>TEST_TestManagement</name>
+        <script><![CDATA[var TEST_TestManagement = Class.create();
+
+TEST_TestManagement.prototype = {
+    type: 'TEST_TestManagement'
+};
+
+TEST_TestManagement.TEST_SUITE            = "x_sthc_testing_sui_testing_suite";
+TEST_TestManagement.TEST_CASE             = "x_sthc_testing_sui_test_script";
+TEST_TestManagement.TEST                  = "x_sthc_testing_sui_test_step";
+TEST_TestManagement.TEST_PLAN             = "x_sthc_testing_sui_test_plan";
+TEST_TestManagement.TEST_CASE_INSTANCE    = "x_sthc_testing_sui_test_script_instance";
+TEST_TestManagement.TEST_INSTANCE         = "x_sthc_testing_sui_test_step_instance";
+TEST_TestManagement.VTB                   = "vtb_board";
+TEST_TestManagement.VTB_SYS_ID            = "task_board";
+TEST_TestManagement.VTB_FIELD             = "execution_status";
+TEST_TestManagement.VTB_BOARD_MEMBER      = "vtb_board_member";
+TEST_TestManagement.VTB_FILTER            = "tm_test_plan=";
+TEST_TestManagement.VTB_FILTER_PROJECT    = "parent=";
+TEST_TestManagement.ASSIGNED_TO           = "assigned_to";
+TEST_TestManagement.OWNER                 = "owner";
+TEST_TestManagement.SYS_ID                = "sys_id";
+TEST_TestManagement.TEST_SUITE_FK         = "tm_test_suite";
+TEST_TestManagement.TEST_CASE_FK          = "tm_test_case";
+TEST_TestManagement.TEST_CASE_INSTANCE_FK = "tm_test_case_instance";
+TEST_TestManagement.TEST_PLAN_FK          = "tm_test_plan";
+TEST_TestManagement.STATE                 = "state";
+TEST_TestManagement.READY                 = "ready";
+TEST_TestManagement.RESULT                = "result";
+TEST_TestManagement.SUCCESS               = "success";
+TEST_TestManagement.FAILURE               = "failure";
+TEST_TestManagement.STATUS                = "status";
+TEST_TestManagement.BLOCKED               = "blocked";
+TEST_TestManagement.INPROGRESS            = "in_progress";
+TEST_TestManagement.PASSED                = "passed";
+TEST_TestManagement.FAILED                = "failed";
+TEST_TestManagement.RETEST                = "retest";
+TEST_TestManagement.UNEXECUTED            = "unexecuted";
+TEST_TestManagement.TEST_CASE_DEFECT      = "m2m_tm_test_case_instance_defect";
+TEST_TestManagement.DEFECT_FK             = "rm_defect";
+TEST_TestManagement.EXECUTION_STATUS      = "execution_status";
+TEST_TestManagement.ASMT_METRIC_TYPE      = "asmt_metric_type";
+TEST_TestManagement.ASMT_METRIC_CATEGORY  = "asmt_metric_category";
+TEST_TestManagement.ASMT_SCHEDULE_TYPE    = 'on_demand';
+TEST_TestManagement.ASMT_PUBLISHED        = 'published';
+TEST_TestManagement.ASMT_EVAL_METHOD      = 'testplan';
+TEST_TestManagement.ASMT_METRIC           = 'asmt_metric';
+TEST_TestManagement.ASSESSMENT_TEMPLATE   = '29816241372221001a8326877e41f14d';
+TEST_TestManagement.METRIC_PASSED         = '34b16241372221001a8326877e41f18d';
+TEST_TestManagement.METRIC_FAILED         = 'dcd16241372221001a8326877e41f191';
+TEST_TestManagement.METRIC_BLOCKED        = '07d16241372221001a8326877e41f196';
+TEST_TestManagement.ASMT_CAT_MET_ORDER    = 9997;
+TEST_TestManagement.ASMT_INSTANCE = 'asmt_assessment_instance';
+TEST_TestManagement.ASMT_INSTANCE_QUESTION = 'asmt_assessment_instance_question';
+TEST_TestManagement.ASMT_ASSESSABLE_RECORD = 'asmt_assessable_record';
+TEST_TestManagement.SHORT_DESCRIPTION  = 'short_description';
+TEST_TestManagement.DESCRIPTION  = 'description';
+TEST_TestManagement.PROJECT              = 'project';
+TEST_TestManagement.PROJECT_TABLE      = 'pm_project';
+TEST_TestManagement.ASMT_CATEGORY_USER = 'asmt_m2m_category_user';
+TEST_TestManagement.CATEGORY_DETAILS = 'details';
+TEST_TestManagement.CATEGORY_ORDER = 'order';
+TEST_TestManagement.ASMT_GROUP = 'asmt_assessment';
+TEST_TestManagement.EXECUTION_STATUS_VALUES = { 0: 'failed',
+                                              1: 'passed',
+                                              2: 'blocked'
+                                            };
+
+TEST_TestManagement.getTestExecutionStatus = function(value) {
+    return TEST_TestManagement.EXECUTION_STATUS_VALUES[parseInt(value)];
+};
+
+TEST_TestManagement.getTestExecutionStatusKey = function(value) {
+    for ( var key in TEST_TestManagement.EXECUTION_STATUS_VALUES ) {
+        if ( TEST_TestManagement.EXECUTION_STATUS_VALUES[key] == value )
+            return key;
+    }
+    return null;
+};
+
+TEST_TestManagement.successMessageOnDuplication = function(source, target) {
+    var msgArray = [target.getClassDisplayValue(), source.getClassDisplayValue(), source.getValue('number') || source.getValue('name') || source.getValue('short_description')];
+    var msg = gs.getMessage('This {0} has been successfully duplicated from {1} - {2}', msgArray);
+    gs.addInfoMessage(msg);
+    return msg;
+};
+
+// Returns decorated glide record for given sys id and type.
+TEST_TestManagement.getDecoratedGlideRecord = function(sysId, type) {
+    var gr = new GlideRecord(type);
+    if (gr.get(sysId)) {
+        return TEST_Decorator.decorate(gr);
+    }
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>LGOMEZ</sys_created_by>
+        <sys_created_on>2018-05-21 16:20:31</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>a2386810db56df4040f8fcfa0c9619bb</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>TEST_TestManagement</sys_name>
+        <sys_package display_value="Testing Suite" source="x_sthc_testing_sui">780ce242db829f4096b17d8bbf961976</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Testing Suite">780ce242db829f4096b17d8bbf961976</sys_scope>
+        <sys_update_name>sys_script_include_a2386810db56df4040f8fcfa0c9619bb</sys_update_name>
+        <sys_updated_by>LGOMEZ</sys_updated_by>
+        <sys_updated_on>2018-05-21 16:46:51</sys_updated_on>
+    </sys_script_include>
+</record_update>

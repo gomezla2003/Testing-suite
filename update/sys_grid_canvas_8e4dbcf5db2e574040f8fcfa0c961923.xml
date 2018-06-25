@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update node_type="sys_grid_canvas" unload_date="2018-06-25 21:01:42">
+    <sys_grid_canvas action="INSERT_OR_UPDATE">
+        <legacy_page display_value="PA Defects">864d3cf5db2e574040f8fcfa0c9619df</legacy_page>
+        <name>PA New Tab 2</name>
+        <sys_class_name>sys_grid_canvas</sys_class_name>
+        <sys_created_by>LGOMEZ</sys_created_by>
+        <sys_created_on>2018-06-07 19:59:04</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>8e4dbcf5db2e574040f8fcfa0c961923</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PA New Tab 2</sys_name>
+        <sys_package display_value="Testing Suite" source="x_sthc_testing_sui">780ce242db829f4096b17d8bbf961976</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Testing Suite">780ce242db829f4096b17d8bbf961976</sys_scope>
+        <sys_update_name>sys_grid_canvas_8e4dbcf5db2e574040f8fcfa0c961923</sys_update_name>
+        <sys_updated_by>LGOMEZ</sys_updated_by>
+        <sys_updated_on>2018-06-07 19:59:04</sys_updated_on>
+        <related_items_node>
+            <sys_grid_canvas_pane action="INSERT_OR_UPDATE">
+                <grid_canvas display_value="PA New Tab 2">8e4dbcf5db2e574040f8fcfa0c961923</grid_canvas>
+                <height>16</height>
+                <portal_widget display_value="Created 06-07-2018 12:59:29">ff5d78f5db2e574040f8fcfa0c9619ac</portal_widget>
+                <posx>0</posx>
+                <posy>4</posy>
+                <sys_class_name>sys_grid_canvas_pane</sys_class_name>
+                <sys_created_by>LGOMEZ</sys_created_by>
+                <sys_created_on>2018-06-07 19:59:29</sys_created_on>
+                <sys_customer_update>false</sys_customer_update>
+                <sys_id>3f5d78f5db2e574040f8fcfa0c9619ae</sys_id>
+                <sys_mod_count>6</sys_mod_count>
+                <sys_name/>
+                <sys_package display_value="Testing Suite" source="x_sthc_testing_sui">780ce242db829f4096b17d8bbf961976</sys_package>
+                <sys_policy/>
+                <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+                <sys_scope display_value="Testing Suite">780ce242db829f4096b17d8bbf961976</sys_scope>
+                <sys_update_name>sys_grid_canvas_pane_3f5d78f5db2e574040f8fcfa0c9619ae</sys_update_name>
+                <sys_updated_by>LGOMEZ</sys_updated_by>
+                <sys_updated_on>2018-06-07 20:00:00</sys_updated_on>
+                <width>4</width>
+                <related_items_node>
+                    <sys_portal action="INSERT_OR_UPDATE">
+                        <dropzone/>
+                        <offset/>
+                        <page display_value="PA Defects">864d3cf5db2e574040f8fcfa0c9619df</page>
+                        <summary>Defects from testing</summary>
+                        <sys_created_by>LGOMEZ</sys_created_by>
+                        <sys_created_on>2018-06-07 19:59:29</sys_created_on>
+                        <sys_id>ff5d78f5db2e574040f8fcfa0c9619ac</sys_id>
+                        <sys_mod_count>1</sys_mod_count>
+                        <sys_updated_by>LGOMEZ</sys_updated_by>
+                        <sys_updated_on>2018-06-07 19:59:29</sys_updated_on>
+                        <related_items_node>
+                            <sys_grid_canvas_pane action="INSERT_OR_UPDATE">
+                                <grid_canvas display_value="PA New Tab 2">8e4dbcf5db2e574040f8fcfa0c961923</grid_canvas>
+                                <height>16</height>
+                                <portal_widget display_value="Created 06-07-2018 12:59:29">ff5d78f5db2e574040f8fcfa0c9619ac</portal_widget>
+                                <posx>0</posx>
+                                <posy>4</posy>
+                                <sys_class_name>sys_grid_canvas_pane</sys_class_name>
+                                <sys_created_by>LGOMEZ</sys_created_by>
+                                <sys_created_on>2018-06-07 19:59:29</sys_created_on>
+                                <sys_customer_update>false</sys_customer_update>
+                                <sys_id>3f5d78f5db2e574040f8fcfa0c9619ae</sys_id>
+                                <sys_mod_count>6</sys_mod_count>
+                                <sys_name/>
+                                <sys_package display_value="Testing Suite" source="x_sthc_testing_sui">780ce242db829f4096b17d8bbf961976</sys_package>
+                                <sys_policy/>
+                                <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+                                <sys_scope display_value="Testing Suite">780ce242db829f4096b17d8bbf961976</sys_scope>
+                                <sys_update_name>sys_grid_canvas_pane_3f5d78f5db2e574040f8fcfa0c9619ae</sys_update_name>
+                                <sys_updated_by>LGOMEZ</sys_updated_by>
+                                <sys_updated_on>2018-06-07 20:00:00</sys_updated_on>
+                                <width>4</width>
+                            </sys_grid_canvas_pane>
+                        </related_items_node>
+                        <related_items_node>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>title</name>
+                                <portal_section display_value="Created 06-07-2018 12:59:29">ff5d78f5db2e574040f8fcfa0c9619ac</portal_section>
+                                <sys_created_by>LGOMEZ</sys_created_by>
+                                <sys_created_on>2018-06-07 19:59:29</sys_created_on>
+                                <sys_id>375d78f5db2e574040f8fcfa0c9619ae</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>LGOMEZ</sys_updated_by>
+                                <sys_updated_on>2018-06-07 19:59:29</sys_updated_on>
+                                <value>Defects from testing</value>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>renderer</name>
+                                <portal_section display_value="Created 06-07-2018 12:59:29">ff5d78f5db2e574040f8fcfa0c9619ac</portal_section>
+                                <sys_created_by>LGOMEZ</sys_created_by>
+                                <sys_created_on>2018-06-07 19:59:29</sys_created_on>
+                                <sys_id>3b5d78f5db2e574040f8fcfa0c9619ad</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>LGOMEZ</sys_updated_by>
+                                <sys_updated_on>2018-06-07 19:59:29</sys_updated_on>
+                                <value>com.glide.ui.portal.RenderReport</value>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>report_type</name>
+                                <portal_section display_value="Created 06-07-2018 12:59:29">ff5d78f5db2e574040f8fcfa0c9619ac</portal_section>
+                                <sys_created_by>LGOMEZ</sys_created_by>
+                                <sys_created_on>2018-06-07 19:59:29</sys_created_on>
+                                <sys_id>735d78f5db2e574040f8fcfa0c9619ae</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>LGOMEZ</sys_updated_by>
+                                <sys_updated_on>2018-06-07 19:59:29</sys_updated_on>
+                                <value>donut</value>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>can_subscribe</name>
+                                <portal_section display_value="Created 06-07-2018 12:59:29">ff5d78f5db2e574040f8fcfa0c9619ac</portal_section>
+                                <sys_created_by>LGOMEZ</sys_created_by>
+                                <sys_created_on>2018-06-07 19:59:29</sys_created_on>
+                                <sys_id>bf5d78f5db2e574040f8fcfa0c9619ad</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>LGOMEZ</sys_updated_by>
+                                <sys_updated_on>2018-06-07 19:59:29</sys_updated_on>
+                                <value>true</value>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>sys_id</name>
+                                <portal_section display_value="Created 06-07-2018 12:59:29">ff5d78f5db2e574040f8fcfa0c9619ac</portal_section>
+                                <sys_created_by>LGOMEZ</sys_created_by>
+                                <sys_created_on>2018-06-07 19:59:29</sys_created_on>
+                                <sys_id>f35d78f5db2e574040f8fcfa0c9619ad</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>LGOMEZ</sys_updated_by>
+                                <sys_updated_on>2018-06-07 19:59:29</sys_updated_on>
+                                <value>54dfda99db52930096b17d8bbf96199b</value>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>help_text_window</name>
+                                <portal_section display_value="Created 06-07-2018 12:59:29">ff5d78f5db2e574040f8fcfa0c9619ac</portal_section>
+                                <sys_created_by>LGOMEZ</sys_created_by>
+                                <sys_created_on>2018-06-07 19:59:29</sys_created_on>
+                                <sys_id>fb5d78f5db2e574040f8fcfa0c9619ad</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>LGOMEZ</sys_updated_by>
+                                <sys_updated_on>2018-06-07 19:59:29</sys_updated_on>
+                                <value>report_widget_description</value>
+                            </sys_portal_preferences>
+                        </related_items_node>
+                    </sys_portal>
+                </related_items_node>
+                <related_items_node>
+                    <sys_portal action="INSERT_OR_UPDATE">
+                        <dropzone/>
+                        <offset/>
+                        <page display_value="PA Defects">864d3cf5db2e574040f8fcfa0c9619df</page>
+                        <summary>Defects for testing</summary>
+                        <sys_created_by>LGOMEZ</sys_created_by>
+                        <sys_created_on>2018-06-07 19:59:33</sys_created_on>
+                        <sys_id>056d38b5db2e574040f8fcfa0c9619f9</sys_id>
+                        <sys_mod_count>1</sys_mod_count>
+                        <sys_updated_by>LGOMEZ</sys_updated_by>
+                        <sys_updated_on>2018-06-07 19:59:33</sys_updated_on>
+                        <related_items_node>
+                            <sys_grid_canvas_pane action="INSERT_OR_UPDATE">
+                                <grid_canvas display_value="PA New Tab 2">8e4dbcf5db2e574040f8fcfa0c961923</grid_canvas>
+                                <height>16</height>
+                                <portal_widget display_value="Created 06-07-2018 12:59:33">056d38b5db2e574040f8fcfa0c9619f9</portal_widget>
+                                <posx>4</posx>
+                                <posy>4</posy>
+                                <sys_class_name>sys_grid_canvas_pane</sys_class_name>
+                                <sys_created_by>LGOMEZ</sys_created_by>
+                                <sys_created_on>2018-06-07 19:59:33</sys_created_on>
+                                <sys_customer_update>false</sys_customer_update>
+                                <sys_id>416d38b5db2e574040f8fcfa0c9619fb</sys_id>
+                                <sys_mod_count>5</sys_mod_count>
+                                <sys_name/>
+                                <sys_package display_value="Testing Suite" source="x_sthc_testing_sui">780ce242db829f4096b17d8bbf961976</sys_package>
+                                <sys_policy/>
+                                <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+                                <sys_scope display_value="Testing Suite">780ce242db829f4096b17d8bbf961976</sys_scope>
+                                <sys_update_name>sys_grid_canvas_pane_416d38b5db2e574040f8fcfa0c9619fb</sys_update_name>
+                                <sys_updated_by>LGOMEZ</sys_updated_by>
+                                <sys_updated_on>2018-06-07 20:00:00</sys_updated_on>
+                                <width>8</width>
+                            </sys_grid_canvas_pane>
+                        </related_items_node>
+                        <related_items_node>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>help_text_window</name>
+                                <portal_section display_value="Created 06-07-2018 12:59:33">056d38b5db2e574040f8fcfa0c9619f9</portal_section>
+                                <sys_created_by>LGOMEZ</sys_created_by>
+                                <sys_created_on>2018-06-07 19:59:33</sys_created_on>
+                                <sys_id>016d38b5db2e574040f8fcfa0c9619fa</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>LGOMEZ</sys_updated_by>
+                                <sys_updated_on>2018-06-07 19:59:33</sys_updated_on>
+                                <value>report_widget_description</value>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>sys_id</name>
+                                <portal_section display_value="Created 06-07-2018 12:59:33">056d38b5db2e574040f8fcfa0c9619f9</portal_section>
+                                <sys_created_by>LGOMEZ</sys_created_by>
+                                <sys_created_on>2018-06-07 19:59:33</sys_created_on>
+                                <sys_id>096d38b5db2e574040f8fcfa0c9619f9</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>LGOMEZ</sys_updated_by>
+                                <sys_updated_on>2018-06-07 19:59:33</sys_updated_on>
+                                <value>35a92615db92930096b17d8bbf9619d1</value>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>title</name>
+                                <portal_section display_value="Created 06-07-2018 12:59:33">056d38b5db2e574040f8fcfa0c9619f9</portal_section>
+                                <sys_created_by>LGOMEZ</sys_created_by>
+                                <sys_created_on>2018-06-07 19:59:33</sys_created_on>
+                                <sys_id>496d38b5db2e574040f8fcfa0c9619fa</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>LGOMEZ</sys_updated_by>
+                                <sys_updated_on>2018-06-07 19:59:33</sys_updated_on>
+                                <value>Defects for testing</value>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>renderer</name>
+                                <portal_section display_value="Created 06-07-2018 12:59:33">056d38b5db2e574040f8fcfa0c9619f9</portal_section>
+                                <sys_created_by>LGOMEZ</sys_created_by>
+                                <sys_created_on>2018-06-07 19:59:33</sys_created_on>
+                                <sys_id>4d6d38b5db2e574040f8fcfa0c9619f9</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>LGOMEZ</sys_updated_by>
+                                <sys_updated_on>2018-06-07 19:59:33</sys_updated_on>
+                                <value>com.glide.ui.portal.RenderReport</value>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>report_type</name>
+                                <portal_section display_value="Created 06-07-2018 12:59:33">056d38b5db2e574040f8fcfa0c9619f9</portal_section>
+                                <sys_created_by>LGOMEZ</sys_created_by>
+                                <sys_created_on>2018-06-07 19:59:33</sys_created_on>
+                                <sys_id>856d38b5db2e574040f8fcfa0c9619fa</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>LGOMEZ</sys_updated_by>
+                                <sys_updated_on>2018-06-07 19:59:33</sys_updated_on>
+                                <value>list</value>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>can_subscribe</name>
+                                <portal_section display_value="Created 06-07-2018 12:59:33">056d38b5db2e574040f8fcfa0c9619f9</portal_section>
+                                <sys_created_by>LGOMEZ</sys_created_by>
+                                <sys_created_on>2018-06-07 19:59:33</sys_created_on>
+                                <sys_id>c16d38b5db2e574040f8fcfa0c9619fa</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>LGOMEZ</sys_updated_by>
+                                <sys_updated_on>2018-06-07 19:59:33</sys_updated_on>
+                                <value>true</value>
+                            </sys_portal_preferences>
+                        </related_items_node>
+                    </sys_portal>
+                </related_items_node>
+                <related_items_node>
+                    <sys_portal action="INSERT_OR_UPDATE">
+                        <dropzone/>
+                        <offset/>
+                        <page display_value="PA Defects">864d3cf5db2e574040f8fcfa0c9619df</page>
+                        <summary>Groups</summary>
+                        <sys_created_by>LGOMEZ</sys_created_by>
+                        <sys_created_on>2018-06-07 19:59:57</sys_created_on>
+                        <sys_id>be7d38b5db2e574040f8fcfa0c9619fb</sys_id>
+                        <sys_mod_count>1</sys_mod_count>
+                        <sys_updated_by>LGOMEZ</sys_updated_by>
+                        <sys_updated_on>2018-06-07 19:59:57</sys_updated_on>
+                        <related_items_node>
+                            <sys_grid_canvas_pane action="INSERT_OR_UPDATE">
+                                <grid_canvas display_value="PA New Tab 2">8e4dbcf5db2e574040f8fcfa0c961923</grid_canvas>
+                                <height>4</height>
+                                <portal_widget display_value="Created 06-07-2018 12:59:57">be7d38b5db2e574040f8fcfa0c9619fb</portal_widget>
+                                <posx>0</posx>
+                                <posy>0</posy>
+                                <sys_class_name>sys_grid_canvas_pane</sys_class_name>
+                                <sys_created_by>LGOMEZ</sys_created_by>
+                                <sys_created_on>2018-06-07 19:59:57</sys_created_on>
+                                <sys_customer_update>false</sys_customer_update>
+                                <sys_id>7e7d38b5db2e574040f8fcfa0c9619fd</sys_id>
+                                <sys_mod_count>1</sys_mod_count>
+                                <sys_name/>
+                                <sys_package display_value="Testing Suite" source="x_sthc_testing_sui">780ce242db829f4096b17d8bbf961976</sys_package>
+                                <sys_policy/>
+                                <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+                                <sys_scope display_value="Testing Suite">780ce242db829f4096b17d8bbf961976</sys_scope>
+                                <sys_update_name>sys_grid_canvas_pane_7e7d38b5db2e574040f8fcfa0c9619fd</sys_update_name>
+                                <sys_updated_by>LGOMEZ</sys_updated_by>
+                                <sys_updated_on>2018-06-07 20:00:00</sys_updated_on>
+                                <width>12</width>
+                            </sys_grid_canvas_pane>
+                        </related_items_node>
+                        <related_items_node>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>title</name>
+                                <portal_section display_value="Created 06-07-2018 12:59:57">be7d38b5db2e574040f8fcfa0c9619fb</portal_section>
+                                <sys_created_by>LGOMEZ</sys_created_by>
+                                <sys_created_on>2018-06-07 19:59:57</sys_created_on>
+                                <sys_id>327d38b5db2e574040f8fcfa0c9619fd</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>LGOMEZ</sys_updated_by>
+                                <sys_updated_on>2018-06-07 19:59:57</sys_updated_on>
+                                <value>Groups</value>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>publisher_widget</name>
+                                <portal_section display_value="Created 06-07-2018 12:59:57">be7d38b5db2e574040f8fcfa0c9619fb</portal_section>
+                                <sys_created_by>LGOMEZ</sys_created_by>
+                                <sys_created_on>2018-06-07 19:59:57</sys_created_on>
+                                <sys_id>7e7d38b5db2e574040f8fcfa0c9619fc</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>LGOMEZ</sys_updated_by>
+                                <sys_updated_on>2018-06-07 19:59:57</sys_updated_on>
+                                <value>true</value>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>sys_id</name>
+                                <portal_section display_value="Created 06-07-2018 12:59:57">be7d38b5db2e574040f8fcfa0c9619fb</portal_section>
+                                <sys_created_by>LGOMEZ</sys_created_by>
+                                <sys_created_on>2018-06-07 19:59:57</sys_created_on>
+                                <sys_id>b27d38b5db2e574040f8fcfa0c9619fc</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>LGOMEZ</sys_updated_by>
+                                <sys_updated_on>2018-06-07 19:59:57</sys_updated_on>
+                                <value>f017576f13d10fc00f3f76d66144b0e1</value>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>type</name>
+                                <portal_section display_value="Created 06-07-2018 12:59:57">be7d38b5db2e574040f8fcfa0c9619fb</portal_section>
+                                <sys_created_by>LGOMEZ</sys_created_by>
+                                <sys_created_on>2018-06-07 19:59:57</sys_created_on>
+                                <sys_id>b67d38b5db2e574040f8fcfa0c9619fd</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>LGOMEZ</sys_updated_by>
+                                <sys_updated_on>2018-06-07 19:59:57</sys_updated_on>
+                                <value>2</value>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>can_publish</name>
+                                <portal_section display_value="Created 06-07-2018 12:59:57">be7d38b5db2e574040f8fcfa0c9619fb</portal_section>
+                                <sys_created_by>LGOMEZ</sys_created_by>
+                                <sys_created_on>2018-06-07 19:59:57</sys_created_on>
+                                <sys_id>ba7d38b5db2e574040f8fcfa0c9619fc</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>LGOMEZ</sys_updated_by>
+                                <sys_updated_on>2018-06-07 19:59:57</sys_updated_on>
+                                <value>true</value>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>renderer</name>
+                                <portal_section display_value="Created 06-07-2018 12:59:57">be7d38b5db2e574040f8fcfa0c9619fb</portal_section>
+                                <sys_created_by>LGOMEZ</sys_created_by>
+                                <sys_created_on>2018-06-07 19:59:57</sys_created_on>
+                                <sys_id>f67d38b5db2e574040f8fcfa0c9619fc</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>LGOMEZ</sys_updated_by>
+                                <sys_updated_on>2018-06-07 19:59:57</sys_updated_on>
+                                <value>com.glideapp.home.RenderHomepagePublishers</value>
+                            </sys_portal_preferences>
+                        </related_items_node>
+                    </sys_portal>
+                </related_items_node>
+            </sys_grid_canvas_pane>
+            <sys_grid_canvas_pane action="INSERT_OR_UPDATE">
+                <grid_canvas display_value="PA New Tab 2">8e4dbcf5db2e574040f8fcfa0c961923</grid_canvas>
+                <height>16</height>
+                <portal_widget display_value="Created 06-07-2018 12:59:33">056d38b5db2e574040f8fcfa0c9619f9</portal_widget>
+                <posx>4</posx>
+                <posy>4</posy>
+                <sys_class_name>sys_grid_canvas_pane</sys_class_name>
+                <sys_created_by>LGOMEZ</sys_created_by>
+                <sys_created_on>2018-06-07 19:59:33</sys_created_on>
+                <sys_customer_update>false</sys_customer_update>
+                <sys_id>416d38b5db2e574040f8fcfa0c9619fb</sys_id>
+                <sys_mod_count>5</sys_mod_count>
+                <sys_name/>
+                <sys_package display_value="Testing Suite" source="x_sthc_testing_sui">780ce242db829f4096b17d8bbf961976</sys_package>
+                <sys_policy/>
+                <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+                <sys_scope display_value="Testing Suite">780ce242db829f4096b17d8bbf961976</sys_scope>
+                <sys_update_name>sys_grid_canvas_pane_416d38b5db2e574040f8fcfa0c9619fb</sys_update_name>
+                <sys_updated_by>LGOMEZ</sys_updated_by>
+                <sys_updated_on>2018-06-07 20:00:00</sys_updated_on>
+                <width>8</width>
+            </sys_grid_canvas_pane>
+            <sys_grid_canvas_pane action="INSERT_OR_UPDATE">
+                <grid_canvas display_value="PA New Tab 2">8e4dbcf5db2e574040f8fcfa0c961923</grid_canvas>
+                <height>4</height>
+                <portal_widget display_value="Created 06-07-2018 12:59:57">be7d38b5db2e574040f8fcfa0c9619fb</portal_widget>
+                <posx>0</posx>
+                <posy>0</posy>
+                <sys_class_name>sys_grid_canvas_pane</sys_class_name>
+                <sys_created_by>LGOMEZ</sys_created_by>
+                <sys_created_on>2018-06-07 19:59:57</sys_created_on>
+                <sys_customer_update>false</sys_customer_update>
+                <sys_id>7e7d38b5db2e574040f8fcfa0c9619fd</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_name/>
+                <sys_package display_value="Testing Suite" source="x_sthc_testing_sui">780ce242db829f4096b17d8bbf961976</sys_package>
+                <sys_policy/>
+                <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+                <sys_scope display_value="Testing Suite">780ce242db829f4096b17d8bbf961976</sys_scope>
+                <sys_update_name>sys_grid_canvas_pane_7e7d38b5db2e574040f8fcfa0c9619fd</sys_update_name>
+                <sys_updated_by>LGOMEZ</sys_updated_by>
+                <sys_updated_on>2018-06-07 20:00:00</sys_updated_on>
+                <width>12</width>
+            </sys_grid_canvas_pane>
+        </related_items_node>
+    </sys_grid_canvas>
+</record_update>

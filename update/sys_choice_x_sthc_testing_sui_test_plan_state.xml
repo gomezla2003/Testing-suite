@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="state" table="x_sthc_testing_sui_test_plan" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Awaiting CAB</label>
+            <language>en</language>
+            <name>x_sthc_testing_sui_test_plan</name>
+            <sequence>0</sequence>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2018-05-15 04:18:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>2a790b0adbc29f4096b17d8bbf96197c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2018-05-15 04:18:41</sys_updated_on>
+            <value>700</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Waiting Assignment/Not Started</label>
+            <language>en</language>
+            <name>x_sthc_testing_sui_test_plan</name>
+            <sequence>2</sequence>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2018-05-15 04:18:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>6a790b0adbc29f4096b17d8bbf96197e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2018-05-15 04:18:41</sys_updated_on>
+            <value>110</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Open</label>
+            <language>en</language>
+            <name>x_sthc_testing_sui_test_plan</name>
+            <sequence>3</sequence>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2018-05-15 04:18:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>e6790b0adbc29f4096b17d8bbf961980</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2018-05-15 04:18:41</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Closed Complete</label>
+            <language>en</language>
+            <name>x_sthc_testing_sui_test_plan</name>
+            <sequence>4</sequence>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2018-05-15 04:18:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>66790b0adbc29f4096b17d8bbf961982</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2018-05-15 04:18:41</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Work in Progress</label>
+            <language>en</language>
+            <name>x_sthc_testing_sui_test_plan</name>
+            <sequence>5</sequence>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2018-05-15 04:18:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>e2790b0adbc29f4096b17d8bbf961984</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2018-05-15 04:18:41</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Resolved</label>
+            <language>en</language>
+            <name>x_sthc_testing_sui_test_plan</name>
+            <sequence>6</sequence>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2018-05-15 04:18:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>62790b0adbc29f4096b17d8bbf961986</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2018-05-15 04:18:41</sys_updated_on>
+            <value>6</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>On Hold</label>
+            <language>en</language>
+            <name>x_sthc_testing_sui_test_plan</name>
+            <sequence>7</sequence>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2018-05-15 04:18:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>ee790b0adbc29f4096b17d8bbf961987</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2018-05-15 04:18:41</sys_updated_on>
+            <value>8</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <name>x_sthc_testing_sui_test_plan</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2018-05-15 04:18:41</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>66790b0adbc29f4096b17d8bbf96197e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>state</sys_name>
+            <sys_package display_value="Testing Suite" source="x_sthc_testing_sui">780ce242db829f4096b17d8bbf961976</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Testing Suite">780ce242db829f4096b17d8bbf961976</sys_scope>
+            <sys_update_name>sys_choice_x_sthc_testing_sui_test_plan_state</sys_update_name>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2018-05-15 04:18:41</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

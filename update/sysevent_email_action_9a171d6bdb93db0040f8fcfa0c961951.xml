@@ -27,8 +27,7 @@
         <item_table/>
         <mandatory>false</mandatory>
         <message/>
-        <message_html><![CDATA[<p>&nbsp;</p>
-<p><img style="hspace: 5px; align: left;" title="HonorHealth" src="hh_logo.pngx" alt="HonorHealth" width="100" height="50" align="left" border="" hspace="5" vspace="" /></p>
+        <message_html><![CDATA[<p><img style="hspace: 5px; align: left;" title="HonorHealth" src="hh_logo.pngx" alt="HonorHealth" width="100" height="50" align="left" border="" hspace="5" vspace="" /></p>
 <p>&nbsp;</p>
 <p><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;"><strong>Test Script: ${short_description}&nbsp;has&nbsp;been assigned to you</strong></span></p>
 <hr style="height: 3px; border: none; color: #000; background-color: #72246c;" />
@@ -38,6 +37,7 @@
 <p><span style="font-size: 12pt;"><strong>State:</strong> ${state}</span></p>
 <p><span style="font-size: 12pt;"><strong>Assignment Group:</strong> ${assignment_group}</span></p>
 <p><span style="font-size: 12pt;"><strong>Assigned To:</strong> ${assigned_to}</span></p>
+<p><span style="font-size: 12pt;"><strong>On Step Number:</strong>&nbsp;${mail_script:x_sthc_testing_sui_test_script_instance_script_1}</span></p>
 </div>
 <p><span style="font-size: 14pt;">Click&nbsp;<a title="here" href="/csm?id=test_script&amp;script=${sys_id}&amp;sys_id=${sys_id}&amp;table=x_sthc_testing_sui_test_script_instance&amp;view=portal">here</a>&nbsp;to launch the portal view</span></p>
 <p>&nbsp;</p>
@@ -65,7 +65,7 @@
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>9a171d6bdb93db0040f8fcfa0c961951</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>Test Script Assigned to me</sys_name>
         <sys_overrides/>
         <sys_package display_value="Testing Suite" source="x_sthc_testing_sui">780ce242db829f4096b17d8bbf961976</sys_package>
@@ -74,7 +74,7 @@
         <sys_scope display_value="Testing Suite">780ce242db829f4096b17d8bbf961976</sys_scope>
         <sys_update_name>sysevent_email_action_9a171d6bdb93db0040f8fcfa0c961951</sys_update_name>
         <sys_updated_by>LGOMEZ</sys_updated_by>
-        <sys_updated_on>2018-07-20 15:09:39</sys_updated_on>
+        <sys_updated_on>2018-07-20 20:14:26</sys_updated_on>
         <sys_version>2</sys_version>
         <template/>
         <type>email</type>

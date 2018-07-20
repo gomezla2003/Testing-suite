@@ -4,152 +4,152 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>number</element>
-            <list_id display_value="x_sthc_testing_sui_test_step_instance" element="NULL" name="x_sthc_testing_sui_test_step_instance" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">5f7b85d3db5f5b0040f8fcfa0c9619d4</list_id>
+            <list_id display_value="x_sthc_testing_sui_test_step_instance" element="NULL" name="x_sthc_testing_sui_test_step_instance" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">4a8dd66fdbd7db0040f8fcfa0c96194d</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
             <sum>false</sum>
             <sys_created_by>LGOMEZ</sys_created_by>
-            <sys_created_on>2018-07-19 19:39:08</sys_created_on>
-            <sys_id>937b85d3db5f5b0040f8fcfa0c9619d6</sys_id>
+            <sys_created_on>2018-07-20 20:16:03</sys_created_on>
+            <sys_id>028dd66fdbd7db0040f8fcfa0c96194e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>LGOMEZ</sys_updated_by>
-            <sys_updated_on>2018-07-19 19:39:08</sys_updated_on>
+            <sys_updated_on>2018-07-20 20:16:03</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>active</element>
-            <list_id display_value="x_sthc_testing_sui_test_step_instance" element="NULL" name="x_sthc_testing_sui_test_step_instance" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">5f7b85d3db5f5b0040f8fcfa0c9619d4</list_id>
+            <list_id display_value="x_sthc_testing_sui_test_step_instance" element="NULL" name="x_sthc_testing_sui_test_step_instance" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">4a8dd66fdbd7db0040f8fcfa0c96194d</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>
             <sum>false</sum>
             <sys_created_by>LGOMEZ</sys_created_by>
-            <sys_created_on>2018-07-19 19:39:08</sys_created_on>
-            <sys_id>9b7b85d3db5f5b0040f8fcfa0c9619d6</sys_id>
+            <sys_created_on>2018-07-20 20:16:03</sys_created_on>
+            <sys_id>828dd66fdbd7db0040f8fcfa0c96194e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>LGOMEZ</sys_updated_by>
-            <sys_updated_on>2018-07-19 19:39:08</sys_updated_on>
+            <sys_updated_on>2018-07-20 20:16:03</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>activity_due</element>
-            <list_id display_value="x_sthc_testing_sui_test_step_instance" element="NULL" name="x_sthc_testing_sui_test_step_instance" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">5f7b85d3db5f5b0040f8fcfa0c9619d4</list_id>
+            <list_id display_value="x_sthc_testing_sui_test_step_instance" element="NULL" name="x_sthc_testing_sui_test_step_instance" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">4a8dd66fdbd7db0040f8fcfa0c96194d</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>2</position>
             <sum>false</sum>
             <sys_created_by>LGOMEZ</sys_created_by>
-            <sys_created_on>2018-07-19 19:39:08</sys_created_on>
-            <sys_id>1f7b85d3db5f5b0040f8fcfa0c9619d6</sys_id>
+            <sys_created_on>2018-07-20 20:16:03</sys_created_on>
+            <sys_id>4a8d9aafdbd7db0040f8fcfa0c96191b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>LGOMEZ</sys_updated_by>
-            <sys_updated_on>2018-07-19 19:39:08</sys_updated_on>
+            <sys_updated_on>2018-07-20 20:16:03</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>actual_result</element>
-            <list_id display_value="x_sthc_testing_sui_test_step_instance" element="NULL" name="x_sthc_testing_sui_test_step_instance" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">5f7b85d3db5f5b0040f8fcfa0c9619d4</list_id>
+            <list_id display_value="x_sthc_testing_sui_test_step_instance" element="NULL" name="x_sthc_testing_sui_test_step_instance" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">4a8dd66fdbd7db0040f8fcfa0c96194d</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>3</position>
             <sum>false</sum>
             <sys_created_by>LGOMEZ</sys_created_by>
-            <sys_created_on>2018-07-19 19:39:08</sys_created_on>
-            <sys_id>9f7b85d3db5f5b0040f8fcfa0c9619d6</sys_id>
+            <sys_created_on>2018-07-20 20:16:03</sys_created_on>
+            <sys_id>ca8d9aafdbd7db0040f8fcfa0c96191b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>LGOMEZ</sys_updated_by>
-            <sys_updated_on>2018-07-19 19:39:08</sys_updated_on>
+            <sys_updated_on>2018-07-20 20:16:03</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>additional_assignee_list</element>
-            <list_id display_value="x_sthc_testing_sui_test_step_instance" element="NULL" name="x_sthc_testing_sui_test_step_instance" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">5f7b85d3db5f5b0040f8fcfa0c9619d4</list_id>
+            <list_id display_value="x_sthc_testing_sui_test_step_instance" element="NULL" name="x_sthc_testing_sui_test_step_instance" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">4a8dd66fdbd7db0040f8fcfa0c96194d</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>4</position>
             <sum>false</sum>
             <sys_created_by>LGOMEZ</sys_created_by>
-            <sys_created_on>2018-07-19 19:39:08</sys_created_on>
-            <sys_id>137b85d3db5f5b0040f8fcfa0c9619d7</sys_id>
+            <sys_created_on>2018-07-20 20:16:03</sys_created_on>
+            <sys_id>4e8d9aafdbd7db0040f8fcfa0c96191b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>LGOMEZ</sys_updated_by>
-            <sys_updated_on>2018-07-19 19:39:08</sys_updated_on>
+            <sys_updated_on>2018-07-20 20:16:03</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>application</element>
-            <list_id display_value="x_sthc_testing_sui_test_step_instance" element="NULL" name="x_sthc_testing_sui_test_step_instance" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">5f7b85d3db5f5b0040f8fcfa0c9619d4</list_id>
+            <list_id display_value="x_sthc_testing_sui_test_step_instance" element="NULL" name="x_sthc_testing_sui_test_step_instance" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">4a8dd66fdbd7db0040f8fcfa0c96194d</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>5</position>
             <sum>false</sum>
             <sys_created_by>LGOMEZ</sys_created_by>
-            <sys_created_on>2018-07-19 19:39:08</sys_created_on>
-            <sys_id>937b85d3db5f5b0040f8fcfa0c9619d7</sys_id>
+            <sys_created_on>2018-07-20 20:16:03</sys_created_on>
+            <sys_id>ce8d9aafdbd7db0040f8fcfa0c96191b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>LGOMEZ</sys_updated_by>
-            <sys_updated_on>2018-07-19 19:39:08</sys_updated_on>
+            <sys_updated_on>2018-07-20 20:16:03</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>approval</element>
-            <list_id display_value="x_sthc_testing_sui_test_step_instance" element="NULL" name="x_sthc_testing_sui_test_step_instance" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">5f7b85d3db5f5b0040f8fcfa0c9619d4</list_id>
+            <list_id display_value="x_sthc_testing_sui_test_step_instance" element="NULL" name="x_sthc_testing_sui_test_step_instance" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">4a8dd66fdbd7db0040f8fcfa0c96194d</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>6</position>
             <sum>false</sum>
             <sys_created_by>LGOMEZ</sys_created_by>
-            <sys_created_on>2018-07-19 19:39:08</sys_created_on>
-            <sys_id>177b85d3db5f5b0040f8fcfa0c9619d7</sys_id>
+            <sys_created_on>2018-07-20 20:16:03</sys_created_on>
+            <sys_id>428d9aafdbd7db0040f8fcfa0c96191c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>LGOMEZ</sys_updated_by>
-            <sys_updated_on>2018-07-19 19:39:08</sys_updated_on>
+            <sys_updated_on>2018-07-20 20:16:03</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>approval_history</element>
-            <list_id display_value="x_sthc_testing_sui_test_step_instance" element="NULL" name="x_sthc_testing_sui_test_step_instance" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">5f7b85d3db5f5b0040f8fcfa0c9619d4</list_id>
+            <list_id display_value="x_sthc_testing_sui_test_step_instance" element="NULL" name="x_sthc_testing_sui_test_step_instance" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">4a8dd66fdbd7db0040f8fcfa0c96194d</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>7</position>
             <sum>false</sum>
             <sys_created_by>LGOMEZ</sys_created_by>
-            <sys_created_on>2018-07-19 19:39:08</sys_created_on>
-            <sys_id>977b85d3db5f5b0040f8fcfa0c9619d7</sys_id>
+            <sys_created_on>2018-07-20 20:16:03</sys_created_on>
+            <sys_id>c28d9aafdbd7db0040f8fcfa0c96191c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>LGOMEZ</sys_updated_by>
-            <sys_updated_on>2018-07-19 19:39:08</sys_updated_on>
+            <sys_updated_on>2018-07-20 20:16:03</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>approval_set</element>
-            <list_id display_value="x_sthc_testing_sui_test_step_instance" element="NULL" name="x_sthc_testing_sui_test_step_instance" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">5f7b85d3db5f5b0040f8fcfa0c9619d4</list_id>
+            <list_id display_value="x_sthc_testing_sui_test_step_instance" element="NULL" name="x_sthc_testing_sui_test_step_instance" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">4a8dd66fdbd7db0040f8fcfa0c96194d</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>8</position>
             <sum>false</sum>
             <sys_created_by>LGOMEZ</sys_created_by>
-            <sys_created_on>2018-07-19 19:39:08</sys_created_on>
-            <sys_id>1b7b85d3db5f5b0040f8fcfa0c9619d7</sys_id>
+            <sys_created_on>2018-07-20 20:16:03</sys_created_on>
+            <sys_id>468d9aafdbd7db0040f8fcfa0c96191c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>LGOMEZ</sys_updated_by>
-            <sys_updated_on>2018-07-19 19:39:08</sys_updated_on>
+            <sys_updated_on>2018-07-20 20:16:03</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>assigned_to</element>
-            <list_id display_value="x_sthc_testing_sui_test_step_instance" element="NULL" name="x_sthc_testing_sui_test_step_instance" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">5f7b85d3db5f5b0040f8fcfa0c9619d4</list_id>
+            <list_id display_value="x_sthc_testing_sui_test_step_instance" element="NULL" name="x_sthc_testing_sui_test_step_instance" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">4a8dd66fdbd7db0040f8fcfa0c96194d</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>9</position>
             <sum>false</sum>
             <sys_created_by>LGOMEZ</sys_created_by>
-            <sys_created_on>2018-07-19 19:39:08</sys_created_on>
-            <sys_id>9b7b85d3db5f5b0040f8fcfa0c9619d7</sys_id>
+            <sys_created_on>2018-07-20 20:16:03</sys_created_on>
+            <sys_id>c68d9aafdbd7db0040f8fcfa0c96191c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>LGOMEZ</sys_updated_by>
-            <sys_updated_on>2018-07-19 19:39:08</sys_updated_on>
+            <sys_updated_on>2018-07-20 20:16:03</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list action="INSERT_OR_UPDATE">
             <average_value>false</average_value>

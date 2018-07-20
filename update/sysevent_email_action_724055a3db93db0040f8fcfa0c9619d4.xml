@@ -36,6 +36,7 @@
 <p><span style="font-size: 12pt;"><strong>Test Plan:</strong> ${test_plan}</span></p>
 <p><span style="font-size: 12pt;"><strong>State:</strong> ${state}</span></p>
 <p><span style="font-size: 12pt;"><strong>Assignment Group:</strong> ${assignment_group}</span></p>
+<p><span style="font-size: 12pt;"><strong style="font-size: 16px; background-color: #fcf4ff;">On Step Number:</strong><span style="font-size: 16px; background-color: #fcf4ff;">&nbsp;${mail_script:x_sthc_testing_sui_test_script_instance_script_1}</span></span></p>
 </div>
 <p><span style="font-size: 14pt;">Click&nbsp;<a title="here" href="/csm?id=test_script&amp;script=${sys_id}&amp;sys_id=${sys_id}&amp;table=x_sthc_testing_sui_test_script_instance&amp;view=portal">here</a>&nbsp;to launch the portal view</span></p>
 <p>&nbsp;</p>
@@ -63,7 +64,7 @@
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>724055a3db93db0040f8fcfa0c9619d4</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>Test Script Assigned to my team</sys_name>
         <sys_overrides/>
         <sys_package display_value="Testing Suite" source="x_sthc_testing_sui">780ce242db829f4096b17d8bbf961976</sys_package>
@@ -72,7 +73,7 @@
         <sys_scope display_value="Testing Suite">780ce242db829f4096b17d8bbf961976</sys_scope>
         <sys_update_name>sysevent_email_action_724055a3db93db0040f8fcfa0c9619d4</sys_update_name>
         <sys_updated_by>LGOMEZ</sys_updated_by>
-        <sys_updated_on>2018-07-20 15:02:51</sys_updated_on>
+        <sys_updated_on>2018-07-20 20:31:36</sys_updated_on>
         <sys_version>2</sys_version>
         <template/>
         <type>email</type>

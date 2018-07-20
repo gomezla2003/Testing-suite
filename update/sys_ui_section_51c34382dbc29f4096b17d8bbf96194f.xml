@@ -5,13 +5,13 @@
             <element>number</element>
             <position>0</position>
             <sys_created_by>LGOMEZ</sys_created_by>
-            <sys_created_on>2018-05-24 17:05:38</sys_created_on>
-            <sys_id>785fc451db56930040f8fcfa0c96190f</sys_id>
+            <sys_created_on>2018-07-19 19:43:42</sys_created_on>
+            <sys_id>9e8c0917db5f5b0040f8fcfa0c961986</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_sthc_testing_sui_test_step_instance" sys_domain="global" view="Default view">51c34382dbc29f4096b17d8bbf96194f</sys_ui_section>
             <sys_updated_by>LGOMEZ</sys_updated_by>
-            <sys_updated_on>2018-05-24 17:05:38</sys_updated_on>
+            <sys_updated_on>2018-07-19 19:43:42</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -19,13 +19,13 @@
             <element>order</element>
             <position>1</position>
             <sys_created_by>LGOMEZ</sys_created_by>
-            <sys_created_on>2018-05-24 17:05:38</sys_created_on>
-            <sys_id>fc5fc451db56930040f8fcfa0c96190f</sys_id>
+            <sys_created_on>2018-07-19 19:43:42</sys_created_on>
+            <sys_id>568c0917db5f5b0040f8fcfa0c961987</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_sthc_testing_sui_test_step_instance" sys_domain="global" view="Default view">51c34382dbc29f4096b17d8bbf96194f</sys_ui_section>
             <sys_updated_by>LGOMEZ</sys_updated_by>
-            <sys_updated_on>2018-05-24 17:05:38</sys_updated_on>
+            <sys_updated_on>2018-07-19 19:43:42</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -33,13 +33,13 @@
             <element>.split</element>
             <position>2</position>
             <sys_created_by>LGOMEZ</sys_created_by>
-            <sys_created_on>2018-05-24 17:05:38</sys_created_on>
-            <sys_id>705fc451db56930040f8fcfa0c961910</sys_id>
+            <sys_created_on>2018-07-19 19:43:42</sys_created_on>
+            <sys_id>d68c0917db5f5b0040f8fcfa0c961987</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_sthc_testing_sui_test_step_instance" sys_domain="global" view="Default view">51c34382dbc29f4096b17d8bbf96194f</sys_ui_section>
             <sys_updated_by>LGOMEZ</sys_updated_by>
-            <sys_updated_on>2018-05-24 17:05:38</sys_updated_on>
+            <sys_updated_on>2018-07-19 19:43:42</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -47,125 +47,139 @@
             <element>execution_status</element>
             <position>3</position>
             <sys_created_by>LGOMEZ</sys_created_by>
-            <sys_created_on>2018-05-24 17:05:38</sys_created_on>
-            <sys_id>f05fc451db56930040f8fcfa0c961910</sys_id>
+            <sys_created_on>2018-07-19 19:43:42</sys_created_on>
+            <sys_id>5a8c0917db5f5b0040f8fcfa0c961987</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_sthc_testing_sui_test_step_instance" sys_domain="global" view="Default view">51c34382dbc29f4096b17d8bbf96194f</sys_ui_section>
             <sys_updated_by>LGOMEZ</sys_updated_by>
-            <sys_updated_on>2018-05-24 17:05:38</sys_updated_on>
+            <sys_updated_on>2018-07-19 19:43:42</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>prep_step</element>
+            <position>4</position>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2018-07-19 19:43:42</sys_created_on>
+            <sys_id>da8c0917db5f5b0040f8fcfa0c961987</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_sthc_testing_sui_test_step_instance" sys_domain="global" view="Default view">51c34382dbc29f4096b17d8bbf96194f</sys_ui_section>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2018-07-19 19:43:42</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>test_user</element>
-            <position>4</position>
+            <position>5</position>
             <sys_created_by>LGOMEZ</sys_created_by>
-            <sys_created_on>2018-05-24 17:05:38</sys_created_on>
-            <sys_id>745fc451db56930040f8fcfa0c961910</sys_id>
+            <sys_created_on>2018-07-19 19:43:42</sys_created_on>
+            <sys_id>5e8c0917db5f5b0040f8fcfa0c961987</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_sthc_testing_sui_test_step_instance" sys_domain="global" view="Default view">51c34382dbc29f4096b17d8bbf96194f</sys_ui_section>
             <sys_updated_by>LGOMEZ</sys_updated_by>
-            <sys_updated_on>2018-05-24 17:05:38</sys_updated_on>
+            <sys_updated_on>2018-07-19 19:43:42</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>sys_updated_by</element>
-            <position>5</position>
+            <position>6</position>
             <sys_created_by>LGOMEZ</sys_created_by>
-            <sys_created_on>2018-05-24 17:05:38</sys_created_on>
-            <sys_id>f45fc451db56930040f8fcfa0c961910</sys_id>
+            <sys_created_on>2018-07-19 19:43:42</sys_created_on>
+            <sys_id>de8c0917db5f5b0040f8fcfa0c961987</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_sthc_testing_sui_test_step_instance" sys_domain="global" view="Default view">51c34382dbc29f4096b17d8bbf96194f</sys_ui_section>
             <sys_updated_by>LGOMEZ</sys_updated_by>
-            <sys_updated_on>2018-05-24 17:05:38</sys_updated_on>
+            <sys_updated_on>2018-07-19 19:43:42</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.end_split</element>
-            <position>6</position>
+            <position>7</position>
             <sys_created_by>LGOMEZ</sys_created_by>
-            <sys_created_on>2018-05-24 17:05:38</sys_created_on>
-            <sys_id>785fc451db56930040f8fcfa0c961910</sys_id>
+            <sys_created_on>2018-07-19 19:43:42</sys_created_on>
+            <sys_id>528c0917db5f5b0040f8fcfa0c961988</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_sthc_testing_sui_test_step_instance" sys_domain="global" view="Default view">51c34382dbc29f4096b17d8bbf96194f</sys_ui_section>
             <sys_updated_by>LGOMEZ</sys_updated_by>
-            <sys_updated_on>2018-05-24 17:05:38</sys_updated_on>
+            <sys_updated_on>2018-07-19 19:43:42</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>test</element>
-            <position>7</position>
+            <position>8</position>
             <sys_created_by>LGOMEZ</sys_created_by>
-            <sys_created_on>2018-05-24 17:05:38</sys_created_on>
-            <sys_id>f85fc451db56930040f8fcfa0c961910</sys_id>
+            <sys_created_on>2018-07-19 19:43:42</sys_created_on>
+            <sys_id>d28c0917db5f5b0040f8fcfa0c961988</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_sthc_testing_sui_test_step_instance" sys_domain="global" view="Default view">51c34382dbc29f4096b17d8bbf96194f</sys_ui_section>
             <sys_updated_by>LGOMEZ</sys_updated_by>
-            <sys_updated_on>2018-05-24 17:05:38</sys_updated_on>
+            <sys_updated_on>2018-07-19 19:43:42</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>description</element>
-            <position>8</position>
+            <position>9</position>
             <sys_created_by>LGOMEZ</sys_created_by>
-            <sys_created_on>2018-05-24 17:05:38</sys_created_on>
-            <sys_id>7c5fc451db56930040f8fcfa0c961910</sys_id>
+            <sys_created_on>2018-07-19 19:43:42</sys_created_on>
+            <sys_id>568c0917db5f5b0040f8fcfa0c961988</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_sthc_testing_sui_test_step_instance" sys_domain="global" view="Default view">51c34382dbc29f4096b17d8bbf96194f</sys_ui_section>
             <sys_updated_by>LGOMEZ</sys_updated_by>
-            <sys_updated_on>2018-05-24 17:05:38</sys_updated_on>
+            <sys_updated_on>2018-07-19 19:43:42</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>test_script_instance</element>
-            <position>9</position>
+            <position>10</position>
             <sys_created_by>LGOMEZ</sys_created_by>
-            <sys_created_on>2018-05-24 17:05:38</sys_created_on>
-            <sys_id>fc5fc451db56930040f8fcfa0c961910</sys_id>
+            <sys_created_on>2018-07-19 19:43:42</sys_created_on>
+            <sys_id>d68c0917db5f5b0040f8fcfa0c961988</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_sthc_testing_sui_test_step_instance" sys_domain="global" view="Default view">51c34382dbc29f4096b17d8bbf96194f</sys_ui_section>
             <sys_updated_by>LGOMEZ</sys_updated_by>
-            <sys_updated_on>2018-05-24 17:05:38</sys_updated_on>
+            <sys_updated_on>2018-07-19 19:43:42</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>status_updated_by</element>
-            <position>10</position>
+            <position>11</position>
             <sys_created_by>LGOMEZ</sys_created_by>
-            <sys_created_on>2018-05-24 17:09:57</sys_created_on>
-            <sys_id>d050dc51db56930040f8fcfa0c961996</sys_id>
+            <sys_created_on>2018-07-19 19:43:42</sys_created_on>
+            <sys_id>5a8c0917db5f5b0040f8fcfa0c961988</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_sthc_testing_sui_test_step_instance" sys_domain="global" view="Default view">51c34382dbc29f4096b17d8bbf96194f</sys_ui_section>
             <sys_updated_by>LGOMEZ</sys_updated_by>
-            <sys_updated_on>2018-05-24 17:09:57</sys_updated_on>
+            <sys_updated_on>2018-07-19 19:43:42</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>application</element>
-            <position>11</position>
+            <position>12</position>
             <sys_created_by>LGOMEZ</sys_created_by>
-            <sys_created_on>2018-05-24 17:22:15</sys_created_on>
-            <sys_id>18235815db56930040f8fcfa0c9619f2</sys_id>
+            <sys_created_on>2018-07-19 19:43:42</sys_created_on>
+            <sys_id>da8c0917db5f5b0040f8fcfa0c961988</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_sthc_testing_sui_test_step_instance" sys_domain="global" view="Default view">51c34382dbc29f4096b17d8bbf96194f</sys_ui_section>
             <sys_updated_by>LGOMEZ</sys_updated_by>
-            <sys_updated_on>2018-05-24 17:22:15</sys_updated_on>
+            <sys_updated_on>2018-07-19 19:43:42</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

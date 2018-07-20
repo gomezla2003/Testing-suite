@@ -16,29 +16,14 @@
 	
 	
 	c.fail = function(id){
-				
-				swal({
-  title: 'Fail Reason',
-  html:
-    'Reason<input id="swal-input1" class="swal2-input">',
-  preConfirm: function () {
-    return new Promise(function (resolve) {
-      resolve([
-        $('#swal-input1').val()
-      ]);
-   input1 = $('#swal-input1').val();
-		});
-  },
-  onOpen: function () {
-    $('#swal-input1').focus();
-  }
-}).then(function (result) {
-			c.data.fail_reason = input1;
+	
 			c.data.sys_id = id;
 			c.data.status = 'failed';
 			c.server.update();
-				});
-			};
+				if(confirm("Would you like to open a defect?")){
+					c.defect(id);
+				}
+			}
 	
 	
 		
@@ -46,6 +31,7 @@ c.block = function(id){
 			c.data.sys_id = id;
 			c.data.status = 'blocked';
 			c.server.update();
+	c.defect(id);
 		};
 	
 				
@@ -93,6 +79,7 @@ c.defectForm = function(id){
         <css>.wrapper{
   margin-top:80px;
   //position: relative;
+  
 
 }
 
@@ -129,7 +116,7 @@ color: #A9A9A9;
 }
 
 .text{
-   font-size: 18px;
+   
 }
 
  
@@ -179,8 +166,10 @@ color: #A9A9A9;
   width:100%;
   background-color:#fff;
   color:#000;
-  height: 80px;
+  height: auto;
    border-bottom: 5px solid gray;
+  font-size: 1.2vh;
+  
 }
 .block{
   display: inline-block;
@@ -193,15 +182,18 @@ color: #A9A9A9;
 
 
 .order{
-  padding:10px;
+  padding:1px;
   width: 5%;
   
 }
 .test{
-  width: 25%;
+  width: 20%;
+}
+.input{
+  width:15%;
 }
 .result{
-  width: 25%;
+  width: 20%;
 }
 .applicaiton{
   width: 7%;
@@ -214,32 +206,35 @@ color: #A9A9A9;
 }
 
 .pass {
-  width: 5%;
+  width: auto;
   background-color: #2ecc71;
   box-shadow: 0px 5px 0px 0px #15B358; 
   border-radius: 6px;
+  padding: 6px;
 }
 .pass:hover {
   background-color: #48E68B;
 }
 
 .fail {
-  width: 5%;
+  width:auto;
   background-color: #F8FF5A;
   box-shadow: 0px 5px 0px 0px #BFC445;
   color: #000;
   border-radius: 6px;
+  padding: 6px;
 }
 .fail:hover {
   background-color: #F8FF84;
 }
 
 .blocked {
-  width: 5%;
+  width: auto;
   background-color: #FF4D35;
   box-shadow: 0px 5px 0px 0px #C23B28;
   color: #000;
   border-radius: 6px;
+  padding: 5px;
 }
 .blocked:hover {
   background-color: #FF5700;
@@ -310,6 +305,54 @@ color: #A9A9A9;
 /*hover ToolTip*/
 .top:hover {transform: translateY(-2px);  }
   
+
+//BADGE
+.badge {
+  padding: 1px 9px 2px;
+  font-size: 12.025px;
+  font-weight: bold;
+  white-space: nowrap;
+  color: #ffffff;
+  background-color: #999999;
+  -webkit-border-radius: 9px;
+  -moz-border-radius: 9px;
+  border-radius: 9px;
+}
+.badge:hover {
+  color: #ffffff;
+  text-decoration: none;
+  cursor: pointer;
+}
+.badge-error {
+  background-color: #b94a48;
+}
+.badge-error:hover {
+  background-color: #953b39;
+}
+.badge-warning {
+  background-color: #f89406;
+}
+.badge-warning:hover {
+  background-color: #c67605;
+}
+.badge-success {
+  background-color: #468847;
+}
+.badge-success:hover {
+  background-color: #356635;
+}
+.badge-info {
+  background-color: #3a87ad;
+}
+.badge-info:hover {
+  background-color: #2d6987;
+}
+.badge-inverse {
+  background-color: #333333;
+}
+.badge-inverse:hover {
+  background-color: #1a1a1a;
+}
   </css>
         <data_table>sp_instance</data_table>
         <demo_data/>
@@ -334,9 +377,10 @@ data.defectLink = "/csm?id=lf&table=rm_defect&filter=u_test_script="+ param +"&v
 	data.courses = step.getList(param);
 	data.script = [];
 	data.script = step.getScriptDetails(param);
+		data.scriptDefects = step.getDefects(param);
 	}
-	//data.scriptDefects = [];
-	//data.scriptDefects = step.getDefects(param);
+
+	
 	
 	if(input){
 		var tmTest = new GlideRecord('x_sthc_testing_sui_test_step_instance');
@@ -344,10 +388,7 @@ data.defectLink = "/csm?id=lf&table=rm_defect&filter=u_test_script="+ param +"&v
 		tmTest.query();
 		while(tmTest.next()){
 			tmTest.execution_status = input.status;
-			if(input.fail_reason){
-			tmTest.failed_reason = input.fail_reason;
-			data.fail_reason = '';
-			}
+		
 			tmTest.update();
 			data.courses = step.getList(param);
 			
@@ -366,7 +407,7 @@ data.defectLink = "/csm?id=lf&table=rm_defect&filter=u_test_script="+ param +"&v
         <sys_created_on>2018-05-22 19:55:51</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>3613a6ecdb92d78096b17d8bbf9619b2</sys_id>
-        <sys_mod_count>261</sys_mod_count>
+        <sys_mod_count>303</sys_mod_count>
         <sys_name>Test_Script Scope</sys_name>
         <sys_package display_value="Testing Suite" source="x_sthc_testing_sui">780ce242db829f4096b17d8bbf961976</sys_package>
         <sys_policy/>
@@ -374,7 +415,7 @@ data.defectLink = "/csm?id=lf&table=rm_defect&filter=u_test_script="+ param +"&v
         <sys_scope display_value="Testing Suite">780ce242db829f4096b17d8bbf961976</sys_scope>
         <sys_update_name>sp_widget_3613a6ecdb92d78096b17d8bbf9619b2</sys_update_name>
         <sys_updated_by>LGOMEZ</sys_updated_by>
-        <sys_updated_on>2018-06-22 21:41:50</sys_updated_on>
+        <sys_updated_on>2018-07-19 22:53:48</sys_updated_on>
         <template><![CDATA[
 <!--
 <table class="defects" align="left">
@@ -412,7 +453,7 @@ data.defectLink = "/csm?id=lf&table=rm_defect&filter=u_test_script="+ param +"&v
    <td>{{scriptDetails.patient_mrn}}</td>
    <td>{{scriptDetails.patient_har}}</td>
    <td>{{scriptDetails.location}}</td>
-   <td><a href={{data.defectLink}} target="_blank">Link to Defects</a></td>
+   <td><a href={{data.defectLink}} target="_blank">Link to Defects<span class="badge badge-error"> {{data.scriptDefects}}</span></a></td>
    <td ng-click="c.testMessage(scriptDetails.id)"><a>Send message to testing team</a></td>
   </table>
   
@@ -424,6 +465,7 @@ data.defectLink = "/csm?id=lf&table=rm_defect&filter=u_test_script="+ param +"&v
 <div class="wrapper">
   <div class="block order"><h3>Order</h3></div>
   <div class="block test"><h3>Step</h3></div>
+  <div class="block input"><h3>Inputs</h3></div>
   <div class="block result"><h3>Expected Result</h3></div>
     <div class="block application"><h3>Applicaiton</h3></div>
 
@@ -436,6 +478,9 @@ data.defectLink = "/csm?id=lf&table=rm_defect&filter=u_test_script="+ param +"&v
   
   <div ng-if="step.execution_status != 'Unexecuted'" class="block test grayhover" ng-click="c.detail(step.id,step.pid)">{{step.test}}</div>
   <div ng-if="step.execution_status == 'Unexecuted'" class="block test title" ng-click="c.detail(step.id,step.pid)">{{step.test}}</div>
+  
+   <div ng-if="step.execution_status != 'Unexecuted'" class="block input gray">{{step.input}}</div>
+  <div ng-if="step.execution_status == 'Unexecuted'" class="block input title">{{step.input}}</div>
   
   <div ng-if="step.execution_status != 'Unexecuted'" class="block result gray">{{step.expected_result}}</div>
   <div ng-if="step.execution_status == 'Unexecuted'" class="block result title">{{step.expected_result}}</div>

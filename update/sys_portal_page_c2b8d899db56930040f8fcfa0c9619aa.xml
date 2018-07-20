@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<record_update node_type="sys_portal_page" unload_date="2018-06-25 21:01:43">
+<record_update node_type="sys_portal_page" unload_date="2018-07-20 00:42:26">
     <sys_portal_page action="INSERT_OR_UPDATE">
         <layout/>
         <order/>
@@ -433,7 +433,7 @@
                         <sys_created_on>2018-06-07 20:00:59</sys_created_on>
                         <sys_customer_update>false</sys_customer_update>
                         <sys_id>06bdf039db2e574040f8fcfa0c961938</sys_id>
-                        <sys_mod_count>3</sys_mod_count>
+                        <sys_mod_count>4</sys_mod_count>
                         <sys_name/>
                         <sys_package display_value="Testing Suite" source="x_sthc_testing_sui">780ce242db829f4096b17d8bbf961976</sys_package>
                         <sys_policy/>
@@ -441,8 +441,8 @@
                         <sys_scope display_value="Testing Suite">780ce242db829f4096b17d8bbf961976</sys_scope>
                         <sys_update_name>sys_grid_canvas_pane_06bdf039db2e574040f8fcfa0c961938</sys_update_name>
                         <sys_updated_by>LGOMEZ</sys_updated_by>
-                        <sys_updated_on>2018-06-07 20:01:08</sys_updated_on>
-                        <width>8</width>
+                        <sys_updated_on>2018-07-19 21:31:21</sys_updated_on>
+                        <width>4</width>
                     </sys_grid_canvas_pane>
                 </related_items_node>
                 <related_items_node>
@@ -615,6 +615,198 @@
                         <sys_updated_by>LGOMEZ</sys_updated_by>
                         <sys_updated_on>2018-05-24 17:48:21</sys_updated_on>
                         <value>Testing Plan Scope</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA Test scripts">c2b8d899db56930040f8fcfa0c9619aa</page>
+                <summary>Test Plan Over All Percent</summary>
+                <sys_created_by>LGOMEZ</sys_created_by>
+                <sys_created_on>2018-07-19 21:31:02</sys_created_on>
+                <sys_id>ae15a55bdbdf5b0040f8fcfa0c961957</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>LGOMEZ</sys_updated_by>
+                <sys_updated_on>2018-07-19 21:31:02</sys_updated_on>
+                <related_items_node>
+                    <sys_grid_canvas_pane action="INSERT_OR_UPDATE">
+                        <grid_canvas display_value="PA New Tab">56b8d899db56930040f8fcfa0c9619ab</grid_canvas>
+                        <height>5</height>
+                        <portal_widget display_value="Created 07-19-2018 14:31:02">ae15a55bdbdf5b0040f8fcfa0c961957</portal_widget>
+                        <posx>8</posx>
+                        <posy>0</posy>
+                        <sys_class_name>sys_grid_canvas_pane</sys_class_name>
+                        <sys_created_by>LGOMEZ</sys_created_by>
+                        <sys_created_on>2018-07-19 21:31:02</sys_created_on>
+                        <sys_customer_update>false</sys_customer_update>
+                        <sys_id>2615a55bdbdf5b0040f8fcfa0c96195b</sys_id>
+                        <sys_mod_count>3</sys_mod_count>
+                        <sys_name/>
+                        <sys_package display_value="Testing Suite" source="x_sthc_testing_sui">780ce242db829f4096b17d8bbf961976</sys_package>
+                        <sys_policy/>
+                        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+                        <sys_scope display_value="Testing Suite">780ce242db829f4096b17d8bbf961976</sys_scope>
+                        <sys_update_name>sys_grid_canvas_pane_2615a55bdbdf5b0040f8fcfa0c96195b</sys_update_name>
+                        <sys_updated_by>LGOMEZ</sys_updated_by>
+                        <sys_updated_on>2018-07-19 21:31:24</sys_updated_on>
+                        <width>4</width>
+                    </sys_grid_canvas_pane>
+                </related_items_node>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>publisher_widget</name>
+                        <portal_section display_value="Created 07-19-2018 14:31:02">ae15a55bdbdf5b0040f8fcfa0c961957</portal_section>
+                        <sys_created_by>LGOMEZ</sys_created_by>
+                        <sys_created_on>2018-07-19 21:31:42</sys_created_on>
+                        <sys_id>1045e55bdbdf5b0040f8fcfa0c9619fd</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>LGOMEZ</sys_updated_by>
+                        <sys_updated_on>2018-07-19 21:31:42</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_title</name>
+                        <portal_section display_value="Created 07-19-2018 14:31:02">ae15a55bdbdf5b0040f8fcfa0c961957</portal_section>
+                        <sys_created_by>LGOMEZ</sys_created_by>
+                        <sys_created_on>2018-07-19 21:31:42</sys_created_on>
+                        <sys_id>1445e55bdbdf5b0040f8fcfa0c9619fc</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>LGOMEZ</sys_updated_by>
+                        <sys_updated_on>2018-07-19 21:31:42</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>subscriber_widget</name>
+                        <portal_section display_value="Created 07-19-2018 14:31:02">ae15a55bdbdf5b0040f8fcfa0c961957</portal_section>
+                        <sys_created_by>LGOMEZ</sys_created_by>
+                        <sys_created_on>2018-07-19 21:31:42</sys_created_on>
+                        <sys_id>1445e55bdbdf5b0040f8fcfa0c9619fd</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>LGOMEZ</sys_updated_by>
+                        <sys_updated_on>2018-07-19 21:31:42</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title_align</name>
+                        <portal_section display_value="Created 07-19-2018 14:31:02">ae15a55bdbdf5b0040f8fcfa0c961957</portal_section>
+                        <sys_created_by>LGOMEZ</sys_created_by>
+                        <sys_created_on>2018-07-19 21:31:42</sys_created_on>
+                        <sys_id>1845e55bdbdf5b0040f8fcfa0c9619fc</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>LGOMEZ</sys_updated_by>
+                        <sys_updated_on>2018-07-19 21:31:42</sys_updated_on>
+                        <value>center</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>filter_indicator</name>
+                        <portal_section display_value="Created 07-19-2018 14:31:02">ae15a55bdbdf5b0040f8fcfa0c961957</portal_section>
+                        <sys_created_by>LGOMEZ</sys_created_by>
+                        <sys_created_on>2018-07-19 21:31:42</sys_created_on>
+                        <sys_id>1845e55bdbdf5b0040f8fcfa0c9619fd</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>LGOMEZ</sys_updated_by>
+                        <sys_updated_on>2018-07-19 21:31:42</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_border</name>
+                        <portal_section display_value="Created 07-19-2018 14:31:02">ae15a55bdbdf5b0040f8fcfa0c961957</portal_section>
+                        <sys_created_by>LGOMEZ</sys_created_by>
+                        <sys_created_on>2018-07-19 21:31:42</sys_created_on>
+                        <sys_id>1c45e55bdbdf5b0040f8fcfa0c9619fc</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>LGOMEZ</sys_updated_by>
+                        <sys_updated_on>2018-07-19 21:31:42</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>real_time</name>
+                        <portal_section display_value="Created 07-19-2018 14:31:02">ae15a55bdbdf5b0040f8fcfa0c961957</portal_section>
+                        <sys_created_by>LGOMEZ</sys_created_by>
+                        <sys_created_on>2018-07-19 21:31:42</sys_created_on>
+                        <sys_id>1c45e55bdbdf5b0040f8fcfa0c9619fd</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>LGOMEZ</sys_updated_by>
+                        <sys_updated_on>2018-07-19 21:31:42</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 07-19-2018 14:31:02">ae15a55bdbdf5b0040f8fcfa0c961957</portal_section>
+                        <sys_created_by>LGOMEZ</sys_created_by>
+                        <sys_created_on>2018-07-19 21:31:02</sys_created_on>
+                        <sys_id>2615a55bdbdf5b0040f8fcfa0c96195a</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>LGOMEZ</sys_updated_by>
+                        <sys_updated_on>2018-07-19 21:31:02</sys_updated_on>
+                        <value>Test Plan Over All Percent</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 07-19-2018 14:31:02">ae15a55bdbdf5b0040f8fcfa0c961957</portal_section>
+                        <sys_created_by>LGOMEZ</sys_created_by>
+                        <sys_created_on>2018-07-19 21:31:02</sys_created_on>
+                        <sys_id>2a15a55bdbdf5b0040f8fcfa0c961959</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>LGOMEZ</sys_updated_by>
+                        <sys_updated_on>2018-07-19 21:31:02</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 07-19-2018 14:31:02">ae15a55bdbdf5b0040f8fcfa0c961957</portal_section>
+                        <sys_created_by>LGOMEZ</sys_created_by>
+                        <sys_created_on>2018-07-19 21:31:02</sys_created_on>
+                        <sys_id>6215a55bdbdf5b0040f8fcfa0c96195a</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>LGOMEZ</sys_updated_by>
+                        <sys_updated_on>2018-07-19 21:31:02</sys_updated_on>
+                        <value>solid_gauge</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 07-19-2018 14:31:02">ae15a55bdbdf5b0040f8fcfa0c961957</portal_section>
+                        <sys_created_by>LGOMEZ</sys_created_by>
+                        <sys_created_on>2018-07-19 21:31:02</sys_created_on>
+                        <sys_id>6615a55bdbdf5b0040f8fcfa0c961959</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>LGOMEZ</sys_updated_by>
+                        <sys_updated_on>2018-07-19 21:31:02</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 07-19-2018 14:31:02">ae15a55bdbdf5b0040f8fcfa0c961957</portal_section>
+                        <sys_created_by>LGOMEZ</sys_created_by>
+                        <sys_created_on>2018-07-19 21:31:02</sys_created_on>
+                        <sys_id>6a15a55bdbdf5b0040f8fcfa0c961958</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>LGOMEZ</sys_updated_by>
+                        <sys_updated_on>2018-07-19 21:31:02</sys_updated_on>
+                        <value>b605a55bdbdf5b0040f8fcfa0c961980</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 07-19-2018 14:31:02">ae15a55bdbdf5b0040f8fcfa0c961957</portal_section>
+                        <sys_created_by>LGOMEZ</sys_created_by>
+                        <sys_created_on>2018-07-19 21:31:02</sys_created_on>
+                        <sys_id>ae15a55bdbdf5b0040f8fcfa0c961959</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>LGOMEZ</sys_updated_by>
+                        <sys_updated_on>2018-07-19 21:31:02</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_publish</name>
+                        <portal_section display_value="Created 07-19-2018 14:31:02">ae15a55bdbdf5b0040f8fcfa0c961957</portal_section>
+                        <sys_created_by>LGOMEZ</sys_created_by>
+                        <sys_created_on>2018-07-19 21:31:02</sys_created_on>
+                        <sys_id>ea15a55bdbdf5b0040f8fcfa0c961959</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>LGOMEZ</sys_updated_by>
+                        <sys_updated_on>2018-07-19 21:31:02</sys_updated_on>
+                        <value>false</value>
                     </sys_portal_preferences>
                 </related_items_node>
             </sys_portal>
@@ -833,7 +1025,7 @@
                         <sys_created_on>2018-05-25 04:20:40</sys_created_on>
                         <sys_customer_update>false</sys_customer_update>
                         <sys_id>41d92255db92930096b17d8bbf9619f4</sys_id>
-                        <sys_mod_count>13</sys_mod_count>
+                        <sys_mod_count>15</sys_mod_count>
                         <sys_name/>
                         <sys_package display_value="Testing Suite" source="x_sthc_testing_sui">780ce242db829f4096b17d8bbf961976</sys_package>
                         <sys_policy/>
@@ -841,7 +1033,7 @@
                         <sys_scope display_value="Testing Suite">780ce242db829f4096b17d8bbf961976</sys_scope>
                         <sys_update_name>sys_grid_canvas_pane_41d92255db92930096b17d8bbf9619f4</sys_update_name>
                         <sys_updated_by>LGOMEZ</sys_updated_by>
-                        <sys_updated_on>2018-06-07 20:01:08</sys_updated_on>
+                        <sys_updated_on>2018-07-19 21:31:24</sys_updated_on>
                         <width>8</width>
                     </sys_grid_canvas_pane>
                 </related_items_node>

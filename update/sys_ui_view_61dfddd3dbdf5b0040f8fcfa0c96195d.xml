@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_view">
+    <sys_ui_view action="INSERT_OR_UPDATE">
+        <group/>
+        <hidden>false</hidden>
+        <name>rpt-temp35a92615db92930096b17d8bbf9619d167468e1c13b86e801becd0528144b055</name>
+        <roles/>
+        <sys_class_name>sys_ui_view</sys_class_name>
+        <sys_created_by>ALYJONES</sys_created_by>
+        <sys_created_on>2018-07-19 21:08:01</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>61dfddd3dbdf5b0040f8fcfa0c96195d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Testing Suite">780ce242db829f4096b17d8bbf961976</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>ALYJONES</sys_updated_by>
+        <sys_updated_on>2018-07-19 21:08:01</sys_updated_on>
+        <title>Rpt-temp35a92615db92930096b17d8bbf9619d167468e1c13b86e801becd0528144b055</title>
+        <user/>
+    </sys_ui_view>
+</record_update>

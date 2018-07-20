@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element extends="planned_task" label="Test Plan" max_length="40" name="x_sthc_testing_sui_test_plan" sizeclass="2" type="collection">
+    <element extends="planned_task" label="Test Plan" max_length="40" name="x_sthc_testing_sui_test_plan" type="collection">
         <element label="Test scripts  failed" max_length="40" name="test_scripts_failed" type="integer"/>
         <element label="Test scripts passed" max_length="40" name="test_scripts_passed" type="integer"/>
     </element>

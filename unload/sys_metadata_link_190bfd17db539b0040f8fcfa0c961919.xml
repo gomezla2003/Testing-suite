@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>unload</directory>
+        <documentkey>565c9d5fdb9f5b0040f8fcfa0c96194d</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="x_sthc_testing_sui_test_step">
+    <x_sthc_testing_sui_test_step action="INSERT_OR_UPDATE">
+        <applicaiton>OpTime</applicaiton>
+        <assignment_group/>
+        <detailed_description/>
+        <expected_result/>
+        <number>TS0001923</number>
+        <order>58</order>
+        <prep_step>false</prep_step>
+        <state>draft</state>
+        <sys_created_by>RBUSCH</sys_created_by>
+        <sys_created_on>2018-07-19 20:52:47</sys_created_on>
+        <sys_id>565c9d5fdb9f5b0040f8fcfa0c96194d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>RBUSCH</sys_updated_by>
+        <sys_updated_on>2018-07-19 20:52:47</sys_updated_on>
+        <test>Status Board-Double click your patient, to open the chart</test>
+        <test_script display_value="TES0001004">1ebb155fdb9f5b0040f8fcfa0c9619bf</test_script>
+        <testing_user>SURAMBMD</testing_user>
+    </x_sthc_testing_sui_test_step>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>LGOMEZ</sys_created_by>
+        <sys_created_on>2018-07-19 23:06:47</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>190bfd17db539b0040f8fcfa0c961919</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TS0001923</sys_name>
+        <sys_package display_value="Testing Suite" source="x_sthc_testing_sui">780ce242db829f4096b17d8bbf961976</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Testing Suite">780ce242db829f4096b17d8bbf961976</sys_scope>
+        <sys_update_name>sys_metadata_link_190bfd17db539b0040f8fcfa0c961919</sys_update_name>
+        <sys_updated_by>LGOMEZ</sys_updated_by>
+        <sys_updated_on>2018-07-19 23:06:47</sys_updated_on>
+        <tablename>x_sthc_testing_sui_test_step</tablename>
+    </sys_metadata_link>
+</record_update>

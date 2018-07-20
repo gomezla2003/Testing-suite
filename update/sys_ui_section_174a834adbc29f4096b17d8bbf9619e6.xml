@@ -183,6 +183,20 @@
             <sys_user/>
             <type/>
         </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>prep_step</element>
+            <position>13</position>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2018-07-19 19:45:20</sys_created_on>
+            <sys_id>52eccd17db5f5b0040f8fcfa0c96191c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_sthc_testing_sui_test_step" sys_domain="global" view="Default view">174a834adbc29f4096b17d8bbf9619e6</sys_ui_section>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2018-07-19 19:45:20</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption/>
             <header>false</header>

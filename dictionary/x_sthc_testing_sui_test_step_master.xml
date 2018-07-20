@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="sys_import_set_row" label="test step master" max_length="40" name="x_sthc_testing_sui_test_step_master" type="collection">
+        <element attributes="import_attribute_name=Application,edge_encryption_enabled=true" label="Application" max_length="40" name="u_application" type="string"/>
+        <element attributes="import_attribute_name=Expected Result,edge_encryption_enabled=true" label="Expected Result" max_length="334" name="u_expected_result" type="string"/>
+        <element attributes="import_attribute_name=Inputs,edge_encryption_enabled=true" label="Inputs" max_length="235" name="u_inputs" type="string"/>
+        <element attributes="import_attribute_name=Number,edge_encryption_enabled=true" label="Number" max_length="40" name="u_number" type="string"/>
+        <element attributes="import_attribute_name=Order" label="Order" max_length="40" name="u_order" type="integer"/>
+        <element attributes="import_attribute_name=Test,edge_encryption_enabled=true" label="Test" max_length="376" name="u_test" type="string"/>
+        <element attributes="import_attribute_name=Testing User,edge_encryption_enabled=true" label="Testing User" max_length="40" name="u_testing_user" type="string"/>
+        <element attributes="import_attribute_name=Test Script,edge_encryption_enabled=true" label="Test Script" max_length="40" name="u_test_script" type="string"/>
+    </element>
+</database>

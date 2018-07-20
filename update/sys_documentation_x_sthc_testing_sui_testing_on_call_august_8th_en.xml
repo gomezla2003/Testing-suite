@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="august_8th" label="August 8th" language="en" table="x_sthc_testing_sui_testing_on_call">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>august_8th</element>
+            <help/>
+            <hint/>
+            <label>August 8th</label>
+            <language>en</language>
+            <name>x_sthc_testing_sui_testing_on_call</name>
+            <plural>August 8ths</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2018-07-19 22:08:38</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>e9bd2d57db139b0040f8fcfa0c9619bb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>August 8th</sys_name>
+            <sys_package display_value="Testing Suite" source="x_sthc_testing_sui">780ce242db829f4096b17d8bbf961976</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Testing Suite">780ce242db829f4096b17d8bbf961976</sys_scope>
+            <sys_update_name>sys_documentation_x_sthc_testing_sui_testing_on_call_august_8th_en</sys_update_name>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2018-07-19 22:08:38</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

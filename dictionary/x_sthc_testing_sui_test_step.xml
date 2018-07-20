@@ -7,6 +7,7 @@
         <element label="Expected Result" max_length="1000" name="expected_result" type="string"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element label="Order" max_length="40" name="order" type="integer"/>
+        <element label="Prep Step" max_length="40" name="prep_step" type="boolean"/>
         <element choice="1" default="draft" label="State" max_length="40" name="state" type="string">
             <choice>
                 <element label="Draft" sequence="0" value="draft"/>

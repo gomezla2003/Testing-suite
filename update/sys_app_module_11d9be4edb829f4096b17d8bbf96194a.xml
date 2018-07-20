@@ -19,7 +19,7 @@
         <override_menu_roles>false</override_menu_roles>
         <query/>
         <report/>
-        <roles>x_sthc_testing_sui.test_plan_user</roles>
+        <roles/>
         <survey/>
         <survey_overwrite>true</survey_overwrite>
         <sys_class_name>sys_app_module</sys_class_name>
@@ -28,7 +28,7 @@
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>11d9be4edb829f4096b17d8bbf96194a</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Test Plans</sys_name>
         <sys_overrides/>
         <sys_package display_value="Testing Suite" source="x_sthc_testing_sui">780ce242db829f4096b17d8bbf961976</sys_package>
@@ -37,7 +37,7 @@
         <sys_scope display_value="Testing Suite">780ce242db829f4096b17d8bbf961976</sys_scope>
         <sys_update_name>sys_app_module_11d9be4edb829f4096b17d8bbf96194a</sys_update_name>
         <sys_updated_by>LGOMEZ</sys_updated_by>
-        <sys_updated_on>2018-05-21 16:00:12</sys_updated_on>
+        <sys_updated_on>2018-07-19 21:07:42</sys_updated_on>
         <timeline_page/>
         <title>Test Plans</title>
         <uncancelable>false</uncancelable>

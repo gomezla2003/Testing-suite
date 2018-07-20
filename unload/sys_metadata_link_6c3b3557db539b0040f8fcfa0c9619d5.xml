@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>unload</directory>
+        <documentkey>6a56e95fdbdf5b0040f8fcfa0c96194d</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="x_sthc_testing_sui_test_step">
+    <x_sthc_testing_sui_test_step action="INSERT_OR_UPDATE">
+        <applicaiton>Cadence</applicaiton>
+        <assignment_group/>
+        <detailed_description/>
+        <expected_result/>
+        <number>TS0004600</number>
+        <order>14</order>
+        <prep_step>false</prep_step>
+        <state>draft</state>
+        <sys_created_by>SHILL</sys_created_by>
+        <sys_created_on>2018-07-19 21:36:30</sys_created_on>
+        <sys_id>6a56e95fdbdf5b0040f8fcfa0c96194d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SHILL</sys_updated_by>
+        <sys_updated_on>2018-07-19 21:36:30</sys_updated_on>
+        <test>Open the SOWQ, find patient and validate referral status of authorized. Double click on patient to schedule.</test>
+        <test_script display_value="TES0001020">3c9f19d3dbdf5b0040f8fcfa0c961918</test_script>
+        <testing_user>VPCFD - New patient coordinator</testing_user>
+    </x_sthc_testing_sui_test_step>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>LGOMEZ</sys_created_by>
+        <sys_created_on>2018-07-19 23:07:33</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>6c3b3557db539b0040f8fcfa0c9619d5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TS0004600</sys_name>
+        <sys_package display_value="Testing Suite" source="x_sthc_testing_sui">780ce242db829f4096b17d8bbf961976</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Testing Suite">780ce242db829f4096b17d8bbf961976</sys_scope>
+        <sys_update_name>sys_metadata_link_6c3b3557db539b0040f8fcfa0c9619d5</sys_update_name>
+        <sys_updated_by>LGOMEZ</sys_updated_by>
+        <sys_updated_on>2018-07-19 23:07:33</sys_updated_on>
+        <tablename>x_sthc_testing_sui_test_step</tablename>
+    </sys_metadata_link>
+</record_update>

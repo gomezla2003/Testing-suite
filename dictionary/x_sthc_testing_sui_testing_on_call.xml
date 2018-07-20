@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Testing on-call" max_length="40" name="x_sthc_testing_sui_testing_on_call" type="collection">
+        <element label="Assignment Group" mandatory="true" max_length="32" name="assignment_group" reference="sys_user_group" type="reference"/>
+        <element label="August 13th" max_length="32" name="august_13th" reference="sys_user" type="reference"/>
+        <element label="August 14th" max_length="32" name="august_14th" reference="sys_user" type="reference"/>
+        <element label="August 15th" max_length="32" name="august_15th" reference="sys_user" type="reference"/>
+        <element label="August 1st" max_length="32" name="august_1st" reference="sys_user" type="reference"/>
+        <element label="August 20th" max_length="32" name="august_20th" reference="sys_user" type="reference"/>
+        <element label="August 21st" max_length="32" name="august_21st" reference="sys_user" type="reference"/>
+        <element label="August 22st" max_length="32" name="august_22st" reference="sys_user" type="reference"/>
+        <element label="August 27th" max_length="32" name="august_27th" reference="sys_user" type="reference"/>
+        <element label="August 28th" max_length="32" name="august_28th" reference="sys_user" type="reference"/>
+        <element label="August 29th" max_length="32" name="august_29th" reference="sys_user" type="reference"/>
+        <element label="August 6th" max_length="32" name="august_6th" reference="sys_user" type="reference"/>
+        <element label="August 7th" max_length="32" name="august_7th" reference="sys_user" type="reference"/>
+        <element label="August 8th" max_length="32" name="august_8th" reference="sys_user" type="reference"/>
+        <element label="July24th" max_length="32" name="july24th" reference="sys_user" type="reference"/>
+        <element label="July 23rd" max_length="32" name="july_23rd" reference="sys_user" type="reference"/>
+        <element label="July 25th" max_length="32" name="july_25th" reference="sys_user" type="reference"/>
+        <element label="July 30th" max_length="32" name="july_30th" reference="sys_user" type="reference"/>
+        <element label="July 31st" max_length="32" name="july_31st" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="assignment_group"/>
+        </index>
+        <index name="index2">
+            <element name="august_22st"/>
+        </index>
+        <index name="index3">
+            <element name="august_21st"/>
+        </index>
+        <index name="index4">
+            <element name="august_14th"/>
+        </index>
+        <index name="index5">
+            <element name="august_8th"/>
+        </index>
+        <index name="index6">
+            <element name="august_13th"/>
+        </index>
+        <index name="index7">
+            <element name="july_31st"/>
+        </index>
+        <index name="index8">
+            <element name="august_29th"/>
+        </index>
+        <index name="index9">
+            <element name="august_28th"/>
+        </index>
+        <index name="index10">
+            <element name="august_1st"/>
+        </index>
+        <index name="index11">
+            <element name="august_27th"/>
+        </index>
+        <index name="index12">
+            <element name="august_15th"/>
+        </index>
+        <index name="index13">
+            <element name="july24th"/>
+        </index>
+        <index name="index14">
+            <element name="july_25th"/>
+        </index>
+        <index name="index15">
+            <element name="august_20th"/>
+        </index>
+        <index name="index16">
+            <element name="july_30th"/>
+        </index>
+        <index name="index17">
+            <element name="august_6th"/>
+        </index>
+        <index name="index18">
+            <element name="august_7th"/>
+        </index>
+        <index name="index19">
+            <element name="july_23rd"/>
+        </index>
+    </element>
+</database>

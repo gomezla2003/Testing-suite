@@ -37,7 +37,7 @@
         <exp_report_attrs>true</exp_report_attrs>
         <field>state</field>
         <field_list/>
-        <filter table="rm_defect">u_test_scriptISNOTEMPTY^EQ^GROUPBYstate<item endquery="false" field="u_test_script" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
+        <filter table="rm_defect">sys_created_on&gt;=javascript:gs.dateGenerate('2018-07-19','12:00:00')^EQ^GROUPBYstate<item endquery="false" field="sys_created_on" goto="false" newquery="false" operator="&gt;=" or="false" value="javascript:gs.dateGenerate('2018-07-19','12:00:00')"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
             <item endquery="false" field="" goto="false" newquery="false" operator="GROUPBY" or="false" value="state"/>
         </filter>
@@ -63,8 +63,8 @@
         <map display_value="World">93b8a3a2d7101200bd4a4ebfae61033a</map>
         <map_source/>
         <orderby_list/>
-        <other_threshold>-2</other_threshold>
-        <others>true</others>
+        <other_threshold>-1</other_threshold>
+        <others>false</others>
         <page_hdrftr/>
         <pivot_expanded>true</pivot_expanded>
         <report_drilldown/>
@@ -93,7 +93,7 @@
         <sys_created_on>2018-05-25 03:36:56</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>54dfda99db52930096b17d8bbf96199b</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Defects from testing</sys_name>
         <sys_package display_value="Testing Suite" source="x_sthc_testing_sui">780ce242db829f4096b17d8bbf961976</sys_package>
         <sys_policy/>
@@ -101,7 +101,7 @@
         <sys_scope display_value="Testing Suite">780ce242db829f4096b17d8bbf961976</sys_scope>
         <sys_update_name>sys_report_54dfda99db52930096b17d8bbf96199b</sys_update_name>
         <sys_updated_by>LGOMEZ</sys_updated_by>
-        <sys_updated_on>2018-05-25 03:46:50</sys_updated_on>
+        <sys_updated_on>2018-07-20 16:09:56</sys_updated_on>
         <table>rm_defect</table>
         <title>Defects from testing</title>
         <title_horizontal_alignment>center</title_horizontal_alignment>

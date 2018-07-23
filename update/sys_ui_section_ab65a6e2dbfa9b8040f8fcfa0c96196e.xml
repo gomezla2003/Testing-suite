@@ -5,13 +5,13 @@
             <element>test_script</element>
             <position>0</position>
             <sys_created_by>LGOMEZ</sys_created_by>
-            <sys_created_on>2018-06-22 21:45:15</sys_created_on>
-            <sys_id>23656226dbfa9b8040f8fcfa0c9619f9</sys_id>
+            <sys_created_on>2018-07-23 20:38:19</sys_created_on>
+            <sys_id>d56f7960dba7df0040f8fcfa0c9619d5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_sthc_testing_sui_test_script_comments" sys_domain="global" view="Default view">ab65a6e2dbfa9b8040f8fcfa0c96196e</sys_ui_section>
             <sys_updated_by>LGOMEZ</sys_updated_by>
-            <sys_updated_on>2018-06-22 21:45:15</sys_updated_on>
+            <sys_updated_on>2018-07-23 20:38:19</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -19,13 +19,13 @@
             <element>message</element>
             <position>1</position>
             <sys_created_by>LGOMEZ</sys_created_by>
-            <sys_created_on>2018-06-22 21:45:15</sys_created_on>
-            <sys_id>a7656226dbfa9b8040f8fcfa0c9619f9</sys_id>
+            <sys_created_on>2018-07-23 20:38:19</sys_created_on>
+            <sys_id>5d6f7960dba7df0040f8fcfa0c9619d5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_sthc_testing_sui_test_script_comments" sys_domain="global" view="Default view">ab65a6e2dbfa9b8040f8fcfa0c96196e</sys_ui_section>
             <sys_updated_by>LGOMEZ</sys_updated_by>
-            <sys_updated_on>2018-06-22 21:45:15</sys_updated_on>
+            <sys_updated_on>2018-07-23 20:38:19</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -33,13 +33,13 @@
             <element>.begin_split</element>
             <position>2</position>
             <sys_created_by>LGOMEZ</sys_created_by>
-            <sys_created_on>2018-06-22 21:45:15</sys_created_on>
-            <sys_id>2b656226dbfa9b8040f8fcfa0c9619f9</sys_id>
+            <sys_created_on>2018-07-23 20:38:19</sys_created_on>
+            <sys_id>dd6f7960dba7df0040f8fcfa0c9619d5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_sthc_testing_sui_test_script_comments" sys_domain="global" view="Default view">ab65a6e2dbfa9b8040f8fcfa0c96196e</sys_ui_section>
             <sys_updated_by>LGOMEZ</sys_updated_by>
-            <sys_updated_on>2018-06-22 21:45:15</sys_updated_on>
+            <sys_updated_on>2018-07-23 20:38:19</sys_updated_on>
             <sys_user/>
             <type>.begin_split</type>
         </sys_ui_element>
@@ -47,13 +47,13 @@
             <element>reporting_user</element>
             <position>3</position>
             <sys_created_by>LGOMEZ</sys_created_by>
-            <sys_created_on>2018-06-22 21:45:15</sys_created_on>
-            <sys_id>ab656226dbfa9b8040f8fcfa0c9619f9</sys_id>
+            <sys_created_on>2018-07-23 20:38:19</sys_created_on>
+            <sys_id>516f7960dba7df0040f8fcfa0c9619d6</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_sthc_testing_sui_test_script_comments" sys_domain="global" view="Default view">ab65a6e2dbfa9b8040f8fcfa0c96196e</sys_ui_section>
             <sys_updated_by>LGOMEZ</sys_updated_by>
-            <sys_updated_on>2018-06-22 21:45:15</sys_updated_on>
+            <sys_updated_on>2018-07-23 20:38:19</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -61,13 +61,13 @@
             <element>.split</element>
             <position>4</position>
             <sys_created_by>LGOMEZ</sys_created_by>
-            <sys_created_on>2018-06-22 21:45:15</sys_created_on>
-            <sys_id>2f656226dbfa9b8040f8fcfa0c9619f9</sys_id>
+            <sys_created_on>2018-07-23 20:38:19</sys_created_on>
+            <sys_id>d16f7960dba7df0040f8fcfa0c9619d6</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_sthc_testing_sui_test_script_comments" sys_domain="global" view="Default view">ab65a6e2dbfa9b8040f8fcfa0c96196e</sys_ui_section>
             <sys_updated_by>LGOMEZ</sys_updated_by>
-            <sys_updated_on>2018-06-22 21:45:15</sys_updated_on>
+            <sys_updated_on>2018-07-23 20:38:19</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -75,13 +75,13 @@
             <element>state</element>
             <position>5</position>
             <sys_created_by>LGOMEZ</sys_created_by>
-            <sys_created_on>2018-06-22 21:45:15</sys_created_on>
-            <sys_id>af656226dbfa9b8040f8fcfa0c9619f9</sys_id>
+            <sys_created_on>2018-07-23 20:38:19</sys_created_on>
+            <sys_id>556f7960dba7df0040f8fcfa0c9619d6</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_sthc_testing_sui_test_script_comments" sys_domain="global" view="Default view">ab65a6e2dbfa9b8040f8fcfa0c96196e</sys_ui_section>
             <sys_updated_by>LGOMEZ</sys_updated_by>
-            <sys_updated_on>2018-06-22 21:45:15</sys_updated_on>
+            <sys_updated_on>2018-07-23 20:38:19</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -89,15 +89,29 @@
             <element>.end_split</element>
             <position>6</position>
             <sys_created_by>LGOMEZ</sys_created_by>
-            <sys_created_on>2018-06-22 21:45:15</sys_created_on>
-            <sys_id>23656226dbfa9b8040f8fcfa0c9619fa</sys_id>
+            <sys_created_on>2018-07-23 20:38:19</sys_created_on>
+            <sys_id>d56f7960dba7df0040f8fcfa0c9619d6</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_sthc_testing_sui_test_script_comments" sys_domain="global" view="Default view">ab65a6e2dbfa9b8040f8fcfa0c96196e</sys_ui_section>
             <sys_updated_by>LGOMEZ</sys_updated_by>
-            <sys_updated_on>2018-06-22 21:45:15</sys_updated_on>
+            <sys_updated_on>2018-07-23 20:38:19</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>activity.xml</element>
+            <position>7</position>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2018-07-23 20:38:19</sys_created_on>
+            <sys_id>596f7960dba7df0040f8fcfa0c9619d6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="Activities (filtered)">444ea5c6bf310100e628555b3f0739d6</sys_ui_formatter>
+            <sys_ui_section caption="NULL" display_value="" name="x_sthc_testing_sui_test_script_comments" sys_domain="global" view="Default view">ab65a6e2dbfa9b8040f8fcfa0c96196e</sys_ui_section>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2018-07-23 20:38:19</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
         </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption/>

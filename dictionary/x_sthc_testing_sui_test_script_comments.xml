@@ -9,7 +9,7 @@
                 <element label="New" value="new"/>
             </choice>
         </element>
-        <element label="Test Script" max_length="32" name="test_script" reference="tm_test_case_instance" type="reference"/>
+        <element label="Test Script" max_length="32" name="test_script" reference="x_sthc_testing_sui_test_script_instance" type="reference"/>
         <index name="index">
             <element name="reporting_user"/>
         </index>

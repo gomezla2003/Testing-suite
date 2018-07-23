@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element extends="planned_task" label="Test Step Instance" max_length="40" name="x_sthc_testing_sui_test_step_instance" sizeclass="1519" type="collection">
+    <element extends="planned_task" label="Test Step Instance" max_length="40" name="x_sthc_testing_sui_test_step_instance" sizeclass="1671" type="collection">
         <element label="Actual Result" max_length="1000" name="actual_result" type="string"/>
         <element label="Application" max_length="40" name="application" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="1" default="unexecuted" label="Execution Status" max_length="40" name="execution_status" type="string">

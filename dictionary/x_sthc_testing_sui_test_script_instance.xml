@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element extends="planned_task" label="Test Script Instance" max_length="40" name="x_sthc_testing_sui_test_script_instance" sizeclass="6" type="collection">
+    <element extends="planned_task" label="Test Script Instance" max_length="40" name="x_sthc_testing_sui_test_script_instance" sizeclass="7" type="collection">
         <element attributes="edge_encryption_enabled=true" label="Arrival Information &amp; Providers" max_length="40" name="arrival_info" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Billing Provider" max_length="40" name="billing_provider" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Copay" max_length="40" name="copay" type="string"/>

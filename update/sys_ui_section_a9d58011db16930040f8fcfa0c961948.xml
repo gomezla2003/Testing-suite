@@ -5,13 +5,13 @@
             <element>patient_name</element>
             <position>0</position>
             <sys_created_by>LGOMEZ</sys_created_by>
-            <sys_created_on>2018-06-07 20:09:23</sys_created_on>
-            <sys_id>05afb8f9db2e574040f8fcfa0c9619e1</sys_id>
+            <sys_created_on>2018-07-20 22:25:29</sys_created_on>
+            <sys_id>822b32abdb5bdb0040f8fcfa0c9619c3</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Patient Information" display_value="Patient Information" name="x_sthc_testing_sui_test_script_instance" sys_domain="global" view="Default view">a9d58011db16930040f8fcfa0c961948</sys_ui_section>
             <sys_updated_by>LGOMEZ</sys_updated_by>
-            <sys_updated_on>2018-06-07 20:09:23</sys_updated_on>
+            <sys_updated_on>2018-07-20 22:25:29</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -19,13 +19,13 @@
             <element>dob</element>
             <position>1</position>
             <sys_created_by>LGOMEZ</sys_created_by>
-            <sys_created_on>2018-06-07 20:09:23</sys_created_on>
-            <sys_id>c9afb8f9db2e574040f8fcfa0c9619e1</sys_id>
+            <sys_created_on>2018-07-20 22:25:29</sys_created_on>
+            <sys_id>0a2b32abdb5bdb0040f8fcfa0c9619c3</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Patient Information" display_value="Patient Information" name="x_sthc_testing_sui_test_script_instance" sys_domain="global" view="Default view">a9d58011db16930040f8fcfa0c961948</sys_ui_section>
             <sys_updated_by>LGOMEZ</sys_updated_by>
-            <sys_updated_on>2018-06-07 20:09:23</sys_updated_on>
+            <sys_updated_on>2018-07-20 22:25:29</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -33,209 +33,167 @@
             <element>service_date</element>
             <position>2</position>
             <sys_created_by>LGOMEZ</sys_created_by>
-            <sys_created_on>2018-06-07 20:09:23</sys_created_on>
-            <sys_id>4dafb8f9db2e574040f8fcfa0c9619e1</sys_id>
+            <sys_created_on>2018-07-20 22:25:29</sys_created_on>
+            <sys_id>8a2b32abdb5bdb0040f8fcfa0c9619c3</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Patient Information" display_value="Patient Information" name="x_sthc_testing_sui_test_script_instance" sys_domain="global" view="Default view">a9d58011db16930040f8fcfa0c961948</sys_ui_section>
             <sys_updated_by>LGOMEZ</sys_updated_by>
-            <sys_updated_on>2018-06-07 20:09:23</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>guarantor</element>
-            <position>3</position>
-            <sys_created_by>LGOMEZ</sys_created_by>
-            <sys_created_on>2018-06-07 20:09:23</sys_created_on>
-            <sys_id>cdafb8f9db2e574040f8fcfa0c9619e1</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Patient Information" display_value="Patient Information" name="x_sthc_testing_sui_test_script_instance" sys_domain="global" view="Default view">a9d58011db16930040f8fcfa0c961948</sys_ui_section>
-            <sys_updated_by>LGOMEZ</sys_updated_by>
-            <sys_updated_on>2018-06-07 20:09:23</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>guarantor_relationship</element>
-            <position>4</position>
-            <sys_created_by>LGOMEZ</sys_created_by>
-            <sys_created_on>2018-06-07 20:09:23</sys_created_on>
-            <sys_id>41afb8f9db2e574040f8fcfa0c9619e2</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Patient Information" display_value="Patient Information" name="x_sthc_testing_sui_test_script_instance" sys_domain="global" view="Default view">a9d58011db16930040f8fcfa0c961948</sys_ui_section>
-            <sys_updated_by>LGOMEZ</sys_updated_by>
-            <sys_updated_on>2018-06-07 20:09:23</sys_updated_on>
+            <sys_updated_on>2018-07-20 22:25:29</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>copay</element>
-            <position>5</position>
+            <position>3</position>
             <sys_created_by>LGOMEZ</sys_created_by>
-            <sys_created_on>2018-06-07 20:09:23</sys_created_on>
-            <sys_id>c1afb8f9db2e574040f8fcfa0c9619e2</sys_id>
+            <sys_created_on>2018-07-20 22:25:29</sys_created_on>
+            <sys_id>0e2b32abdb5bdb0040f8fcfa0c9619c3</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Patient Information" display_value="Patient Information" name="x_sthc_testing_sui_test_script_instance" sys_domain="global" view="Default view">a9d58011db16930040f8fcfa0c961948</sys_ui_section>
             <sys_updated_by>LGOMEZ</sys_updated_by>
-            <sys_updated_on>2018-06-07 20:09:23</sys_updated_on>
+            <sys_updated_on>2018-07-20 22:25:29</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>visit_type</element>
-            <position>6</position>
+            <position>4</position>
             <sys_created_by>LGOMEZ</sys_created_by>
-            <sys_created_on>2018-06-07 20:09:23</sys_created_on>
-            <sys_id>45afb8f9db2e574040f8fcfa0c9619e2</sys_id>
+            <sys_created_on>2018-07-20 22:25:29</sys_created_on>
+            <sys_id>8e2b32abdb5bdb0040f8fcfa0c9619c3</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Patient Information" display_value="Patient Information" name="x_sthc_testing_sui_test_script_instance" sys_domain="global" view="Default view">a9d58011db16930040f8fcfa0c961948</sys_ui_section>
             <sys_updated_by>LGOMEZ</sys_updated_by>
-            <sys_updated_on>2018-06-07 20:09:23</sys_updated_on>
+            <sys_updated_on>2018-07-20 22:25:29</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>orders</element>
-            <position>7</position>
+            <position>5</position>
             <sys_created_by>LGOMEZ</sys_created_by>
-            <sys_created_on>2018-06-07 20:09:23</sys_created_on>
-            <sys_id>c5afb8f9db2e574040f8fcfa0c9619e2</sys_id>
+            <sys_created_on>2018-07-20 22:25:29</sys_created_on>
+            <sys_id>022b32abdb5bdb0040f8fcfa0c9619c4</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Patient Information" display_value="Patient Information" name="x_sthc_testing_sui_test_script_instance" sys_domain="global" view="Default view">a9d58011db16930040f8fcfa0c961948</sys_ui_section>
             <sys_updated_by>LGOMEZ</sys_updated_by>
-            <sys_updated_on>2018-06-07 20:09:23</sys_updated_on>
+            <sys_updated_on>2018-07-20 22:25:29</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>8</position>
+            <position>6</position>
             <sys_created_by>LGOMEZ</sys_created_by>
-            <sys_created_on>2018-06-07 20:09:23</sys_created_on>
-            <sys_id>49afb8f9db2e574040f8fcfa0c9619e2</sys_id>
+            <sys_created_on>2018-07-20 22:25:29</sys_created_on>
+            <sys_id>822b32abdb5bdb0040f8fcfa0c9619c4</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Patient Information" display_value="Patient Information" name="x_sthc_testing_sui_test_script_instance" sys_domain="global" view="Default view">a9d58011db16930040f8fcfa0c961948</sys_ui_section>
             <sys_updated_by>LGOMEZ</sys_updated_by>
-            <sys_updated_on>2018-06-07 20:09:23</sys_updated_on>
+            <sys_updated_on>2018-07-20 22:25:29</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>mrn</element>
-            <position>9</position>
+            <position>7</position>
             <sys_created_by>LGOMEZ</sys_created_by>
-            <sys_created_on>2018-06-07 20:09:23</sys_created_on>
-            <sys_id>c9afb8f9db2e574040f8fcfa0c9619e2</sys_id>
+            <sys_created_on>2018-07-20 22:25:29</sys_created_on>
+            <sys_id>062b32abdb5bdb0040f8fcfa0c9619c4</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Patient Information" display_value="Patient Information" name="x_sthc_testing_sui_test_script_instance" sys_domain="global" view="Default view">a9d58011db16930040f8fcfa0c961948</sys_ui_section>
             <sys_updated_by>LGOMEZ</sys_updated_by>
-            <sys_updated_on>2018-06-07 20:09:23</sys_updated_on>
+            <sys_updated_on>2018-07-20 22:25:29</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>har</element>
-            <position>10</position>
+            <position>8</position>
             <sys_created_by>LGOMEZ</sys_created_by>
-            <sys_created_on>2018-06-07 20:09:23</sys_created_on>
-            <sys_id>4dafb8f9db2e574040f8fcfa0c9619e2</sys_id>
+            <sys_created_on>2018-07-20 22:25:29</sys_created_on>
+            <sys_id>862b32abdb5bdb0040f8fcfa0c9619c4</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Patient Information" display_value="Patient Information" name="x_sthc_testing_sui_test_script_instance" sys_domain="global" view="Default view">a9d58011db16930040f8fcfa0c961948</sys_ui_section>
             <sys_updated_by>LGOMEZ</sys_updated_by>
-            <sys_updated_on>2018-06-07 20:09:23</sys_updated_on>
+            <sys_updated_on>2018-07-20 22:25:29</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>location</element>
-            <position>11</position>
+            <position>9</position>
             <sys_created_by>LGOMEZ</sys_created_by>
-            <sys_created_on>2018-06-07 20:09:23</sys_created_on>
-            <sys_id>cdafb8f9db2e574040f8fcfa0c9619e2</sys_id>
+            <sys_created_on>2018-07-20 22:25:29</sys_created_on>
+            <sys_id>0a2b32abdb5bdb0040f8fcfa0c9619c4</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Patient Information" display_value="Patient Information" name="x_sthc_testing_sui_test_script_instance" sys_domain="global" view="Default view">a9d58011db16930040f8fcfa0c961948</sys_ui_section>
             <sys_updated_by>LGOMEZ</sys_updated_by>
-            <sys_updated_on>2018-06-07 20:09:23</sys_updated_on>
+            <sys_updated_on>2018-07-20 22:25:29</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>guarantor_type</element>
-            <position>12</position>
+            <position>10</position>
             <sys_created_by>LGOMEZ</sys_created_by>
-            <sys_created_on>2018-06-07 20:09:23</sys_created_on>
-            <sys_id>41afb8f9db2e574040f8fcfa0c9619e3</sys_id>
+            <sys_created_on>2018-07-20 22:25:29</sys_created_on>
+            <sys_id>8a2b32abdb5bdb0040f8fcfa0c9619c4</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Patient Information" display_value="Patient Information" name="x_sthc_testing_sui_test_script_instance" sys_domain="global" view="Default view">a9d58011db16930040f8fcfa0c961948</sys_ui_section>
             <sys_updated_by>LGOMEZ</sys_updated_by>
-            <sys_updated_on>2018-06-07 20:09:23</sys_updated_on>
+            <sys_updated_on>2018-07-20 22:25:29</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>coverage</element>
-            <position>13</position>
+            <position>11</position>
             <sys_created_by>LGOMEZ</sys_created_by>
-            <sys_created_on>2018-06-07 20:09:23</sys_created_on>
-            <sys_id>c1afb8f9db2e574040f8fcfa0c9619e3</sys_id>
+            <sys_created_on>2018-07-20 22:25:29</sys_created_on>
+            <sys_id>0e2b32abdb5bdb0040f8fcfa0c9619c4</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Patient Information" display_value="Patient Information" name="x_sthc_testing_sui_test_script_instance" sys_domain="global" view="Default view">a9d58011db16930040f8fcfa0c961948</sys_ui_section>
             <sys_updated_by>LGOMEZ</sys_updated_by>
-            <sys_updated_on>2018-06-07 20:09:23</sys_updated_on>
+            <sys_updated_on>2018-07-20 22:25:29</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>arrival_info</element>
-            <position>14</position>
+            <position>12</position>
             <sys_created_by>LGOMEZ</sys_created_by>
-            <sys_created_on>2018-06-07 20:09:23</sys_created_on>
-            <sys_id>45afb8f9db2e574040f8fcfa0c9619e3</sys_id>
+            <sys_created_on>2018-07-20 22:25:29</sys_created_on>
+            <sys_id>8e2b32abdb5bdb0040f8fcfa0c9619c4</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Patient Information" display_value="Patient Information" name="x_sthc_testing_sui_test_script_instance" sys_domain="global" view="Default view">a9d58011db16930040f8fcfa0c961948</sys_ui_section>
             <sys_updated_by>LGOMEZ</sys_updated_by>
-            <sys_updated_on>2018-06-07 20:09:23</sys_updated_on>
+            <sys_updated_on>2018-07-20 22:25:29</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>billing_provider</element>
-            <position>15</position>
+            <position>13</position>
             <sys_created_by>LGOMEZ</sys_created_by>
-            <sys_created_on>2018-06-07 20:09:23</sys_created_on>
-            <sys_id>c5afb8f9db2e574040f8fcfa0c9619e3</sys_id>
+            <sys_created_on>2018-07-20 22:25:29</sys_created_on>
+            <sys_id>022b32abdb5bdb0040f8fcfa0c9619c5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Patient Information" display_value="Patient Information" name="x_sthc_testing_sui_test_script_instance" sys_domain="global" view="Default view">a9d58011db16930040f8fcfa0c961948</sys_ui_section>
             <sys_updated_by>LGOMEZ</sys_updated_by>
-            <sys_updated_on>2018-06-07 20:09:23</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>orders2</element>
-            <position>16</position>
-            <sys_created_by>LGOMEZ</sys_created_by>
-            <sys_created_on>2018-06-07 20:09:23</sys_created_on>
-            <sys_id>49afb8f9db2e574040f8fcfa0c9619e3</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Patient Information" display_value="Patient Information" name="x_sthc_testing_sui_test_script_instance" sys_domain="global" view="Default view">a9d58011db16930040f8fcfa0c961948</sys_ui_section>
-            <sys_updated_by>LGOMEZ</sys_updated_by>
-            <sys_updated_on>2018-06-07 20:09:23</sys_updated_on>
+            <sys_updated_on>2018-07-20 22:25:29</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

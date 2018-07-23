@@ -39,7 +39,7 @@ c.detail = function(id,pid){
 			  var h = screen.height - 200;
         var w = screen.width - 900;
 		    var url = '/csm?id=form&table=x_sthc_testing_sui_test_script_instance&sys_id=' + pid + '&view=datasheet';
-	      var myWindow = window.open(url, "", "width=" + w +",height=" + h);
+	      var myWindow = window.open(url, "", "resizable=1,width=" + w +",height=" + h);
 		
 };		
 				
@@ -48,14 +48,14 @@ c.defect = function(pid){
 		var h = screen.height - 200;
         var w = screen.width - 900;
 		    var url = 'csm?id=sc_cat_item&sys_id=ac5029436f745b0461f06ea22e3ee4cf&script=' + pid ;
-	      var myWindow = window.open(url, "", "width=" + w +",height=" + h);
+	      var myWindow = window.open(url, "", "resizable=1,width=" + w +",height=" + h);
 	};
 	
 c.testMessage	= function(pid){
 		var h = screen.height - 200;
         var w = screen.width - 900;
 		    var url = '/csm?id=sc_cat_item&sys_id=59a94626db7a9b8040f8fcfa0c96193e&script=' + pid ;
-	      var myWindow = window.open(url, "", "width=" + w +",height=" + h);
+	      var myWindow = window.open(url, "", "resizable=1,width=" + w +",height=" + h);
 	
 }
 
@@ -63,7 +63,7 @@ c.testSchedule	= function(){
 		var h = screen.height - 500;
         var w = screen.width - 300;
 		    var url = '/nav_to.do?uri=%2Fx_sthc_testing_sui_testing_on_call_list.do%3Fsysparm_userpref_module%3Dc046a55fdbdf5b0040f8fcfa0c961931%26sysparm_clear_stack%3Dtrue';
-	      var myWindow = window.open(url, "", "width=" + w +",height=" + h);
+	      var myWindow = window.open(url, "", "resizable=1,width=" + w +",height=" + h);
 	
 }
 
@@ -72,7 +72,7 @@ c.defectForm = function(id){
 		var h = screen.height - 200;
         var w = screen.width - 900;
 		    var url = 'csm?id=form&table=rm_defect&sys_id=' + id ;
-	      var myWindow = window.open(url, "", "width=" + w +",height=" + h);
+	      var myWindow = window.open(url, "", "resizable=1,width=" + w +",height=" + h);
 	};
 			
 	c.unexe = function(id){
@@ -419,7 +419,7 @@ data.defectLink = "/csm?id=lf&table=rm_defect&filter=u_test_script="+ param +"&v
         <sys_created_on>2018-05-22 19:55:51</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>3613a6ecdb92d78096b17d8bbf9619b2</sys_id>
-        <sys_mod_count>315</sys_mod_count>
+        <sys_mod_count>316</sys_mod_count>
         <sys_name>Test_Script Scope</sys_name>
         <sys_package display_value="Testing Suite" source="x_sthc_testing_sui">780ce242db829f4096b17d8bbf961976</sys_package>
         <sys_policy/>
@@ -427,7 +427,7 @@ data.defectLink = "/csm?id=lf&table=rm_defect&filter=u_test_script="+ param +"&v
         <sys_scope display_value="Testing Suite">780ce242db829f4096b17d8bbf961976</sys_scope>
         <sys_update_name>sp_widget_3613a6ecdb92d78096b17d8bbf9619b2</sys_update_name>
         <sys_updated_by>LGOMEZ</sys_updated_by>
-        <sys_updated_on>2018-07-20 20:07:33</sys_updated_on>
+        <sys_updated_on>2018-07-23 15:38:45</sys_updated_on>
         <template><![CDATA[
 <!--
 <table class="defects" align="left">

@@ -2,7 +2,7 @@
 <record_update sys_domain="global" table="sys_ui_action">
     <sys_ui_action action="INSERT_OR_UPDATE">
         <action_name/>
-        <active>false</active>
+        <active>true</active>
         <client>true</client>
         <comments>Related UI action to add all Test Cases from current Test Suite to Test Plan</comments>
         <condition/>
@@ -25,9 +25,10 @@
         <order>100</order>
         <script><![CDATA[function testPlan() {
 	
-	
+	var sys_id = g_form.getValue('sys_id');
 	var dialog = new GlideDialogWindow('x_sthc_testing_sui_Add_Test_Plan');
 	dialog.setTitle("Add to test plan");
+	dialog.setPreference('currentRecord', sys_id);
 	dialog.setSize(500,225);
 	dialog.adjustBodySize();
 
@@ -43,21 +44,21 @@
         <show_update>true</show_update>
         <sys_class_name>sys_ui_action</sys_class_name>
         <sys_created_by>LGOMEZ</sys_created_by>
-        <sys_created_on>2018-05-17 20:49:59</sys_created_on>
+        <sys_created_on>2018-07-20 22:47:06</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
-        <sys_id>cb8fb88bdbca538096b17d8bbf961936</sys_id>
-        <sys_mod_count>17</sys_mod_count>
+        <sys_id>ba100b6fdb5bdb0040f8fcfa0c9619fb</sys_id>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Add to Test Plan</sys_name>
         <sys_overrides/>
         <sys_package display_value="Testing Suite" source="x_sthc_testing_sui">780ce242db829f4096b17d8bbf961976</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Testing Suite">780ce242db829f4096b17d8bbf961976</sys_scope>
-        <sys_update_name>sys_ui_action_cb8fb88bdbca538096b17d8bbf961936</sys_update_name>
+        <sys_update_name>sys_ui_action_ba100b6fdb5bdb0040f8fcfa0c9619fb</sys_update_name>
         <sys_updated_by>LGOMEZ</sys_updated_by>
-        <sys_updated_on>2018-07-20 22:25:58</sys_updated_on>
-        <table>x_sthc_testing_sui_testing_suite</table>
+        <sys_updated_on>2018-07-23 16:03:58</sys_updated_on>
+        <table>x_sthc_testing_sui_test_script</table>
         <ui11_compatible>false</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>
     </sys_ui_action>

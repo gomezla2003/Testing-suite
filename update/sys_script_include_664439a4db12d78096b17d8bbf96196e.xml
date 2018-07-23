@@ -14,10 +14,9 @@ Create_Test_Scripts.prototype = Object.extendsObject(global.AbstractAjaxProcesso
 		
 		var plan = this.getParameter('sysparm_plan');
 		var suite = this.getParameter('sysparm_suite');
-	
 		var script = new GlideRecord('x_sthc_testing_sui_test_script');
-		script.addQuery('test_suite.sys_id', suite);
-		script.addQuery('active','true');
+		script.addQuery('sys_id', suite);
+		//script.addQuery('active','true');
 		//script.orderBy('order');
 		script.query();
 		while(script.next()){
@@ -53,6 +52,7 @@ function createStepInstance (instance, script){
 		stepInstance.expected_result = step.expected_result;
 		stepInstance.test_user = step.testing_user;
 		stepInstance.application = step.applicaiton;
+		stepInstance.prep_step = step.prep_step;
 		stepInstance.insert();
 	}
 	
@@ -64,7 +64,7 @@ function createStepInstance (instance, script){
         <sys_created_on>2018-05-22 16:31:18</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>664439a4db12d78096b17d8bbf96196e</sys_id>
-        <sys_mod_count>28</sys_mod_count>
+        <sys_mod_count>32</sys_mod_count>
         <sys_name>Create_Test_Scripts</sys_name>
         <sys_package display_value="Testing Suite" source="x_sthc_testing_sui">780ce242db829f4096b17d8bbf961976</sys_package>
         <sys_policy/>
@@ -72,6 +72,6 @@ function createStepInstance (instance, script){
         <sys_scope display_value="Testing Suite">780ce242db829f4096b17d8bbf961976</sys_scope>
         <sys_update_name>sys_script_include_664439a4db12d78096b17d8bbf96196e</sys_update_name>
         <sys_updated_by>LGOMEZ</sys_updated_by>
-        <sys_updated_on>2018-06-04 22:15:29</sys_updated_on>
+        <sys_updated_on>2018-07-20 22:57:30</sys_updated_on>
     </sys_script_include>
 </record_update>

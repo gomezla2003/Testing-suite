@@ -10,6 +10,7 @@
                 <element label="Passed" sequence="2" value="passed"/>
                 <element label="Failed" sequence="3" value="failed"/>
                 <element label="Blocked" sequence="4" value="blocked"/>
+                <element label="N/A" sequence="5" value="na"/>
             </choice>
         </element>
         <element label="Expected Result" max_length="1000" name="expected_result" type="string"/>

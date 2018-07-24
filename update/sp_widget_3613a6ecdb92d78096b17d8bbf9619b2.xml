@@ -15,23 +15,29 @@
 		};
 	
 	
-	c.fail = function(id){
+	c.fail = function(id,pid){
 	
 			c.data.sys_id = id;
 			c.data.status = 'failed';
 			c.server.update();
 				if(confirm("Would you like to open a defect?")){
-					c.defect(id);
+					c.defect(pid);
 				}
 			}
 	
 	
 		
-c.block = function(id){
+c.block = function(id,pid){
 			c.data.sys_id = id;
 			c.data.status = 'blocked';
 			c.server.update();
-	c.defect(id);
+	c.defect(pid);
+		};
+	
+c.na = function(id){
+			c.data.sys_id = id;
+			c.data.status = 'na';
+			c.server.update();
 		};
 	
 				
@@ -247,6 +253,17 @@ color: #A9A9A9;
 .blocked:hover {
   background-color: #FF5700;
 }
+.na{
+   width: auto;
+  background-color: #DDA0DD;
+  box-shadow: 0px 5px 0px 0px #9400D3;
+  color: #000;
+  border-radius: 6px;
+  padding: 5px;
+}
+.na:hover{
+  background-color:#9400D3;
+}
 
 .defect{
   width: 5%;
@@ -419,7 +436,7 @@ data.defectLink = "/csm?id=lf&table=rm_defect&filter=u_test_script="+ param +"&v
         <sys_created_on>2018-05-22 19:55:51</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>3613a6ecdb92d78096b17d8bbf9619b2</sys_id>
-        <sys_mod_count>316</sys_mod_count>
+        <sys_mod_count>326</sys_mod_count>
         <sys_name>Test_Script Scope</sys_name>
         <sys_package display_value="Testing Suite" source="x_sthc_testing_sui">780ce242db829f4096b17d8bbf961976</sys_package>
         <sys_policy/>
@@ -427,7 +444,7 @@ data.defectLink = "/csm?id=lf&table=rm_defect&filter=u_test_script="+ param +"&v
         <sys_scope display_value="Testing Suite">780ce242db829f4096b17d8bbf961976</sys_scope>
         <sys_update_name>sp_widget_3613a6ecdb92d78096b17d8bbf9619b2</sys_update_name>
         <sys_updated_by>LGOMEZ</sys_updated_by>
-        <sys_updated_on>2018-07-23 15:38:45</sys_updated_on>
+        <sys_updated_on>2018-07-24 21:04:33</sys_updated_on>
         <template><![CDATA[
 <!--
 <table class="defects" align="left">
@@ -515,8 +532,9 @@ data.defectLink = "/csm?id=lf&table=rm_defect&filter=u_test_script="+ param +"&v
       <div ng-if="step.execution_status == 'Unexecuted'" class="block status text">{{step.execution_status}}</div>
   
   <div ng-click="c.pass(step.id)" class="block pass">Pass</div>
-  <div ng-click="c.fail(step.id)" class="block fail">Fail </div>
-  <div ng-click="c.block(step.id)"  class="block blocked">Blocked</div>
+  <div ng-click="c.fail(step.id, step.pid)" class="block fail">Fail </div>
+  <div ng-click="c.block(step.id, step.pid)"  class="block blocked">Blocked</div>
+    <div ng-click="c.na(step.id)"  class="block na">N/A</div>
   <div ng-click="c.defect(step.pid)" class="block defect">Report Defect</div>
   
 </div>

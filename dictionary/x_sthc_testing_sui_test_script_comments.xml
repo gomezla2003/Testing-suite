@@ -11,6 +11,7 @@
             </choice>
         </element>
         <element label="Test Script" max_length="32" name="test_script" reference="x_sthc_testing_sui_test_script_instance" type="reference"/>
+        <element label="Works Notes" max_length="40" name="works_notes" type="journal_input"/>
         <index name="index">
             <element name="reporting_user"/>
         </index>

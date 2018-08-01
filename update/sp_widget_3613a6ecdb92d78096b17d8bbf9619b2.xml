@@ -73,6 +73,14 @@ c.testSchedule	= function(){
 	
 }
 
+c.inputs = function(id){
+	var h = screen.height - 500;
+        var w = screen.width - 300;
+		    var url = '/x_sthc_testing_sui_test_step_instance_list.do?sysparm_query=descriptionISNOTEMPTY%5Etest_script_instance=' + id;
+		      var myWindow = window.open(url, "", "resizable=1,width=" + w +",height=" + h);
+
+}
+
 c.defectForm = function(id){
 	
 		var h = screen.height - 200;
@@ -182,13 +190,13 @@ color: #A9A9A9;
   color:#000;
   height: auto;
    border-bottom: 5px solid gray;
-  font-size: 1.2vh;
+  font-size: 1.6vh;
   
 }
 .block{
   display: inline-block;
   margin: auto;
-  padding: 10px;
+  padding: 5px;
   text-align: center;
   vertical-align: middle;
  
@@ -197,7 +205,7 @@ color: #A9A9A9;
 
 .order{
   padding:1px;
-  width: 5%;
+  width: 4%;
   
 }
 .test{
@@ -436,7 +444,7 @@ data.defectLink = "/csm?id=lf&table=rm_defect&filter=u_test_script="+ param +"&v
         <sys_created_on>2018-05-22 19:55:51</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>3613a6ecdb92d78096b17d8bbf9619b2</sys_id>
-        <sys_mod_count>326</sys_mod_count>
+        <sys_mod_count>336</sys_mod_count>
         <sys_name>Test_Script Scope</sys_name>
         <sys_package display_value="Testing Suite" source="x_sthc_testing_sui">780ce242db829f4096b17d8bbf961976</sys_package>
         <sys_policy/>
@@ -444,7 +452,7 @@ data.defectLink = "/csm?id=lf&table=rm_defect&filter=u_test_script="+ param +"&v
         <sys_scope display_value="Testing Suite">780ce242db829f4096b17d8bbf961976</sys_scope>
         <sys_update_name>sp_widget_3613a6ecdb92d78096b17d8bbf9619b2</sys_update_name>
         <sys_updated_by>LGOMEZ</sys_updated_by>
-        <sys_updated_on>2018-07-24 21:04:33</sys_updated_on>
+        <sys_updated_on>2018-07-25 19:14:59</sys_updated_on>
         <template><![CDATA[
 <!--
 <table class="defects" align="left">
@@ -477,6 +485,7 @@ data.defectLink = "/csm?id=lf&table=rm_defect&filter=u_test_script="+ param +"&v
    <th></th>
    <th></th>
    <th></th>
+     <th></th>
    </tr>
    <td>{{scriptDetails.name}}</td>
    <td>{{scriptDetails.patient_name}}</td>
@@ -485,6 +494,7 @@ data.defectLink = "/csm?id=lf&table=rm_defect&filter=u_test_script="+ param +"&v
    <td>{{scriptDetails.location}}</td>
    <td><a href={{data.defectLink}} target="_blank">Link to Defects<span class="badge badge-error"> {{data.scriptDefects}}</span></a></td>
    <td ng-click="c.testSchedule()"><a>Who is Testing Today?</a></td>
+   <td ng-click="c.inputs(scriptDetails.id)"><a>Inputs</a></td>
    <td ng-click="c.testMessage(scriptDetails.id)"><a>Send message to testing team</a></td>
   </table>
   

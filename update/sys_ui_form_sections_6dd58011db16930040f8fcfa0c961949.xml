@@ -27,6 +27,19 @@
             <sys_updated_by>LGOMEZ</sys_updated_by>
             <sys_updated_on>2018-05-24 16:24:11</sys_updated_on>
         </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2018-08-08 14:50:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>fa49c32ddbb7538096b17d8bbf96194b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_sthc_testing_sui_test_script_instance" name="x_sthc_testing_sui_test_script_instance" sys_domain="global" view="Default view">6dd58011db16930040f8fcfa0c961949</sys_ui_form>
+            <sys_ui_section caption="Notes" display_value="Notes" name="x_sthc_testing_sui_test_script_instance" sys_domain="global" view="Default view">f649c32ddbb7538096b17d8bbf961949</sys_ui_section>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2018-08-08 14:50:48</sys_updated_on>
+        </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_sthc_testing_sui_test_script_instance</name>
             <roles/>

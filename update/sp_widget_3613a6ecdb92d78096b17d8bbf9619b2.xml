@@ -444,7 +444,7 @@ data.defectLink = "/csm?id=lf&table=rm_defect&filter=u_test_script="+ param +"&v
         <sys_created_on>2018-05-22 19:55:51</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>3613a6ecdb92d78096b17d8bbf9619b2</sys_id>
-        <sys_mod_count>336</sys_mod_count>
+        <sys_mod_count>340</sys_mod_count>
         <sys_name>Test_Script Scope</sys_name>
         <sys_package display_value="Testing Suite" source="x_sthc_testing_sui">780ce242db829f4096b17d8bbf961976</sys_package>
         <sys_policy/>
@@ -452,7 +452,7 @@ data.defectLink = "/csm?id=lf&table=rm_defect&filter=u_test_script="+ param +"&v
         <sys_scope display_value="Testing Suite">780ce242db829f4096b17d8bbf961976</sys_scope>
         <sys_update_name>sp_widget_3613a6ecdb92d78096b17d8bbf9619b2</sys_update_name>
         <sys_updated_by>LGOMEZ</sys_updated_by>
-        <sys_updated_on>2018-07-25 19:14:59</sys_updated_on>
+        <sys_updated_on>2018-08-08 15:14:03</sys_updated_on>
         <template><![CDATA[
 <!--
 <table class="defects" align="left">
@@ -495,7 +495,7 @@ data.defectLink = "/csm?id=lf&table=rm_defect&filter=u_test_script="+ param +"&v
    <td><a href={{data.defectLink}} target="_blank">Link to Defects<span class="badge badge-error"> {{data.scriptDefects}}</span></a></td>
    <td ng-click="c.testSchedule()"><a>Who is Testing Today?</a></td>
    <td ng-click="c.inputs(scriptDetails.id)"><a>Inputs</a></td>
-   <td ng-click="c.testMessage(scriptDetails.id)"><a>Send message to testing team</a></td>
+   <td ng-click="c.testMessage(scriptDetails.id)"><a>Send script update to testing team</a></td>
   </table>
   
   
@@ -504,11 +504,13 @@ data.defectLink = "/csm?id=lf&table=rm_defect&filter=u_test_script="+ param +"&v
 
 
 <div class="wrapper">
-  <div class="block order"><h3>Order</h3></div>
-  <div class="block test"><h3>Step</h3></div>
-  <div class="block input"><h3>Inputs</h3></div>
-  <div class="block result"><h3>Expected Result</h3></div>
-    <div class="block application"><h3>Application</h3></div>
+  <div class="block order"><h4>Order</h4></div>
+  <div class="block application"><h4>Application</h4></div>
+  <div class="block user"><h4>Test User</h4></div>
+  <div class="block test"><h4>Step</h4></div>
+  <div class="block input"><h4>Inputs</h4></div>
+  <div class="block result"><h4>Expected Result</h4></div>
+    
 
   
 
@@ -519,6 +521,12 @@ data.defectLink = "/csm?id=lf&table=rm_defect&filter=u_test_script="+ param +"&v
 
   <div ng-if="step.execution_status != 'Unexecuted'" class="block order grayhover" ng-click="c.detail(step.id,step.pid)">{{step.order}}</div>
   <div ng-if="step.execution_status == 'Unexecuted'" class="block order title" ng-click="c.detail(step.id,step.pid)">{{step.order}}</div>
+    
+  <div ng-if="step.execution_status != 'Unexecuted'" class="block applicaiton gray">{{step.application}}</div>
+  <div ng-if="step.execution_status == 'Unexecuted'" class="block applicaiton text">{{step.application}}</div>
+    
+  <div ng-if="step.execution_status != 'Unexecuted'" class="block user gray">{{step.test_user}}</div>
+  <div ng-if="step.execution_status == 'Unexecuted'" class="block user text">{{step.test_user}}</div>
   
   <div ng-if="step.execution_status != 'Unexecuted'" class="block test grayhover" ng-click="c.detail(step.id,step.pid)">{{step.test}}</div>
   <div ng-if="step.execution_status == 'Unexecuted'" class="block test title" ng-click="c.detail(step.id,step.pid)">{{step.test}}</div>
@@ -528,12 +536,7 @@ data.defectLink = "/csm?id=lf&table=rm_defect&filter=u_test_script="+ param +"&v
   
   <div ng-if="step.execution_status != 'Unexecuted'" class="block result gray">{{step.expected_result}}</div>
   <div ng-if="step.execution_status == 'Unexecuted'" class="block result title">{{step.expected_result}}</div>
-  
-  <div ng-if="step.execution_status != 'Unexecuted'" class="block applicaiton gray">{{step.application}}</div>
-  <div ng-if="step.execution_status == 'Unexecuted'" class="block applicaiton text">{{step.application}}</div>
-  
-  <div ng-if="step.execution_status != 'Unexecuted'" class="block user gray">{{step.test_user}}</div>
-  <div ng-if="step.execution_status == 'Unexecuted'" class="block user text">{{step.test_user}}</div>
+   
   
   <div ng-if="step.execution_status != 'Unexecuted'" class="block status gray con-tooltip top">{{step.execution_status}}
     <div ng-if="step.failed_reason" class="tooltip ">{{step.failed_reason}}</div>

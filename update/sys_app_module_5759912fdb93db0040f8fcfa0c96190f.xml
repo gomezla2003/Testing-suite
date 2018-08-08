@@ -6,11 +6,13 @@
         <assessment/>
         <content_page/>
         <device_type/>
-        <filter/>
+        <filter table="rm_defect">sys_created_on&gt;=javascript:gs.dateGenerate('2018-07-20','00:00:00')^EQ<item endquery="false" field="sys_created_on" goto="false" newquery="false" operator="&gt;=" or="false" value="javascript:gs.dateGenerate('2018-07-20','00:00:00')"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
         <hint/>
         <homepage/>
         <image/>
-        <link_type>NEW</link_type>
+        <link_type>LIST</link_type>
         <map_page/>
         <mobile_title>Create a new Defe</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
@@ -28,8 +30,8 @@
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>5759912fdb93db0040f8fcfa0c96190f</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>Create a new Defect</sys_name>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>All Defects</sys_name>
         <sys_overrides/>
         <sys_package display_value="Testing Suite" source="x_sthc_testing_sui">780ce242db829f4096b17d8bbf961976</sys_package>
         <sys_policy/>
@@ -37,9 +39,9 @@
         <sys_scope display_value="Testing Suite">780ce242db829f4096b17d8bbf961976</sys_scope>
         <sys_update_name>sys_app_module_5759912fdb93db0040f8fcfa0c96190f</sys_update_name>
         <sys_updated_by>LGOMEZ</sys_updated_by>
-        <sys_updated_on>2018-07-20 15:19:17</sys_updated_on>
+        <sys_updated_on>2018-08-08 14:43:30</sys_updated_on>
         <timeline_page/>
-        <title>Create a new Defect</title>
+        <title>All Defects</title>
         <uncancelable>false</uncancelable>
         <view_name/>
         <window_name/>

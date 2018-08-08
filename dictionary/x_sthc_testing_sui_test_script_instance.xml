@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element extends="planned_task" label="Test Script Instance" max_length="40" name="x_sthc_testing_sui_test_script_instance" sizeclass="7" type="collection">
+    <element audit="true" extends="planned_task" label="Test Script Instance" max_length="40" name="x_sthc_testing_sui_test_script_instance" sizeclass="7" type="collection">
         <element attributes="edge_encryption_enabled=true" label="Arrival Information &amp; Providers" max_length="40" name="arrival_info" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Billing Provider" max_length="40" name="billing_provider" type="string"/>
         <element label="Charges" max_length="40" name="charges" type="journal"/>
@@ -21,6 +21,7 @@
         <element attributes="edge_encryption_enabled=true" label="HAR" max_length="40" name="har" type="string"/>
         <element attributes="no_truncate=false" label="Link to portal view" max_length="1024" name="link_to_portal_view" type="url"/>
         <element attributes="edge_encryption_enabled=true" label="MRN" max_length="40" name="mrn" type="string"/>
+        <element label="Notes" max_length="40" name="notes" type="journal_input"/>
         <element label="Total Steps" max_length="40" name="number_of_test" type="integer"/>
         <element attributes="edge_encryption_enabled=true" label="Orders" max_length="40" name="orders" type="string"/>
         <element active="false" attributes="edge_encryption_enabled=true" label="LOS/Radiology/LAB/Haemonetics/Meds/Other DX Exams/Supplies" max_length="40" name="orders2" type="string"/>

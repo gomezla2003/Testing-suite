@@ -1,13 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<database>
-    <element attributes="email_client=true" audit="true" label="Test script comments" max_length="40" name="x_sthc_testing_sui_test_script_comments" type="collection">
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="email_client=true" audit="true" label="Test script comments" max_length="40" name="x_sthc_testing_sui_test_script_comments" sizeclass="364" type="collection">
         <element label="Message" max_length="3000" name="message" type="string"/>
         <element label="Reporting User" max_length="32" name="reporting_user" reference="sys_user" type="reference"/>
         <element choice="3" default="new" label="State" max_length="40" name="state" type="string">
             <choice>
-                <element label="Completed" value="completed"/>
-                <element label="In-Progress" value="inprogress"/>
-                <element label="New" value="new"/>
+                <element inactive_on_update="false" label="Completed" value="completed"/>
+                <element inactive_on_update="false" label="In-Progress" value="inprogress"/>
+                <element inactive_on_update="false" label="New" value="new"/>
             </choice>
         </element>
         <element label="Test Script" max_length="32" name="test_script" reference="x_sthc_testing_sui_test_script_instance" type="reference"/>

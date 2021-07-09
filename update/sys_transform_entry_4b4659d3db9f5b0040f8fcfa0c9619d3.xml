@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sys_transform_entry">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_entry">
     <sys_transform_entry action="INSERT_OR_UPDATE">
         <choice_action>create</choice_action>
         <coalesce>false</coalesce>
@@ -21,7 +20,7 @@
         <sys_created_on>2018-07-19 20:26:20</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>4b4659d3db9f5b0040f8fcfa0c9619d3</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>u_number</sys_name>
         <sys_package display_value="Testing Suite" source="x_sthc_testing_sui">780ce242db829f4096b17d8bbf961976</sys_package>
         <sys_policy/>
@@ -29,7 +28,7 @@
         <sys_scope display_value="Testing Suite">780ce242db829f4096b17d8bbf961976</sys_scope>
         <sys_update_name>sys_transform_entry_4b4659d3db9f5b0040f8fcfa0c9619d3</sys_update_name>
         <sys_updated_by>LGOMEZ</sys_updated_by>
-        <sys_updated_on>2018-07-19 20:26:20</sys_updated_on>
+        <sys_updated_on>2018-07-23 16:43:36</sys_updated_on>
         <target_field>number</target_field>
         <target_table>x_sthc_testing_sui_test_step</target_table>
         <use_source_script>false</use_source_script>

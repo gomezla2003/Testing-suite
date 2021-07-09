@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sys_security_acl">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
     <sys_security_acl action="INSERT_OR_UPDATE">
         <active>true</active>
         <admin_overrides>true</admin_overrides>
@@ -24,5 +23,6 @@
         <sys_updated_by>LGOMEZ</sys_updated_by>
         <sys_updated_on>2018-06-22 18:53:46</sys_updated_on>
         <type display_value="record">record</type>
+        <u_ctv>false</u_ctv>
     </sys_security_acl>
 </record_update>

@@ -1,18 +1,17 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<database>
-    <element audit="true" extends="planned_task" label="Test Script Instance" max_length="40" name="x_sthc_testing_sui_test_script_instance" sizeclass="7" type="collection">
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" extends="planned_task" label="Test Script Instance" max_length="40" name="x_sthc_testing_sui_test_script_instance" sizeclass="199" text_index="true" type="collection">
         <element attributes="edge_encryption_enabled=true" label="Arrival Information &amp; Providers" max_length="40" name="arrival_info" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Billing Provider" max_length="40" name="billing_provider" type="string"/>
         <element label="Charges" max_length="40" name="charges" type="journal"/>
         <element attributes="edge_encryption_enabled=true" label="Copay" max_length="40" name="copay" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Coverage Primary" max_length="40" name="coverage" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="DOB" max_length="40" name="dob" type="string"/>
-        <element label="Duration (Time in team queue)" max_length="40" name="duration_group" read_only="true" type="string"/>
+        <element attributes="no_audit=true,no_text_index=true" label="Duration (Time in team queue)" max_length="40" name="duration_group" type="string"/>
         <element choice="1" label="Execution Status" max_length="40" name="execution_status" type="string">
             <choice>
-                <element label="Completed" value="completed"/>
-                <element label="In-Progress" value="in_progress"/>
-                <element label="Pending" value="pending"/>
+                <element inactive_on_update="false" label="Completed" value="completed"/>
+                <element inactive_on_update="false" label="In-Progress" value="in_progress"/>
+                <element inactive_on_update="false" label="Pending" value="pending"/>
             </choice>
         </element>
         <element active="false" attributes="edge_encryption_enabled=true" label="Guarantor/Coverage Information" max_length="40" name="guarantor" type="string"/>
@@ -33,5 +32,9 @@
         <element label="Test Plan" max_length="32" name="test_plan" reference="x_sthc_testing_sui_test_plan" type="reference"/>
         <element label="Updated Group" max_length="40" name="updated_group" type="glide_date_time"/>
         <element attributes="edge_encryption_enabled=true" label="Visit Type" max_length="40" name="visit_type" type="string"/>
+        <index name="index">
+            <element name="test_plan"/>
+            <element name="active"/>
+        </index>
     </element>
 </database>

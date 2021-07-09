@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<database>
-    <element extends="sys_import_set_row" label="Test Script Steps (Update ONLY)" max_length="40" name="x_sthc_testing_sui_test_script_steps__update_only_" type="collection">
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="Test Script Steps (Update ONLY)" max_length="40" name="x_sthc_testing_sui_test_script_steps__update_only_" sizeclass="0" type="collection">
         <element attributes="edge_encryption_enabled=true" label="Application" max_length="40" name="u_application" type="string"/>
         <element attributes="import_attribute_name=Detailed Description,edge_encryption_enabled=true" label="Detailed Description" max_length="270" name="u_detailed_description" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Expected Result" max_length="40" name="u_expected_result" type="string"/>

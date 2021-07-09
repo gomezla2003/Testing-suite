@@ -1,10 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sysauto_template">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysauto_template">
     <sysauto_template action="INSERT_OR_UPDATE">
         <active>true</active>
+        <business_calendar/>
         <condition/>
         <conditional>false</conditional>
+        <entered_time/>
         <name>TEMPLATE697</name>
+        <offset/>
+        <offset_type>0</offset_type>
         <run_as display_value="Louie Gomez">9dd736c46fd4710068ceda0cbb3ee476</run_as>
         <run_as_tz/>
         <run_dayofmonth/>
@@ -27,7 +30,8 @@
         <sys_update_name>sysauto_template_fe3a2037db6b1f4040f8fcfa0c96194c</sys_update_name>
         <sys_updated_by>LGOMEZ</sys_updated_by>
         <sys_updated_on>2018-08-02 16:46:29</sys_updated_on>
-        <template display_value="TEMPLATE697">742aa477db6f5b4096b17d8bbf961966</template>
+        <template display_value="">742aa477db6f5b4096b17d8bbf961966</template>
+        <time_zone/>
         <upgrade_safe>false</upgrade_safe>
     </sysauto_template>
 </record_update>

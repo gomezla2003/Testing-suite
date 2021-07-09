@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="m2m_sp_widget_dependency">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_widget_dependency">
     <m2m_sp_widget_dependency action="INSERT_OR_UPDATE">
         <sp_dependency display_value="SweetAlert2">d3ae2ed76f2b764061f06ea22e3ee49d</sp_dependency>
         <sp_widget display_value="Test_Script Scope">3613a6ecdb92d78096b17d8bbf9619b2</sp_widget>

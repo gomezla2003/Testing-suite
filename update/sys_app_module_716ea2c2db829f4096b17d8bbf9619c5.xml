@@ -1,8 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update sys_domain="global" table="sys_app_module">
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
     <sys_app_module action="INSERT_OR_UPDATE">
         <active>true</active>
-        <application display_value="Testing Suite">e18c2e42db829f4096b17d8bbf961905</application>
+        <application display_value="Test Management">5043b452873021002320f3beb2e3ecb1</application>
         <assessment/>
         <content_page/>
         <device_type/>
@@ -15,7 +14,7 @@
         <mobile_title>Test Steps</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
         <name>x_sthc_testing_sui_test_step</name>
-        <order>15</order>
+        <order>1015</order>
         <override_menu_roles>false</override_menu_roles>
         <query/>
         <report/>
@@ -28,7 +27,7 @@
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>716ea2c2db829f4096b17d8bbf9619c5</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Test Steps</sys_name>
         <sys_overrides/>
         <sys_package display_value="Testing Suite" source="x_sthc_testing_sui">780ce242db829f4096b17d8bbf961976</sys_package>
@@ -37,7 +36,7 @@
         <sys_scope display_value="Testing Suite">780ce242db829f4096b17d8bbf961976</sys_scope>
         <sys_update_name>sys_app_module_716ea2c2db829f4096b17d8bbf9619c5</sys_update_name>
         <sys_updated_by>LGOMEZ</sys_updated_by>
-        <sys_updated_on>2018-05-21 16:00:08</sys_updated_on>
+        <sys_updated_on>2020-07-28 19:37:29</sys_updated_on>
         <timeline_page/>
         <title>Test Steps</title>
         <uncancelable>false</uncancelable>

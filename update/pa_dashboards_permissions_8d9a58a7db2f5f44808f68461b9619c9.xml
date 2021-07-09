@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="pa_dashboards_permissions">
+    <pa_dashboards_permissions action="INSERT_OR_UPDATE">
+        <dashboard display_value="Team Dashboard (KPIs)">8359126cdbfd1b80808f68461b961948</dashboard>
+        <delete>false</delete>
+        <group/>
+        <identity>e8f131a26f13e100e59533d9ea3ee40a</identity>
+        <read>true</read>
+        <role/>
+        <sys_class_name>pa_dashboards_permissions</sys_class_name>
+        <sys_created_by>LGOMEZ</sys_created_by>
+        <sys_created_on>2018-08-01 20:59:36</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>8d9a58a7db2f5f44808f68461b9619c9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>e8f131a26f13e100e59533d9ea3ee40a</sys_name>
+        <sys_package display_value="Testing Suite" source="x_sthc_testing_sui">780ce242db829f4096b17d8bbf961976</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Testing Suite">780ce242db829f4096b17d8bbf961976</sys_scope>
+        <sys_update_name>pa_dashboards_permissions_8d9a58a7db2f5f44808f68461b9619c9</sys_update_name>
+        <sys_updated_by>LGOMEZ</sys_updated_by>
+        <sys_updated_on>2018-08-01 20:59:36</sys_updated_on>
+        <type>3</type>
+        <user display_value="Chuck Scully">e8f131a26f13e100e59533d9ea3ee40a</user>
+        <write>false</write>
+    </pa_dashboards_permissions>
+</record_update>

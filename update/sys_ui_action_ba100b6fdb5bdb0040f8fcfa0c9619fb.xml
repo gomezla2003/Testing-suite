@@ -1,17 +1,20 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update sys_domain="global" table="sys_ui_action">
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action">
     <sys_ui_action action="INSERT_OR_UPDATE">
         <action_name/>
         <active>true</active>
         <client>true</client>
+        <client_script_v2/>
         <comments>Related UI action to add all Test Cases from current Test Suite to Test Plan</comments>
         <condition/>
         <form_action>true</form_action>
         <form_button>false</form_button>
+        <form_button_v2>false</form_button_v2>
         <form_context_menu>false</form_context_menu>
         <form_link>true</form_link>
+        <form_menu_button_v2>false</form_menu_button_v2>
         <form_style/>
         <hint/>
+        <isolate_script>false</isolate_script>
         <list_action>false</list_action>
         <list_banner_button>false</list_banner_button>
         <list_button>false</list_button>
@@ -20,6 +23,7 @@
         <list_link>false</list_link>
         <list_save_with_form_button>false</list_save_with_form_button>
         <list_style/>
+        <messages/>
         <name>Add to Test Plan</name>
         <onclick>testPlan()</onclick>
         <order>100</order>
@@ -59,6 +63,7 @@
         <sys_updated_by>LGOMEZ</sys_updated_by>
         <sys_updated_on>2018-07-23 16:03:58</sys_updated_on>
         <table>x_sthc_testing_sui_test_script</table>
+        <u_ctv>false</u_ctv>
         <ui11_compatible>false</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>
     </sys_ui_action>

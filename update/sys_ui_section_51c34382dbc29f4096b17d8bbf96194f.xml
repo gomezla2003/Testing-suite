@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update>
+<?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_section caption="" section_id="51c34382dbc29f4096b17d8bbf96194f" sys_domain="global" table="x_sthc_testing_sui_test_step_instance" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>number</element>

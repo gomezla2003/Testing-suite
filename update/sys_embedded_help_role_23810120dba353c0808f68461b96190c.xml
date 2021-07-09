@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="sn_dd_testingsuite_securitymanagement" name="sn_dd_testingsuite_securitymanagement">6b810120dba353c0808f68461b96190a</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>LGOMEZ</sys_created_by>
+        <sys_created_on>2018-07-23 16:08:08</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>23810120dba353c0808f68461b96190c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>6b810120dba353c0808f68461b96190a</sys_name>
+        <sys_package display_value="Testing Suite" source="x_sthc_testing_sui">780ce242db829f4096b17d8bbf961976</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Testing Suite">780ce242db829f4096b17d8bbf961976</sys_scope>
+        <sys_update_name>sys_embedded_help_role_23810120dba353c0808f68461b96190c</sys_update_name>
+        <sys_updated_by>LGOMEZ</sys_updated_by>
+        <sys_updated_on>2018-07-23 16:08:08</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

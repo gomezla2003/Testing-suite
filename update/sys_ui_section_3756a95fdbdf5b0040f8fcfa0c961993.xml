@@ -1,17 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update>
+<?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_section caption="" section_id="3756a95fdbdf5b0040f8fcfa0c961993" sys_domain="global" table="x_sthc_testing_sui_testing_on_call" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>assignment_group</element>
             <position>0</position>
             <sys_created_by>LGOMEZ</sys_created_by>
-            <sys_created_on>2018-07-19 22:13:21</sys_created_on>
-            <sys_id>1ecea997db139b0040f8fcfa0c9619f5</sys_id>
+            <sys_created_on>2019-02-15 16:38:03</sys_created_on>
+            <sys_id>80894707dbe7af08808f68461b961935</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_sthc_testing_sui_testing_on_call" sys_domain="global" view="Default view">3756a95fdbdf5b0040f8fcfa0c961993</sys_ui_section>
             <sys_updated_by>LGOMEZ</sys_updated_by>
-            <sys_updated_on>2018-07-19 22:13:21</sys_updated_on>
+            <sys_updated_on>2019-02-15 16:38:03</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -19,265 +18,83 @@
             <element>.split</element>
             <position>1</position>
             <sys_created_by>LGOMEZ</sys_created_by>
-            <sys_created_on>2018-07-19 22:13:21</sys_created_on>
-            <sys_id>9ecea997db139b0040f8fcfa0c9619f5</sys_id>
+            <sys_created_on>2019-02-15 16:38:03</sys_created_on>
+            <sys_id>04894707dbe7af08808f68461b961935</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_sthc_testing_sui_testing_on_call" sys_domain="global" view="Default view">3756a95fdbdf5b0040f8fcfa0c961993</sys_ui_section>
             <sys_updated_by>LGOMEZ</sys_updated_by>
-            <sys_updated_on>2018-07-19 22:13:21</sys_updated_on>
+            <sys_updated_on>2019-02-15 16:38:03</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>july_23rd</element>
+            <element>august_13th</element>
             <position>2</position>
             <sys_created_by>LGOMEZ</sys_created_by>
-            <sys_created_on>2018-07-19 22:13:21</sys_created_on>
-            <sys_id>12cea997db139b0040f8fcfa0c9619f6</sys_id>
+            <sys_created_on>2019-02-15 16:38:03</sys_created_on>
+            <sys_id>84894707dbe7af08808f68461b961935</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_sthc_testing_sui_testing_on_call" sys_domain="global" view="Default view">3756a95fdbdf5b0040f8fcfa0c961993</sys_ui_section>
             <sys_updated_by>LGOMEZ</sys_updated_by>
-            <sys_updated_on>2018-07-19 22:13:21</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>july24th</element>
-            <position>3</position>
-            <sys_created_by>LGOMEZ</sys_created_by>
-            <sys_created_on>2018-07-19 22:13:21</sys_created_on>
-            <sys_id>92cea997db139b0040f8fcfa0c9619f6</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_sthc_testing_sui_testing_on_call" sys_domain="global" view="Default view">3756a95fdbdf5b0040f8fcfa0c961993</sys_ui_section>
-            <sys_updated_by>LGOMEZ</sys_updated_by>
-            <sys_updated_on>2018-07-19 22:13:21</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>july_25th</element>
-            <position>4</position>
-            <sys_created_by>LGOMEZ</sys_created_by>
-            <sys_created_on>2018-07-19 22:13:21</sys_created_on>
-            <sys_id>16cea997db139b0040f8fcfa0c9619f6</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_sthc_testing_sui_testing_on_call" sys_domain="global" view="Default view">3756a95fdbdf5b0040f8fcfa0c961993</sys_ui_section>
-            <sys_updated_by>LGOMEZ</sys_updated_by>
-            <sys_updated_on>2018-07-19 22:13:21</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>july_30th</element>
-            <position>5</position>
-            <sys_created_by>LGOMEZ</sys_created_by>
-            <sys_created_on>2018-07-19 22:13:21</sys_created_on>
-            <sys_id>96cea997db139b0040f8fcfa0c9619f6</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_sthc_testing_sui_testing_on_call" sys_domain="global" view="Default view">3756a95fdbdf5b0040f8fcfa0c961993</sys_ui_section>
-            <sys_updated_by>LGOMEZ</sys_updated_by>
-            <sys_updated_on>2018-07-19 22:13:21</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>july_31st</element>
-            <position>6</position>
-            <sys_created_by>LGOMEZ</sys_created_by>
-            <sys_created_on>2018-07-19 22:13:21</sys_created_on>
-            <sys_id>1acea997db139b0040f8fcfa0c9619f6</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_sthc_testing_sui_testing_on_call" sys_domain="global" view="Default view">3756a95fdbdf5b0040f8fcfa0c961993</sys_ui_section>
-            <sys_updated_by>LGOMEZ</sys_updated_by>
-            <sys_updated_on>2018-07-19 22:13:21</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>august_1st</element>
-            <position>7</position>
-            <sys_created_by>LGOMEZ</sys_created_by>
-            <sys_created_on>2018-07-19 22:13:21</sys_created_on>
-            <sys_id>9acea997db139b0040f8fcfa0c9619f6</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_sthc_testing_sui_testing_on_call" sys_domain="global" view="Default view">3756a95fdbdf5b0040f8fcfa0c961993</sys_ui_section>
-            <sys_updated_by>LGOMEZ</sys_updated_by>
-            <sys_updated_on>2018-07-19 22:13:21</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>august_6th</element>
-            <position>8</position>
-            <sys_created_by>LGOMEZ</sys_created_by>
-            <sys_created_on>2018-07-19 22:13:21</sys_created_on>
-            <sys_id>1ecea997db139b0040f8fcfa0c9619f6</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_sthc_testing_sui_testing_on_call" sys_domain="global" view="Default view">3756a95fdbdf5b0040f8fcfa0c961993</sys_ui_section>
-            <sys_updated_by>LGOMEZ</sys_updated_by>
-            <sys_updated_on>2018-07-19 22:13:21</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>august_7th</element>
-            <position>9</position>
-            <sys_created_by>LGOMEZ</sys_created_by>
-            <sys_created_on>2018-07-19 22:13:21</sys_created_on>
-            <sys_id>9ecea997db139b0040f8fcfa0c9619f6</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_sthc_testing_sui_testing_on_call" sys_domain="global" view="Default view">3756a95fdbdf5b0040f8fcfa0c961993</sys_ui_section>
-            <sys_updated_by>LGOMEZ</sys_updated_by>
-            <sys_updated_on>2018-07-19 22:13:21</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>august_8th</element>
-            <position>10</position>
-            <sys_created_by>LGOMEZ</sys_created_by>
-            <sys_created_on>2018-07-19 22:13:21</sys_created_on>
-            <sys_id>12cea997db139b0040f8fcfa0c9619f7</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_sthc_testing_sui_testing_on_call" sys_domain="global" view="Default view">3756a95fdbdf5b0040f8fcfa0c961993</sys_ui_section>
-            <sys_updated_by>LGOMEZ</sys_updated_by>
-            <sys_updated_on>2018-07-19 22:13:21</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>august_13th</element>
-            <position>11</position>
-            <sys_created_by>LGOMEZ</sys_created_by>
-            <sys_created_on>2018-07-19 22:13:21</sys_created_on>
-            <sys_id>92cea997db139b0040f8fcfa0c9619f7</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_sthc_testing_sui_testing_on_call" sys_domain="global" view="Default view">3756a95fdbdf5b0040f8fcfa0c961993</sys_ui_section>
-            <sys_updated_by>LGOMEZ</sys_updated_by>
-            <sys_updated_on>2018-07-19 22:13:21</sys_updated_on>
+            <sys_updated_on>2019-02-15 16:38:03</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>august_14th</element>
-            <position>12</position>
+            <position>3</position>
             <sys_created_by>LGOMEZ</sys_created_by>
-            <sys_created_on>2018-07-19 22:13:21</sys_created_on>
-            <sys_id>16cea997db139b0040f8fcfa0c9619f7</sys_id>
+            <sys_created_on>2019-02-15 16:38:03</sys_created_on>
+            <sys_id>08894707dbe7af08808f68461b961935</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_sthc_testing_sui_testing_on_call" sys_domain="global" view="Default view">3756a95fdbdf5b0040f8fcfa0c961993</sys_ui_section>
             <sys_updated_by>LGOMEZ</sys_updated_by>
-            <sys_updated_on>2018-07-19 22:13:21</sys_updated_on>
+            <sys_updated_on>2019-02-15 16:38:03</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>august_15th</element>
-            <position>13</position>
+            <position>4</position>
             <sys_created_by>LGOMEZ</sys_created_by>
-            <sys_created_on>2018-07-19 22:13:21</sys_created_on>
-            <sys_id>96cea997db139b0040f8fcfa0c9619f7</sys_id>
+            <sys_created_on>2019-02-15 16:38:03</sys_created_on>
+            <sys_id>88894707dbe7af08808f68461b961935</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_sthc_testing_sui_testing_on_call" sys_domain="global" view="Default view">3756a95fdbdf5b0040f8fcfa0c961993</sys_ui_section>
             <sys_updated_by>LGOMEZ</sys_updated_by>
-            <sys_updated_on>2018-07-19 22:13:21</sys_updated_on>
+            <sys_updated_on>2019-02-15 16:38:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>august_1st</element>
+            <position>5</position>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2019-02-15 16:38:03</sys_created_on>
+            <sys_id>0c894707dbe7af08808f68461b961935</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_sthc_testing_sui_testing_on_call" sys_domain="global" view="Default view">3756a95fdbdf5b0040f8fcfa0c961993</sys_ui_section>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2019-02-15 16:38:03</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>august_20th</element>
-            <position>14</position>
+            <position>6</position>
             <sys_created_by>LGOMEZ</sys_created_by>
-            <sys_created_on>2018-07-19 22:13:21</sys_created_on>
-            <sys_id>1acea997db139b0040f8fcfa0c9619f7</sys_id>
+            <sys_created_on>2019-02-15 16:38:03</sys_created_on>
+            <sys_id>8c894707dbe7af08808f68461b961935</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_sthc_testing_sui_testing_on_call" sys_domain="global" view="Default view">3756a95fdbdf5b0040f8fcfa0c961993</sys_ui_section>
             <sys_updated_by>LGOMEZ</sys_updated_by>
-            <sys_updated_on>2018-07-19 22:13:21</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>august_21st</element>
-            <position>15</position>
-            <sys_created_by>LGOMEZ</sys_created_by>
-            <sys_created_on>2018-07-19 22:13:21</sys_created_on>
-            <sys_id>9acea997db139b0040f8fcfa0c9619f7</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_sthc_testing_sui_testing_on_call" sys_domain="global" view="Default view">3756a95fdbdf5b0040f8fcfa0c961993</sys_ui_section>
-            <sys_updated_by>LGOMEZ</sys_updated_by>
-            <sys_updated_on>2018-07-19 22:13:21</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>august_22st</element>
-            <position>16</position>
-            <sys_created_by>LGOMEZ</sys_created_by>
-            <sys_created_on>2018-07-19 22:13:21</sys_created_on>
-            <sys_id>1ecea997db139b0040f8fcfa0c9619f7</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_sthc_testing_sui_testing_on_call" sys_domain="global" view="Default view">3756a95fdbdf5b0040f8fcfa0c961993</sys_ui_section>
-            <sys_updated_by>LGOMEZ</sys_updated_by>
-            <sys_updated_on>2018-07-19 22:13:21</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>august_27th</element>
-            <position>17</position>
-            <sys_created_by>LGOMEZ</sys_created_by>
-            <sys_created_on>2018-07-19 22:13:21</sys_created_on>
-            <sys_id>9ecea997db139b0040f8fcfa0c9619f7</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_sthc_testing_sui_testing_on_call" sys_domain="global" view="Default view">3756a95fdbdf5b0040f8fcfa0c961993</sys_ui_section>
-            <sys_updated_by>LGOMEZ</sys_updated_by>
-            <sys_updated_on>2018-07-19 22:13:21</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>august_28th</element>
-            <position>18</position>
-            <sys_created_by>LGOMEZ</sys_created_by>
-            <sys_created_on>2018-07-19 22:13:21</sys_created_on>
-            <sys_id>12cea997db139b0040f8fcfa0c9619f8</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_sthc_testing_sui_testing_on_call" sys_domain="global" view="Default view">3756a95fdbdf5b0040f8fcfa0c961993</sys_ui_section>
-            <sys_updated_by>LGOMEZ</sys_updated_by>
-            <sys_updated_on>2018-07-19 22:13:21</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>august_29th</element>
-            <position>19</position>
-            <sys_created_by>LGOMEZ</sys_created_by>
-            <sys_created_on>2018-07-19 22:13:21</sys_created_on>
-            <sys_id>92cea997db139b0040f8fcfa0c9619f8</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_sthc_testing_sui_testing_on_call" sys_domain="global" view="Default view">3756a95fdbdf5b0040f8fcfa0c961993</sys_ui_section>
-            <sys_updated_by>LGOMEZ</sys_updated_by>
-            <sys_updated_on>2018-07-19 22:13:21</sys_updated_on>
+            <sys_updated_on>2019-02-15 16:38:03</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

@@ -1,8 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sys_embedded_help_role">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
     <sys_embedded_help_role action="INSERT_OR_UPDATE">
         <order>1000</order>
-        <role display_value="x_sthc_kudos.user" name="x_sthc_kudos.user">f3c39899db63934040f8fcfa0c9619d2</role>
+        <role display_value="">f3c39899db63934040f8fcfa0c9619d2</role>
         <sys_class_name>sys_embedded_help_role</sys_class_name>
         <sys_created_by>LGOMEZ</sys_created_by>
         <sys_created_on>2018-07-25 20:43:42</sys_created_on>

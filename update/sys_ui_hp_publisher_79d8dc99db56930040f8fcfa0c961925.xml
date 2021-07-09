@@ -1,6 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sys_ui_hp_publisher">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_hp_publisher">
     <sys_ui_hp_publisher action="INSERT_OR_UPDATE">
+        <allow_database_view_filter>false</allow_database_view_filter>
+        <allow_extended_table>false</allow_extended_table>
         <boolean_field/>
         <boolean_table/>
         <date_filter/>
@@ -12,7 +13,9 @@
         <exclusion_choice_list/>
         <look_up_name>Test Plan</look_up_name>
         <name>Testing Plan Scope</name>
-        <reference_conditions/>
+        <reference_conditions table="x_sthc_testing_sui_test_plan">state!=3^EQ<item display_value="Closed Complete" endquery="false" field="state" goto="false" newquery="false" operator="!=" or="false" value="3"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </reference_conditions>
         <reference_table>x_sthc_testing_sui_test_plan</reference_table>
         <source_field/>
         <source_table/>
@@ -21,7 +24,7 @@
         <sys_created_on>2018-05-24 17:48:21</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>79d8dc99db56930040f8fcfa0c961925</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name>Testing Plan Scope</sys_name>
         <sys_package display_value="Testing Suite" source="x_sthc_testing_sui">780ce242db829f4096b17d8bbf961976</sys_package>
         <sys_policy/>
@@ -29,7 +32,7 @@
         <sys_scope display_value="Testing Suite">780ce242db829f4096b17d8bbf961976</sys_scope>
         <sys_update_name>sys_ui_hp_publisher_79d8dc99db56930040f8fcfa0c961925</sys_update_name>
         <sys_updated_by>LGOMEZ</sys_updated_by>
-        <sys_updated_on>2018-05-24 17:51:03</sys_updated_on>
+        <sys_updated_on>2018-07-25 15:35:21</sys_updated_on>
         <type>2</type>
         <ui_control_type>3</ui_control_type>
     </sys_ui_hp_publisher>

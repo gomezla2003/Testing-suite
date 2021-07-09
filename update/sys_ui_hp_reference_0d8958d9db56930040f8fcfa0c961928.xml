@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sys_ui_hp_reference">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_hp_reference">
     <sys_ui_hp_reference action="INSERT_OR_UPDATE">
         <publisher_reference display_value="Testing Plan Scope">79d8dc99db56930040f8fcfa0c961925</publisher_reference>
         <reference_field>test_plan</reference_field>

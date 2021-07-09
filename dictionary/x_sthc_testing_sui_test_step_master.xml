@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<database>
-    <element extends="sys_import_set_row" label="test step master" max_length="40" name="x_sthc_testing_sui_test_step_master" type="collection">
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="test step master" max_length="40" name="x_sthc_testing_sui_test_step_master" sizeclass="0" type="collection">
         <element attributes="import_attribute_name=Application,edge_encryption_enabled=true" label="Application" max_length="40" name="u_application" type="string"/>
         <element attributes="import_attribute_name=Expected Result,edge_encryption_enabled=true" label="Expected Result" max_length="334" name="u_expected_result" type="string"/>
         <element attributes="import_attribute_name=Inputs,edge_encryption_enabled=true" label="Inputs" max_length="235" name="u_inputs" type="string"/>

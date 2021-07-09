@@ -1,27 +1,32 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<database>
-    <element label="Test Step" max_length="40" name="x_sthc_testing_sui_test_step" sizeclass="6815" type="collection">
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Test Step" max_length="40" name="x_sthc_testing_sui_test_step" sizeclass="43926" type="collection">
         <element attributes="edge_encryption_enabled=true" label="Application" max_length="40" name="applicaiton" type="string"/>
         <element label="Assignment Group" max_length="32" name="assignment_group" reference="sys_user_group" type="reference"/>
         <element label="Detailed Description" max_length="2000" name="detailed_description" type="string"/>
         <element label="Expected Result" max_length="1000" name="expected_result" type="string"/>
-        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" dynamic_default_value="5d891d16db1dcc90a1dd7d8bbf9619d8" label="Number" max_length="40" name="number" type="string" use_dynamic_default="true"/>
         <element label="Order" max_length="40" name="order" type="integer"/>
         <element label="Prep Step" max_length="40" name="prep_step" type="boolean"/>
         <element choice="1" default="draft" label="State" max_length="40" name="state" type="string">
             <choice>
-                <element label="Draft" sequence="0" value="draft"/>
-                <element label="Ready" sequence="1" value="ready"/>
-                <element label="Inactive" sequence="2" value="inactive"/>
+                <element inactive_on_update="false" label="Draft" sequence="0" value="draft"/>
+                <element inactive_on_update="false" label="Ready" sequence="1" value="ready"/>
+                <element inactive_on_update="false" label="Inactive" sequence="2" value="inactive"/>
             </choice>
         </element>
         <element label="Test" max_length="1000" name="test" type="string"/>
         <element label="Testing User" max_length="40" name="testing_user" type="string"/>
         <element label="Test Script" max_length="32" name="test_script" reference="x_sthc_testing_sui_test_script" type="reference"/>
         <index name="index">
-            <element name="assignment_group"/>
+            <element name="number"/>
         </index>
         <index name="index2">
+            <element name="assignment_group"/>
+        </index>
+        <index name="index3">
+            <element name="test"/>
+        </index>
+        <index name="index4">
             <element name="test_script"/>
         </index>
     </element>

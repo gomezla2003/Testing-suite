@@ -1,16 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<database>
-    <element extends="planned_task" label="Test Step Instance" max_length="40" name="x_sthc_testing_sui_test_step_instance" sizeclass="1671" type="collection">
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="planned_task" label="Test Step Instance" max_length="40" name="x_sthc_testing_sui_test_step_instance" sizeclass="40876" text_index="true" type="collection">
         <element label="Actual Result" max_length="1000" name="actual_result" type="string"/>
         <element label="Application" max_length="40" name="application" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="1" default="unexecuted" label="Execution Status" max_length="40" name="execution_status" type="string">
             <choice>
-                <element label="Unexecuted" sequence="0" value="unexecuted"/>
-                <element label="In progress" sequence="1" value="in_progress"/>
-                <element label="Passed" sequence="2" value="passed"/>
-                <element label="Failed" sequence="3" value="failed"/>
-                <element label="Blocked" sequence="4" value="blocked"/>
-                <element label="N/A" sequence="5" value="na"/>
+                <element inactive_on_update="false" label="Unexecuted" sequence="0" value="unexecuted"/>
+                <element inactive_on_update="false" label="In progress" sequence="1" value="in_progress"/>
+                <element inactive_on_update="false" label="Passed" sequence="2" value="passed"/>
+                <element inactive_on_update="false" label="Failed" sequence="3" value="failed"/>
+                <element inactive_on_update="false" label="Blocked" sequence="4" value="blocked"/>
+                <element inactive_on_update="false" label="N/A" sequence="5" value="na"/>
             </choice>
         </element>
         <element label="Expected Result" max_length="1000" name="expected_result" type="string"/>

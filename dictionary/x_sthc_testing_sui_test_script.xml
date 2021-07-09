@@ -1,9 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<database>
-    <element label="Test Script" max_length="40" name="x_sthc_testing_sui_test_script" type="collection">
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Test Script" max_length="40" name="x_sthc_testing_sui_test_script" sizeclass="215" type="collection">
         <element label="Active" max_length="40" name="active" type="boolean"/>
         <element label="Description" max_length="1000" name="description" type="string"/>
-        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" dynamic_default_value="5d891d16db1dcc90a1dd7d8bbf9619d8" label="Number" max_length="40" name="number" type="string" use_dynamic_default="true"/>
         <element label="Order" max_length="40" name="order" type="integer"/>
         <element label="Short Description" max_length="200" name="short_description" type="string"/>
         <element label="Test Suite" max_length="32" name="test_suite" reference="x_sthc_testing_sui_testing_suite" type="reference"/>

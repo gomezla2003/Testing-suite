@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update>
+<?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_dictionary action="INSERT_OR_UPDATE" element="test_script_instance" table="x_sthc_testing_sui_test_step_instance">
         <active>true</active>
         <array>false</array>
@@ -31,6 +30,8 @@
         <element>test_script_instance</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
         <internal_type display_value="Reference">reference</internal_type>
         <mandatory>false</mandatory>
         <max_length>32</max_length>
@@ -53,7 +54,7 @@
         <sys_created_by>LGOMEZ</sys_created_by>
         <sys_created_on>2018-05-15 04:13:32</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>da6ac9dfdb1f5b0040f8fcfa0c96192e</sys_id>
+        <sys_id>5bb21adfdb57d380808f68461b9619cb</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Test Script Instance</sys_name>
         <sys_package display_value="Testing Suite" source="x_sthc_testing_sui">780ce242db829f4096b17d8bbf961976</sys_package>
@@ -62,7 +63,7 @@
         <sys_scope display_value="Testing Suite">780ce242db829f4096b17d8bbf961976</sys_scope>
         <sys_update_name>sys_dictionary_x_sthc_testing_sui_test_step_instance_test_script_instance</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2018-07-19 19:34:49</sys_updated_on>
+        <sys_updated_on>2018-08-08 18:09:17</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update sys_domain="global" table="sys_script_client">
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
     <sys_script_client action="INSERT_OR_UPDATE">
         <active>true</active>
         <applies_extended>false</applies_extended>
@@ -7,6 +6,7 @@
         <description/>
         <field>active</field>
         <global>true</global>
+        <isolate_script>false</isolate_script>
         <messages/>
         <name>Check Test Step Status</name>
         <order/>
@@ -30,7 +30,7 @@ function callme(response){
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>31506bb4db9e130040f8fcfa0c9619cd</sys_id>
-        <sys_mod_count>31</sys_mod_count>
+        <sys_mod_count>33</sys_mod_count>
         <sys_name>Check Test Step Status</sys_name>
         <sys_overrides/>
         <sys_package display_value="Testing Suite" source="x_sthc_testing_sui">780ce242db829f4096b17d8bbf961976</sys_package>
@@ -39,7 +39,7 @@ function callme(response){
         <sys_scope display_value="Testing Suite">780ce242db829f4096b17d8bbf961976</sys_scope>
         <sys_update_name>sys_script_client_31506bb4db9e130040f8fcfa0c9619cd</sys_update_name>
         <sys_updated_by>LGOMEZ</sys_updated_by>
-        <sys_updated_on>2018-05-24 16:00:10</sys_updated_on>
+        <sys_updated_on>2019-02-24 22:40:50</sys_updated_on>
         <table>x_sthc_testing_sui_test_script_instance</table>
         <type>onLoad</type>
         <ui_type>10</ui_type>
